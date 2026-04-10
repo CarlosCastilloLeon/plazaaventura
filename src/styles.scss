@@ -1,23 +1,22 @@
-:root {
-  color-scheme: dark;
-}
-
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-  font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
-  background: #020617;
-  color: #f8fafc;
+.navbar-brand {
+  gap: 0;
 }
 
-a,
-button {
-  font: inherit;
+.navbar-brand-logo {
+  width: 176px;
+  height: auto;
+  margin-right: 0;
+  filter: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand-logo {
+    width: 148px;
+  }
 }

@@ -3,24 +3,24 @@
 }
 
 .site-footer {
-  border-top: 1px solid rgba(148, 163, 184, 0.16);
-  background: #020617;
+  border-top: 1px solid rgba(240, 181, 108, 0.12);
+  background: rgba(21, 14, 11, 0.96);
 }
 
 .site-footer__container {
-  max-width: 1120px;
+  max-width: 1160px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.5rem 1.25rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  color: #cbd5e1;
+  color: #ead8ca;
 }
 
 .site-footer p {
   margin: 0.35rem 0 0;
   max-width: 560px;
-  color: #94a3b8;
+  color: #d7c0b0;
 }
 
 .site-footer__links {
@@ -30,7 +30,7 @@
 }
 
 .site-footer__links a {
-  color: #cbd5e1;
+  color: #ead8ca;
   text-decoration: none;
 }
 

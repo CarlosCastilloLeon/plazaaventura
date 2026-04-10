@@ -7,14 +7,14 @@
   top: 0;
   z-index: 100;
   backdrop-filter: blur(18px);
-  background: rgba(11, 18, 32, 0.82);
-  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  background: rgba(27, 20, 16, 0.82);
+  border-bottom: 1px solid rgba(240, 181, 108, 0.14);
 }
 
 .site-header__container {
-  max-width: 1120px;
+  max-width: 1160px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +25,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.85rem;
-  color: #f8fafc;
+  color: #fff8f2;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .brand small {
-  color: #94a3b8;
+  color: #d7c0b0;
 }
 
 .brand__badge {
@@ -44,8 +44,8 @@
   display: grid;
   place-items: center;
   border-radius: 0.8rem;
-  background: linear-gradient(135deg, #22c55e, #38bdf8);
-  color: #020617;
+  background: linear-gradient(135deg, #f0b56c, #c67a43);
+  color: #23160f;
   font-weight: 800;
 }
 
@@ -57,22 +57,22 @@
 
 .nav a,
 .site-header__cta {
-  color: #cbd5e1;
+  color: #ead8ca;
   text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .nav a:hover,
 .site-header__cta:hover {
-  color: #ffffff;
+  color: #fff8f2;
   transform: translateY(-1px);
 }
 
 .site-header__cta {
   padding: 0.7rem 1rem;
   border-radius: 999px;
-  background: rgba(56, 189, 248, 0.14);
-  border: 1px solid rgba(56, 189, 248, 0.35);
+  background: rgba(240, 181, 108, 0.12);
+  border: 1px solid rgba(240, 181, 108, 0.28);
 }
 
 @media (max-width: 820px) {

@@ -1,48 +1,112 @@
-import { Component } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, ChangeDetectionStrategy, Component, PLATFORM_ID, inject } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   templateUrl: './home.html',
   styleUrl: './home.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent {
-  protected readonly metrics = [
-    { value: '3x', label: 'más claridad en la navegación' },
-    { value: '100%', label: 'estructura escalable con Angular' },
-    { value: '24/7', label: 'base lista para crecer con tu negocio' },
-  ];
+export class HomeComponent implements AfterViewInit {
+  private readonly platformId = inject(PLATFORM_ID);
 
-  protected readonly services = [
-    {
-      title: 'Arquitectura modular',
-      description: 'Separación clara entre `core`, `shared` y `features` para mantener el proyecto limpio y mantenible.',
-    },
-    {
-      title: 'Diseño visual moderno',
-      description: 'Secciones listas para presentar valor, servicios, proceso y llamados a la acción con un estilo corporativo.',
-    },
-    {
-      title: 'Preparado para escalar',
-      description: 'La base permite integrar formularios, APIs, autenticación, blog, catálogo o panel administrativo después.',
-    },
-  ];
+  ngAfterViewInit(): void {
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
 
-  protected readonly steps = [
-    {
-      step: '01',
-      title: 'Presentar la propuesta',
-      description: 'Una primera pantalla sólida para explicar qué hace la marca y captar atención desde el inicio.',
-    },
-    {
-      step: '02',
-      title: 'Guiar al usuario',
-      description: 'Bloques de contenido con jerarquía visual para mejorar lectura, confianza y conversión.',
-    },
-    {
-      step: '03',
-      title: 'Convertir visitas',
-      description: 'Sección final con CTA clara para que el visitante solicite contacto, cotización o demo.',
-    },
-  ];
+    void this.initializeTemplate();
+  }
+
+  private async initializeTemplate(): Promise<void> {
+    setTimeout(async () => {
+      const jquery = (window as typeof window & { jQuery?: any }).jQuery;
+
+      if (!jquery) {
+        return;
+      }
+
+      const navbar = jquery('.navbar');
+
+      if (navbar.length && typeof navbar.sticky === 'function') {
+        if (navbar.parent().hasClass('sticky-wrapper')) {
+          navbar.unwrap();
+          navbar.removeAttr('style');
+        }
+
+        navbar.sticky({ topSpacing: 0 });
+      }
+
+      const heroSlides = jquery('.hero-slides');
+
+      if (heroSlides.length && typeof heroSlides.vegas === 'function') {
+        if (heroSlides.hasClass('vegas-container')) {
+          heroSlides.vegas('destroy');
+        }
+
+        heroSlides.vegas({
+          slides: await this.resolveHeroSlides(),
+          timer: false,
+          animation: 'kenburns',
+        });
+      }
+
+      jquery('.navbar-collapse a').off('click.barista').on('click.barista', () => {
+        jquery('.navbar-collapse').collapse('hide');
+      });
+
+      jquery('.smoothscroll').off('click.barista').on('click.barista', function (this: HTMLElement, event: Event) {
+        const elementId = jquery(this).attr('href');
+
+        if (!elementId?.startsWith('#')) {
+          return;
+        }
+
+        const target = jquery(elementId);
+
+        if (!target.length) {
+          return;
+        }
+
+        event.preventDefault();
+
+        const stickyWrapperHeight = Number(jquery('.sticky-wrapper').outerHeight()) || 0;
+        const navbarHeight = Number(jquery('.navbar').outerHeight()) || 0;
+        const scrollOffset = Math.max(stickyWrapperHeight, navbarHeight) + 32;
+        const offsetTop = target.offset().top - scrollOffset;
+
+        jquery('body, html').animate({ scrollTop: offsetTop }, 300);
+      });
+    });
+  }
+
+  private async resolveHeroSlides(): Promise<Array<{ src: string }>> {
+    const preferredSlides = [
+      'images/slides/carrusel1.jpg',
+      'images/slides/carrusel2.jpg',
+      'images/slides/carrusel3.jpg',
+    ];
+
+    const availablePreferredSlides = await Promise.all(preferredSlides.map((src) => this.imageExists(src)));
+
+    if (availablePreferredSlides.every(Boolean)) {
+      return preferredSlides.map((src) => ({ src }));
+    }
+
+    return [
+      { src: 'images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg' },
+      { src: 'images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg' },
+      { src: 'images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg' },
+    ];
+  }
+
+  private imageExists(src: string): Promise<boolean> {
+    return new Promise((resolve) => {
+      const image = new Image();
+
+      image.onload = () => resolve(true);
+      image.onerror = () => resolve(false);
+      image.src = src;
+    });
+  }
 }

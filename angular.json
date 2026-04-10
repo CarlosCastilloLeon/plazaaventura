@@ -30,7 +30,21 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "public/css/bootstrap.min.css",
+              "public/css/bootstrap-icons.css",
+              "public/css/vegas.min.css",
+              "public/css/tooplate-barista.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "public/js/jquery.min.js",
+              "public/js/bootstrap.min.js",
+              "public/js/jquery.sticky.js",
+              "public/js/click-scroll.js",
+              "public/js/vegas.min.js",
+              "public/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {

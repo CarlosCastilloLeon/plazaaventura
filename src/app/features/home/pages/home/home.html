@@ -1,79 +1,655 @@
-<section class="hero" id="inicio">
-  <div class="hero__copy">
-    <span class="eyebrow">Angular · estructura profesional</span>
-    <h1>Un sitio moderno para impulsar la presencia digital de Plaza Aventura.</h1>
-    <p>
-      Esta base inicial está organizada para que puedas construir una web corporativa,
-      catálogo de servicios o landing comercial con buenas prácticas desde el primer día.
-    </p>
+<main>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="/" aria-label="Plaza Aventura">
+        <img src="images/logo aventura.png" class="navbar-brand-logo img-fluid" alt="Plaza Aventura" />
+      </a>
 
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="#contacto">Empezar ahora</a>
-      <a class="btn btn--secondary" href="#servicios">Ver estructura</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link click-scroll" href="#section_1">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link click-scroll" href="#section_2">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link click-scroll" href="#section_3">Directorio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link click-scroll" href="#section_4">Promociones</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link click-scroll" href="#section_5">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="ms-lg-3">
+          <a class="btn custom-btn custom-border-btn" href="/reservation">
+            Promociones
+            <i class="bi-arrow-up-right ms-2"></i>
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
+  </nav>
 
-  <aside class="hero__panel" aria-label="Resumen del proyecto">
-    <p class="hero__panel-label">Incluye</p>
-    <ul>
-      <li>Routing listo para crecer</li>
-      <li>Layout reutilizable con header y footer</li>
-      <li>Página principal responsive</li>
-      <li>SCSS global y organización por dominios</li>
-    </ul>
-  </aside>
-</section>
+  <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12 mx-auto">
+          <em class="small-text" >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bienvenido a</em>
 
-<section class="metrics">
-  @for (metric of metrics; track metric.label) {
-    <article class="metric-card">
-      <strong>{{ metric.value }}</strong>
-      <span>{{ metric.label }}</span>
-    </article>
-  }
-</section>
+          <h1>Plaza Aventura</h1>
 
-<section class="services" id="servicios">
-  <div class="section-heading">
-    <span>Base de trabajo</span>
-    <h2>Estructura pensada para un sitio profesional</h2>
-    <p>
-      El proyecto queda preparado para crecer sin perder orden, consistencia visual ni mantenibilidad.
-    </p>
-  </div>
+          <p class="text-white mb-4 pb-lg-2">
+            Tu mejor <em>opción</em> siempre aquí.
+          </p>
 
-  <div class="card-grid">
-    @for (service of services; track service.title) {
-      <article class="info-card">
-        <h3>{{ service.title }}</h3>
-        <p>{{ service.description }}</p>
-      </article>
-    }
-  </div>
-</section>
+          <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2"> Nosotros </a>
 
-<section class="process" id="nosotros">
-  <div class="section-heading">
-    <span>Flujo recomendado</span>
-    <h2>Cómo está planteada la experiencia</h2>
-  </div>
+          <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Directorio</strong></a>
+        </div>
+      </div>
+    </div>
 
-  <div class="timeline">
-    @for (step of steps; track step.step) {
-      <article class="timeline-card">
-        <span>{{ step.step }}</span>
-        <h3>{{ step.title }}</h3>
-        <p>{{ step.description }}</p>
-      </article>
-    }
-  </div>
-</section>
+    <div class="hero-slides"></div>
+  </section>
 
-<section class="cta" id="contacto">
-  <div>
-    <span>¿Siguiente paso?</span>
-    <h2>Personaliza esta base con tus contenidos, colores y funcionalidades.</h2>
-  </div>
+  <section class="about-section section-padding" id="section_2">
+    <div class="section-overlay"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <div class="ratio ratio-1x1">
+            <video autoplay loop muted class="custom-video" poster="">
+              <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4" />
 
-  <a class="btn btn--primary" href="mailto:contacto@plazaaventura.com">contacto@plazaaventura.com</a>
-</section>
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="about-video-info d-flex flex-column">
+              <h4 class="mt-auto">Solucionando tu vida con</h4>
+
+              <h4>pequeños detalles.</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+          <em class="text-white">Aventura</em>
+
+          <h2 class="text-white mb-3">Plaza Comercial</h2>
+
+          <p class="text-white">
+          Somos una Plaza Comercial ubicada en la entrada de Lomas Angelópolis con más de treinta comercios establecidos, entrando por vía Atlixcáyotl.
+          
+        
+          </p>
+
+          <p class="text-white">
+            Tenemos una excelente ubicación y estamos mejorando todas nuestras instalaciones.
+         </p>
+
+        <p class="text-white">
+             Lo que necesites encuéntralo en Plaza Aventura.  
+         </p>
+
+
+          <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Conocer más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="barista-section section-padding section-bg" id="barista-team">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+          <em class="text-white">Servicios</em>
+
+          <h2 class="text-white">Te ofrecemos</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <div class="team-block-wrap">
+            <div class="team-block-info d-flex flex-column">
+              <div class="d-flex mt-auto mb-3">
+                <h4 class="text-white mb-0">Diversidad</h4>
+
+                <!--p class="badge ms-4"><em>Boss</em></p-->
+              </div>
+
+              <p class="text-white mb-0">Todo tipo de servicios en un mismo lugar.</p>
+            </div>
+
+            <div class="team-block-image-wrap">
+              <img src="images/team/card1.png" class="team-block-image img-fluid" alt="Diversidad" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <div class="team-block-wrap">
+            <div class="team-block-info d-flex flex-column">
+              <div class="d-flex mt-auto mb-3">
+                <h4 class="text-white mb-0">Ubicación</h4>
+
+                <!--p class="badge ms-4"><em>Manager</em></p-->
+              </div>
+
+              <p class="text-white mb-0">Siempre cerca de ti.</p>
+            </div>
+
+            <div class="team-block-image-wrap">
+              <img
+                src="images/team/card2.png"
+                class="team-block-image img-fluid"
+                alt="Ubicación"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <div class="team-block-wrap">
+            <div class="team-block-info d-flex flex-column">
+              <div class="d-flex mt-auto mb-3">
+                <h4 class="text-white mb-0">Vigilancia 24 horas y CCTV</h4>
+
+                <!--p class="badge ms-4"><em>Senior</em></p-->
+              </div>
+
+              <p class="text-white mb-0">Tu seguridad es nuestra prioridad.</p>
+            </div>
+
+            <div class="team-block-image-wrap">
+              
+              <img src="images/team/card3.png" class="team-block-image img-fluid" alt="Vigilancia 24 horas y CCTV" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-block-wrap">
+            <div class="team-block-info d-flex flex-column">
+              <div class="d-flex mt-auto mb-3">
+                <h4 class="text-white mb-0">Estacionamiento Gratuito para clientes</h4>
+
+                <!--p class="badge ms-4"><em>Barista</em></p-->
+              </div>
+
+              <p class="text-white mb-0">Amplio espacio para tu comodidad.</p>
+            </div>
+
+            <div class="team-block-image-wrap">
+              <img src="images/team/card4.png" class="team-block-image img-fluid" alt="Estacionamiento Gratuito para clientes" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section section-padding" id="section_3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+          <div class="menu-block-wrap">
+            <div class="text-center mb-4 pb-lg-2">
+              <!--em class="text-white">Delicious Menu</em-->
+              <h4 class="text-white">Servicios</h4>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/local1.jpg" alt="Logo de Agua de Puebla" class="menu-block__logo" />
+                  <span>Agua de Puebla</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Vie 9:00 - 18:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 1</small>
+              </div>
+            </div>
+
+            <div class="menu-block my-4">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/local2.svg" alt="Logo de DHL" class="menu-block__logo" />
+                  <span>DHL</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Sab 9:00 - 18:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 2</small>
+              </div>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/local3.png" alt="Logo de EcoClean" class="menu-block__logo" />
+                  <span>EcoClean <span class="badge ms-3">Nuevo</span></span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 3</small>
+              </div>
+            </div>
+
+            <div class="menu-block my-4">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Local 4" class="menu-block__logo" />
+                  <span>Local 4</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 4</small>
+              </div>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Local 5" class="menu-block__logo" />
+                  <span>Local 5</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 5</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        
+        <div class="col-lg-6 col-12">
+          <div class="menu-block-wrap">
+            <div class="text-center mb-4 pb-lg-2">
+              <h4 class="text-white">Más opciones</h4>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Prime Fitness" class="menu-block__logo" />
+                  <span>Prime Fitness</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Sab 6:00 - 23:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 6</small>
+              </div>
+            </div>
+
+            <div class="menu-block my-4">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Óptica Visión" class="menu-block__logo" />
+                  <span>Óptica Visión <span class="badge ms-3">Popular</span></span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Sab 10:00 - 20:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 7</small>
+              </div>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de La Cueva Bistro" class="menu-block__logo" />
+                  <span>La Cueva Bistro</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 13:00 - 23:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 8</small>
+              </div>
+            </div>
+
+            <div class="menu-block my-4">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Kids Zone" class="menu-block__logo" />
+                  <span>Kids Zone</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 11:00 - 21:00</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 9</small>
+              </div>
+            </div>
+
+            <div class="menu-block">
+              <div class="d-flex menu-block__row">
+                <h6 class="menu-block__title-with-logo">
+                  <img src="images/logosLocales/logodefault.png" alt="Logo de Pet Boutique" class="menu-block__logo" />
+                  <span>Pet Boutique</span>
+                </h6>
+
+                <span class="underline"></span>
+
+                <strong class="ms-auto">Lun-Dom 10:00 - 20:30</strong>
+              </div>
+
+              <div class="border-top mt-2 pt-2">
+                <small>Local 10</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-section section-padding section-bg" id="section_4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+          <em class="text-white">Reviews by Customers</em>
+
+          <h2 class="text-white">Testimonials</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-container timeline-container-left">
+            <div class="timeline-content">
+              <div class="reviews-block">
+                <div class="reviews-block-image-wrap d-flex align-items-center">
+                  <img
+                    src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg"
+                    class="reviews-block-image img-fluid"
+                    alt="Sandra review"
+                  />
+
+                  <div>
+                    <h6 class="text-white mb-0">Sandra</h6>
+                    <em class="text-white"> Customers</em>
+                  </div>
+                </div>
+
+                <div class="reviews-block-info">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                  <div class="d-flex border-top pt-3 mt-4">
+                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                    <div class="reviews-group ms-auto">
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-container-right">
+            <div class="timeline-content">
+              <div class="reviews-block">
+                <div class="reviews-block-image-wrap d-flex align-items-center">
+                  <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="Don review" />
+
+                  <div>
+                    <h6 class="text-white mb-0">Don</h6>
+                    <em class="text-white"> Customers</em>
+                  </div>
+                </div>
+
+                <div class="reviews-block-info">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                  <div class="d-flex border-top pt-3 mt-4">
+                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                    <div class="reviews-group ms-auto">
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-container-left">
+            <div class="timeline-content">
+              <div class="reviews-block">
+                <div class="reviews-block-image-wrap d-flex align-items-center">
+                  <img
+                    src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+                    class="reviews-block-image img-fluid"
+                    alt="Olivia review"
+                  />
+
+                  <div>
+                    <h6 class="text-white mb-0">Olivia</h6>
+                    <em class="text-white"> Customers</em>
+                  </div>
+                </div>
+
+                <div class="reviews-block-info">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                  <div class="d-flex border-top pt-3 mt-4">
+                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                    <div class="reviews-group ms-auto">
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star-fill"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section section-padding" id="section_5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-12">
+          <em class="text-white">Say Hello</em>
+          <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <form action="#" method="post" class="custom-form contact-form" role="form">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
+
+                <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required />
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <label for="email" class="form-label">Email Address</label>
+
+                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required />
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label">How can we help?</label>
+
+                <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required></textarea>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-12 mx-auto mt-3">
+              <button type="submit" class="form-control">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
+          <iframe
+            class="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5039.668141741662!2d72.81814769288509!3d19.043340656729775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c994f34a7355%3A0x2680d63a6f7e33c2!2sLover%20Point!5e1!3m2!1sen!2sth!4v1692722771770!5m2!1sen!2sth"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12 me-auto">
+          <em class="text-white d-block mb-4">Where to find us?</em>
+
+          <strong class="text-white">
+            <i class="bi-geo-alt me-2"></i>
+            Bandra West, Mumbai, Maharashtra 400050, India
+          </strong>
+
+          <ul class="social-icon mt-4">
+            <li class="social-icon-item">
+              <a href="#" class="social-icon-link bi-facebook"></a>
+            </li>
+
+            <li class="social-icon-item">
+              <a href="https://x.com/minthu" target="_blank" class="social-icon-link bi-twitter"></a>
+            </li>
+
+            <li class="social-icon-item">
+              <a href="#" class="social-icon-link bi-whatsapp"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+          <em class="text-white d-block mb-4">Contact</em>
+
+          <p class="d-flex mb-1">
+            <strong class="me-2">Phone:</strong>
+            <a href="tel:305-240-9671" class="site-footer-link"> (65) 305 2409 671 </a>
+          </p>
+
+          <p class="d-flex">
+            <strong class="me-2">Email:</strong>
+
+            <a href="mailto:info@yourgmail.com" class="site-footer-link"> hello@barista.co </a>
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-12">
+          <em class="text-white d-block mb-4">Opening Hours.</em>
+
+          <ul class="opening-hours-list">
+            <li class="d-flex">
+              Monday - Friday
+              <span class="underline"></span>
+
+              <strong>9:00 - 18:00</strong>
+            </li>
+
+            <li class="d-flex">
+              Saturday
+              <span class="underline"></span>
+
+              <strong>11:00 - 16:30</strong>
+            </li>
+
+            <li class="d-flex">
+              Sunday
+              <span class="underline"></span>
+
+              <strong>Closed</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-8 col-12 mt-4">
+          <p class="copyright-text mb-0">
+            Template base © Barista Cafe 2048 - Design:
+            <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</main>
