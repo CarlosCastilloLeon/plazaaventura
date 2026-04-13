@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" routerLink="/" aria-label="Plaza Aventura">
+      <img src="images/logo aventura.png" class="navbar-brand-logo img-fluid" alt="Plaza Aventura" />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_1' : '/#section_1'">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_2' : '/#section_2'">Nosotros</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_3' : '/#section_3'">Directorio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_4' : '/#section_4'">Promociones</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_5' : '/#section_5'">Contacto</a>
+        </li>
+      </ul>
+
+      <div class="ms-lg-3">
+        <a class="btn custom-btn custom-border-btn" [routerLink]="ctaRoute()">
+          {{ ctaLabel() }}
+          <i class="bi-arrow-up-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

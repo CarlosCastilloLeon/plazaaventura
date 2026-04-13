@@ -1,0 +1,102 @@
+:host {
+  display: block;
+}
+
+.business-detail-page {
+  --business-detail-header-offset: clamp(10.5rem, 14vw, 13rem);
+  --business-detail-card-offset: calc(clamp(1.25rem, 2.4vw, 2.25rem) + 50px);
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(13, 32, 68, 0.9), rgba(11, 17, 28, 0.88)),
+    url('/images/slides/carrusel1.jpg') center / cover no-repeat;
+}
+
+.business-detail-section {
+  padding: var(--business-detail-header-offset) 0 clamp(4rem, 7vw, 6rem);
+  min-height: calc(100vh - 160px);
+}
+
+.business-detail-card {
+  margin-top: var(--business-detail-card-offset);
+  padding: clamp(2rem, 4vw, 3.5rem);
+  border-radius: 2rem;
+  background: rgba(10, 17, 31, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(14px);
+}
+
+.business-detail-card--empty {
+  color: #fff;
+}
+
+.business-detail-card__back {
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+  color: #c78c38;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.business-detail-card__logo {
+  width: min(220px, 50vw);
+  max-height: 220px;
+  object-fit: contain;
+  margin-top: 0;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.business-detail-card__eyebrow {
+  margin: 1.75rem 0 0.75rem;
+  color: #c78c38;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.business-detail-card__title {
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+.business-detail-card__unit {
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.05rem;
+}
+
+.business-detail-card__schedule {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  background: rgba(199, 140, 56, 0.16);
+  color: #fff;
+}
+
+.business-detail-card__schedule span {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.business-detail-card__schedule strong {
+  font-size: 1.05rem;
+}
+
+@media screen and (max-width: 767px) {
+  .business-detail-page {
+    --business-detail-header-offset: clamp(9.5rem, 24vw, 11.5rem);
+    --business-detail-card-offset: calc(clamp(0.75rem, 3.5vw, 1.5rem) + 50px);
+  }
+
+  .business-detail-card__schedule {
+    width: 100%;
+    border-radius: 1.25rem;
+  }
+}

@@ -2,6 +2,24 @@
   display: block;
 }
 
+.hero-section .small-text {
+  font-weight: 700;
+}
+
+.hero-section h1 {
+  -webkit-text-stroke: 2px #000;
+  paint-order: stroke fill;
+  text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
 .about-section,
 .barista-section,
 .menu-section,
@@ -35,6 +53,19 @@
   align-items: center;
   gap: 0.65rem;
   margin-bottom: 0;
+}
+
+.menu-block__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu-block__link:hover,
+.menu-block__link:focus-visible {
+  color: #c78c38;
 }
 
 .menu-block__logo {

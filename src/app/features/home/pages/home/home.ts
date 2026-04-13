@@ -1,14 +1,23 @@
 import { isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, ChangeDetectionStrategy, Component, PLATFORM_ID, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
+
+import { SitePublicFooterComponent } from '../../../../core/layout/site-public-footer/site-public-footer';
+import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-header/site-public-header';
+import { BUSINESS_DIRECTORY } from '../../../businesses/data/business-directory.data';
 
 @Component({
   selector: 'app-home',
+  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent implements AfterViewInit {
   private readonly platformId = inject(PLATFORM_ID);
+
+  readonly serviceBusinesses = BUSINESS_DIRECTORY.filter((business) => business.section === 'services');
+  readonly moreOptionBusinesses = BUSINESS_DIRECTORY.filter((business) => business.section === 'more-options');
 
   ngAfterViewInit(): void {
     if (!isPlatformBrowser(this.platformId)) {

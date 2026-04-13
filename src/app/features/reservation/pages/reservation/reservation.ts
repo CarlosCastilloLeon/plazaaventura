@@ -1,8 +1,12 @@
 import { isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, ChangeDetectionStrategy, Component, PLATFORM_ID, inject } from '@angular/core';
 
+import { SitePublicFooterComponent } from '../../../../core/layout/site-public-footer/site-public-footer';
+import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-header/site-public-header';
+
 @Component({
   selector: 'app-reservation',
+  imports: [SitePublicHeaderComponent, SitePublicFooterComponent],
   templateUrl: './reservation.html',
   styleUrl: './reservation.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

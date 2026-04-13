@@ -1,54 +1,5 @@
 <main>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="/" aria-label="Plaza Aventura">
-        <img src="images/logo aventura.png" class="navbar-brand-logo img-fluid" alt="Plaza Aventura" />
-      </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_1">Inicio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_2">Nosotros</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_3">Directorio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_4">Promociones</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_5">Contacto</a>
-          </li>
-        </ul>
-
-        <div class="ms-lg-3">
-          <a class="btn custom-btn custom-border-btn" href="/reservation">
-            Locales
-            <i class="bi-arrow-up-right ms-2"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <app-site-public-header [homeMode]="true" />
 
   <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
     <div class="container">
@@ -217,90 +168,31 @@
               <h4 class="text-white">Servicios</h4>
             </div>
 
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/local1.jpg" alt="Logo de Agua de Puebla" class="menu-block__logo" />
-                  <span>Agua de Puebla</span>
-                </h6>
+            @for (business of serviceBusinesses; track business.slug) {
+              <div class="menu-block" [class.my-4]="!$first && !$last">
+                <div class="d-flex menu-block__row">
+                  <h6 class="menu-block__title-with-logo">
+                    <a class="menu-block__link" [routerLink]="['/locales', business.slug]">
+                      <img [src]="business.logoSrc" [alt]="business.logoAlt" class="menu-block__logo" />
+                      <span>
+                        {{ business.name }}
+                        @if (business.badge) {
+                          <span class="badge ms-3">{{ business.badge }}</span>
+                        }
+                      </span>
+                    </a>
+                  </h6>
 
-                <span class="underline"></span>
+                  <span class="underline"></span>
 
-                <strong class="ms-auto">Lun-Vie 9:00 - 18:00</strong>
+                  <strong class="ms-auto">{{ business.schedule }}</strong>
+                </div>
+
+                <div class="border-top mt-2 pt-2">
+                  <small>{{ business.unit }}</small>
+                </div>
               </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 1</small>
-              </div>
-            </div>
-
-            <div class="menu-block my-4">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/local2.svg" alt="Logo de DHL" class="menu-block__logo" />
-                  <span>DHL</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Sab 9:00 - 18:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 2</small>
-              </div>
-            </div>
-
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/local3.png" alt="Logo de EcoClean" class="menu-block__logo" />
-                  <span>EcoClean <span class="badge ms-3">Nuevo</span></span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 3</small>
-              </div>
-            </div>
-
-            <div class="menu-block my-4">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Local 4" class="menu-block__logo" />
-                  <span>Local 4</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 4</small>
-              </div>
-            </div>
-
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Local 5" class="menu-block__logo" />
-                  <span>Local 5</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 9:00 - 18:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 5</small>
-              </div>
-            </div>
+            }
           </div>
         </div>
 
@@ -317,90 +209,31 @@
               <h4 class="text-white">Más opciones</h4>
             </div>
 
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Prime Fitness" class="menu-block__logo" />
-                  <span>Prime Fitness</span>
-                </h6>
+            @for (business of moreOptionBusinesses; track business.slug) {
+              <div class="menu-block" [class.my-4]="!$first && !$last">
+                <div class="d-flex menu-block__row">
+                  <h6 class="menu-block__title-with-logo">
+                    <a class="menu-block__link" [routerLink]="['/locales', business.slug]">
+                      <img [src]="business.logoSrc" [alt]="business.logoAlt" class="menu-block__logo" />
+                      <span>
+                        {{ business.name }}
+                        @if (business.badge) {
+                          <span class="badge ms-3">{{ business.badge }}</span>
+                        }
+                      </span>
+                    </a>
+                  </h6>
 
-                <span class="underline"></span>
+                  <span class="underline"></span>
 
-                <strong class="ms-auto">Lun-Sab 6:00 - 23:00</strong>
+                  <strong class="ms-auto">{{ business.schedule }}</strong>
+                </div>
+
+                <div class="border-top mt-2 pt-2">
+                  <small>{{ business.unit }}</small>
+                </div>
               </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 6</small>
-              </div>
-            </div>
-
-            <div class="menu-block my-4">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Óptica Visión" class="menu-block__logo" />
-                  <span>Óptica Visión <span class="badge ms-3">Popular</span></span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Sab 10:00 - 20:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 7</small>
-              </div>
-            </div>
-
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de La Cueva Bistro" class="menu-block__logo" />
-                  <span>La Cueva Bistro</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 13:00 - 23:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 8</small>
-              </div>
-            </div>
-
-            <div class="menu-block my-4">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Kids Zone" class="menu-block__logo" />
-                  <span>Kids Zone</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 11:00 - 21:00</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 9</small>
-              </div>
-            </div>
-
-            <div class="menu-block">
-              <div class="d-flex menu-block__row">
-                <h6 class="menu-block__title-with-logo">
-                  <img src="images/logosLocales/logodefault.png" alt="Logo de Pet Boutique" class="menu-block__logo" />
-                  <span>Pet Boutique</span>
-                </h6>
-
-                <span class="underline"></span>
-
-                <strong class="ms-auto">Lun-Dom 10:00 - 20:30</strong>
-              </div>
-
-              <div class="border-top mt-2 pt-2">
-                <small>Local 10</small>
-              </div>
-            </div>
+            }
           </div>
         </div>
       </div>
@@ -510,34 +343,34 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-12">
-          <em class="text-white">Say Hello</em>
-          <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+          <em class="text-white">Di Hola</em>
+          <h2 class="text-white mb-4 pb-lg-2">Contacto</h2>
         </div>
 
         <div class="col-lg-6 col-12">
           <form action="#" method="post" class="custom-form contact-form" role="form">
             <div class="row">
               <div class="col-lg-6 col-12">
-                <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
+                <label for="name" class="form-label">Nombre <sup class="text-danger">*</sup></label>
 
                 <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required />
               </div>
 
               <div class="col-lg-6 col-12">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Correo Electrónico</label>
 
                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required />
               </div>
 
               <div class="col-12">
-                <label for="message" class="form-label">How can we help?</label>
+                <label for="message" class="form-label">¿Cómo podemos ayudarte?</label>
 
                 <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required></textarea>
               </div>
             </div>
 
             <div class="col-lg-5 col-12 mx-auto mt-3">
-              <button type="submit" class="form-control">Send Message</button>
+              <button type="submit" class="form-control">Enviar Mensaje</button>
             </div>
           </form>
         </div>
@@ -545,7 +378,7 @@
         <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
           <iframe
             class="google-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5039.668141741662!2d72.81814769288509!3d19.043340656729775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c994f34a7355%3A0x2680d63a6f7e33c2!2sLover%20Point!5e1!3m2!1sen!2sth!4v1692722771770!5m2!1sen!2sth"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.2814585773303!2d-98.2663731!3d19.0073153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc781b8c138e7%3A0x53d75d2fccf3ed93!2sPlaza%20Aventura!5e0!3m2!1ses-419!2smx!4v1775891341199!5m2!1ses-419!2smx"
             width="100%"
             height="300"
             style="border: 0"
@@ -559,81 +392,5 @@
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-12 me-auto">
-          <em class="text-white d-block mb-4">Where to find us?</em>
-
-          <strong class="text-white">
-            <i class="bi-geo-alt me-2"></i>
-            Bandra West, Mumbai, Maharashtra 400050, India
-          </strong>
-
-          <ul class="social-icon mt-4">
-            <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-facebook"></a>
-            </li>
-
-            <li class="social-icon-item">
-              <a href="https://x.com/minthu" target="_blank" class="social-icon-link bi-twitter"></a>
-            </li>
-
-            <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-whatsapp"></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-          <em class="text-white d-block mb-4">Contact</em>
-
-          <p class="d-flex mb-1">
-            <strong class="me-2">Phone:</strong>
-            <a href="tel:305-240-9671" class="site-footer-link"> (65) 305 2409 671 </a>
-          </p>
-
-          <p class="d-flex">
-            <strong class="me-2">Email:</strong>
-
-            <a href="mailto:info@yourgmail.com" class="site-footer-link"> hello@barista.co </a>
-          </p>
-        </div>
-
-        <div class="col-lg-5 col-12">
-          <em class="text-white d-block mb-4">Opening Hours.</em>
-
-          <ul class="opening-hours-list">
-            <li class="d-flex">
-              Monday - Friday
-              <span class="underline"></span>
-
-              <strong>9:00 - 18:00</strong>
-            </li>
-
-            <li class="d-flex">
-              Saturday
-              <span class="underline"></span>
-
-              <strong>11:00 - 16:30</strong>
-            </li>
-
-            <li class="d-flex">
-              Sunday
-              <span class="underline"></span>
-
-              <strong>Closed</strong>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-8 col-12 mt-4">
-          <p class="copyright-text mb-0">
-            Template base © Barista Cafe 2048 - Design:
-            <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <app-site-public-footer />
 </main>

@@ -1,0 +1,44 @@
+<main class="business-detail-page">
+  <app-site-public-header />
+
+  <section class="business-detail-section">
+    <div class="container">
+      @if (business(); as selectedBusiness) {
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-12">
+            <div class="business-detail-card text-center">
+              <!--a class="business-detail-card__back" href="/#section_3">Volver al directorio</a-->
+
+              <img
+                [src]="selectedBusiness.logoSrc"
+                [alt]="selectedBusiness.logoAlt"
+                class="business-detail-card__logo img-fluid"
+              />
+
+              <!--p class="business-detail-card__eyebrow">Local disponible</p-->
+              <h1 class="business-detail-card__title">{{ selectedBusiness.name }}</h1>
+              <p class="business-detail-card__unit">{{ selectedBusiness.unit }}</p>
+
+              <div class="business-detail-card__schedule">
+                <span>Horario</span>
+                <strong>{{ selectedBusiness.schedule }}</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      } @else {
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-12">
+            <div class="business-detail-card business-detail-card--empty text-center">
+              <p class="business-detail-card__eyebrow">Local no encontrado</p>
+              <h1 class="business-detail-card__title">No existe información disponible para este negocio.</h1>
+              <a class="btn custom-btn mt-4" href="/#section_3">Regresar al directorio</a>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+
+  <app-site-public-footer />
+</main>
