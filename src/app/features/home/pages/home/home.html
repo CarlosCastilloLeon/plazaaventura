@@ -1,79 +1,829 @@
-<section class="hero" id="inicio">
-  <div class="hero__copy">
-    <span class="eyebrow">Angular · estructura profesional</span>
-    <h1>Un sitio moderno para impulsar la presencia digital de Plaza Aventura.</h1>
-    <p>
-      Esta base inicial está organizada para que puedas construir una web corporativa,
-      catálogo de servicios o landing comercial con buenas prácticas desde el primer día.
-    </p>
+﻿<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="#contacto">Empezar ahora</a>
-      <a class="btn btn--secondary" href="#servicios">Ver estructura</a>
-    </div>
-  </div>
+	<!-- Header Section -->
+	<header class="header-section">
+		<div class="header-top">
+			<div class="row m-0">
+				<div class="col-md-6 d-none d-md-block p-0">
+					<div class="header-info">
+						<i class="material-icons">map</i>
+						<p>Vía Atlixcayotl 5421, Puebla, México</p>
+					</div>
+					<div class="header-info">
+						<i class="material-icons">phone</i>
+						<p>222 2 83 81 81</p>
+					</div>
+				</div>
+				<div class="col-md-6 text-left text-md-right p-0">
+					<div class="header-info d-none d-md-inline-flex">
+						<i class="material-icons">alarm_on</i>
+						<p>Lun - Vie:  9:00am - 06:00pm</p>
+					</div>
+					<!--div class="header-info">
+						<i class="material-icons">language</i>
+						<select id="language" class="language-select">
+							<option data-display="Language">EN</option>
+							<option data-display="Language" value="1">ES</option>
+							<option data-display="Language" value="2">JA</option>
+							<option data-display="Language" value="2">AR</option>
+						</select>
+					</div-->
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<a href="#" class="site-logo">
+				<img src="img/logo aventura.png" alt="">
+			</a>
+			<div class="hb-right">
+				<div class="hb-switch" id="search-switch">
+					<img src="img/icons/search.png" alt="">
+				</div>
+				<div class="hb-switch" id="infor-switch">
+					<img src="img/icons/bars.png" alt="">
+				</div>
+			</div>
+			<div class="container">
+				<ul class="main-menu">
+					<li><a href="#" class="active">Inicio</a></li>
+					<li><a href="#">Acerca de</a></li>
+					<li><a href="#">Directorio</a>
+						<ul class="sub-menu">
+							<li><a href="#">Gastronomía</a></li>
+							<li><a href="#">Fitness</a></li>
+                            <li><a href="#">Retail</a></li>
+                            <li><a href="#">Servicios</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Promociones</a>
+						<ul class="sub-menu">
+							<li><a href="#">Nuestras Promociones</a></li>
+							<li><a href="#">Detalles de Promociones</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Eventos</a>
+						<ul class="sub-menu">
+							<li><a href="#">Nuestros Eventos</a></li>
+							<li><a href="#">Detalles de Eventos</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- Header Section end -->
 
-  <aside class="hero__panel" aria-label="Resumen del proyecto">
-    <p class="hero__panel-label">Incluye</p>
-    <ul>
-      <li>Routing listo para crecer</li>
-      <li>Layout reutilizable con header y footer</li>
-      <li>Página principal responsive</li>
-      <li>SCSS global y organización por dominios</li>
-    </ul>
-  </aside>
-</section>
+	<!-- Infor Model -->
+	<div class="infor-model-warp">
+		<div class="infor-model d-flex align-items-center">
+			<div class="infor-close">
+				<i class="material-icons">close</i>
+			</div>
+			<div class="infor-middle">
+				<a href="#" class="infor-logo">
+					<img src="img/logo aventura black.png" alt="">
+				</a>
+				<p>Suscríbete a nuestro boletín</p>
+				<div class="insta-imgs">
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/1.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/2.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/3.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/4.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/5.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+					<div class="insta-item">
+						<div class="insta-img">
+							<img src="img/infor/6.jpg" alt="">
+							<div class="insta-hover">
+								<i class="fa fa-instagram"></i>
+								<p>ahana.yoga</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<form class="infor-form">
+					<input type="text" placeholder="Your Email">
+					<button><img src="img/icons/send.png" alt=""></button>
+				</form>
+				<div class="insta-social">
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Infor Model end -->
+	                                                                              
+	<!-- Hero Section -->
+	<section class="hero-section">
+		<div class="hero-social-warp">
+			<div class="hero-social">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div class="arrow-buttom">
+			<img src="img/icons/arrows-buttom.png" alt="">
+		</div>
+		<div class="hero-slider owl-carousel">
+            <div class="hs-item">
+				<div class="hs-style-2">
+					<div class="container-fluid h-100">
+						<div class="row h-100">
+							<div class="col-lg-6 h-100 d-none d-lg-flex align-items-xl-end align-items-lg-center">
+								<div class="hs-img">
+									<img src="img/hero-slider/carrusel1.JPG" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 d-flex align-items-center">
+								<div class="hs-text-warp">
+									<div class="hs-text">
+										<h2>Que todos tus días comiencen con una aventura</h2>
+										<p> Todo lo que necesitas en un mismo lugar</p>
+										<div class="site-btn sb-white">¿Conocenos?</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item">
+				<div class="hs-style-2">
+					<div class="container-fluid h-100">
+						<div class="row h-100">
+							<div class="col-lg-6 h-100 d-none d-lg-flex align-items-xl-end align-items-lg-center">
+								<div class="hs-img">
+									<img src="img/hero-slider/carrusel2.JPG" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 d-flex align-items-center">
+								<div class="hs-text-warp">
+									<div class="hs-text">
+										<h2>Facilita tu día en un instante</h2>
+										<p>Excelente ubicación para agilizar tu rutina diaria.</p>
+										<div class="site-btn sb-white">¿Cómo llegar?</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item">
+				<div class="hs-style-2">
+					<div class="container-fluid h-100">
+						<div class="row h-100">
+							<div class="col-lg-6 h-100 d-none d-lg-flex align-items-xl-end align-items-lg-center">
+								<div class="hs-img">
+									<img src="img/hero-slider/carrusel3.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 d-flex align-items-center">
+								<div class="hs-text-warp">
+									<div class="hs-text">
+										<h2>Todo lo que necesitas en un mismo lugar</h2>
+										<p>Encuentra todo lo que buscas en un solo lugar, desde gastronomía, fitness, servicios y mucho más.</p>
+										<div class="site-btn sb-white">Directorio</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero Section end -->
 
-<section class="metrics">
-  @for (metric of metrics; track metric.label) {
-    <article class="metric-card">
-      <strong>{{ metric.value }}</strong>
-      <span>{{ metric.label }}</span>
-    </article>
-  }
-</section>
+	<!-- About Section -->
+	<section class="about-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<img src="img/only logo aventura black.png" alt="">
+				<h2>Bienvenido a Plaza Aventura</h2>
+				<p>Tu tiempo es valioso para nosotros</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="about-img">
+						<img src="img/vertical.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about-item">
+						<div class="ai-icon">
+							<img src="img/icons/about-1.png" alt="">
+						</div>
+						<div class="ai-text">
+							<h4>Ubicación</h4>
+							<p>Excelente ubicacion para entrar y salir de manera agil</p>
+						</div>
+					</div>
+					<div class="about-item">
+						<div class="ai-icon">
+							<img src="img/icons/about-2.png" alt="">
+						</div>
+						<div class="ai-text">
+							<h4>Seguridad</h4>
+							<p>Contamos con medidas de seguridad para garantizar tu tranquilidad.</p>
+						</div>
+					</div>
+					<div class="about-item">
+						<div class="ai-icon">
+							<img src="img/icons/about-3.png" alt="">
+						</div>
+						<div class="ai-text">
+							<h4>Estacionamiento Gratuito</h4>
+							<p>Disfruta de un espacio gratuito para estacionar tu vehículo mientras realizas tus actividades.</p>
+						</div>
+					</div>
+					<a href="" class="site-btn sb-gradient mt-5">Leer más</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Section end -->
 
-<section class="services" id="servicios">
-  <div class="section-heading">
-    <span>Base de trabajo</span>
-    <h2>Estructura pensada para un sitio profesional</h2>
-    <p>
-      El proyecto queda preparado para crecer sin perder orden, consistencia visual ni mantenibilidad.
-    </p>
-  </div>
+	<!-- Classes Section -->
+	<section class="classes-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<img src="img/only logo aventura black.png" alt="">
+				<h2>Directorio</h2>
+				<p>Encuentra todo lo que buscas en un solo lugar, desde gastronomía, fitness, servicios y mucho más.</p>
+			</div>
+			<div class="classes-slider owl-carousel">
+				<div class="classes-item">
+					<div class="ci-img">
+						<img src="img/classes/aguapuebla.jpg" alt="">
+					</div>
+					<div class="ci-text">
+						<h4><a href="#">Agua de Puebla</a></h4>
+						<div class="ci-metas">
+							<div class="ci-meta"><i class="material-icons">event_available</i>Lun, Vie</div>
+							<div class="ci-meta"><i class="material-icons">alarm_on</i>09:00am - 06:00pm</div>
+						</div>
+						<p>Pago de servicios y atención al cliente.</p>
+					</div>
+					<div class="ci-bottom">
+						<div class="ci-author">
+							<div class="author-text">
+								<h6>Local</h6>
+								<p>1</p>
+							</div>
+						</div>
+						<a href="" class="site-btn sb-gradient">Leer más</a>
+					</div>
+				</div>
+				<div class="classes-item">
+					<div class="ci-img">
+						<img src="img/classes/DHL_rgb.png" alt="">
+					</div>
+					<div class="ci-text">
+						<h4>DHL</h4>
+						<div class="ci-metas">
+							<div class="ci-meta"><i class="material-icons">event_available</i>Lun - Vie</div>
+							<div class="ci-meta"><i class="material-icons">alarm_on</i>09:00am - 06:00pm</div>
+						</div>
+						<p>Envio y recepcion de paqueteria</p>
+					</div>
+					<div class="ci-bottom">
+						<div class="ci-author">
+						
+							<div class="author-text">
+								<h6>Local</h6>
+								<p>2</p>
+							</div>
+						</div>
+						<a href="" class="site-btn sb-gradient">Leer más</a>
+					</div>
+				</div>
+				<div class="classes-item">
+					<div class="ci-img">
+						<img src="img/classes/ecoclean.jpg" alt="">
+					</div>
+					<div class="ci-text">
+						<h4>EcoClean</h4>
+						<div class="ci-metas">
+							<div class="ci-meta"><i class="material-icons">event_available</i>Lun, Mie, Vie</div>
+							<div class="ci-meta"><i class="material-icons">alarm_on</i>06:30pm - 07:45pm</div>
+						</div>
+						<p>Todo tipo de limpieza ecológica</p>
+					</div>
+					<div class="ci-bottom">
+						<div class="ci-author">
+						
+							<div class="author-text">
+								<h6>Local</h6>
+								<p>3</p>
+							</div>
+						</div>
+						<a href="" class="site-btn sb-gradient">Leer más</a>
+					</div>
+				</div>
+				<div class="classes-item">
+					<div class="ci-img">
+						<img src="img/classes/italianlogo.png" alt="">
+					</div>
+					<div class="ci-text">
+						<h4>Italian Coffee</h4>
+						<div class="ci-metas">
+							<div class="ci-meta"><i class="material-icons">event_available</i>Lun, Mie, Vie</div>
+							<div class="ci-meta"><i class="material-icons">alarm_on</i>06:30pm - 07:45pm</div>
+						</div>
+						<p>Disfruta de un café  auténtico .</p>
+					</div>
+					<div class="ci-bottom">
+						<div class="ci-author">
+							<div class="author-text">
+								<h6>Local</h6>
+								<p>4</p>
+							</div>
+						</div>
+						<a href="" class="site-btn sb-gradient">Leer más</a>
+					</div>
+				</div>
+			</div>
+           	<a href="" class="site-btn sb-gradient mt-5">Más tiendas</a>
+		</div>
+	</section>
+	<!-- Classes Section end -->
 
-  <div class="card-grid">
-    @for (service of services; track service.title) {
-      <article class="info-card">
-        <h3>{{ service.title }}</h3>
-        <p>{{ service.description }}</p>
-      </article>
-    }
-  </div>
-</section>
+	<!-- Trainer Section -->
+	<section class="trainer-section overflow-hidden spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<img src="img/only logo aventura black.png" alt="">
+				<h2>Promociones</h2>
+				<p>¡Aprovecha las increíbles promociones de nuestras tiendas!</p>
+			</div>
+			<div class="trainer-slider owl-carousel">
+				<div class="ts-item">
+					<div class="trainer-item trainer-item--promo">
+						<div class="ti-img ti-img--promo">
+							<img class="promo-card-image" src="img/trainer/card descuento.png" alt="Promoción DHL 10 por ciento de descuento">
+						</div>
+						<div class="ti-text">
+							<h4>DHL</h4>
+							<h6>Paquetería</h6>
+							<p>¡Envios nacionales 10% de descuento!</p>
+							<div class="ti-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ts-item">
+					<div class="trainer-item trainer-item--promo">
+						<div class="ti-img ti-img--promo">
+							<img class="promo-card-image" src="img/classes/ecoclean.jpg" alt="Promoción EcoClean en limpieza ecológica">
+						</div>
+						<div class="ti-text">
+							<h4>EcoClean</h4>
+							<h6>Limpieza ecológica</h6>
+							<p>Mock promo: 15% de descuento en limpieza profunda durante esta semana.</p>
+							<div class="ti-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ts-item">
+					<div class="trainer-item trainer-item--promo">
+						<div class="ti-img ti-img--promo">
+							<img class="promo-card-image" src="img/classes/italianlogo.png" alt="Promoción Italian Coffee en cafetería">
+						</div>
+						<div class="ti-text">
+							<h4>Italian Coffee</h4>
+							<h6>Cafetería</h6>
+							<p>Mock promo: combo de café americano y panqué con precio especial todo el mes.</p>
+							<div class="ti-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Trainer Section end -->
 
-<section class="process" id="nosotros">
-  <div class="section-heading">
-    <span>Flujo recomendado</span>
-    <h2>Cómo está planteada la experiencia</h2>
-  </div>
+	<!-- Review Section -->
+	<section class="review-section spad set-bg" data-setbg="img/hero-slider/carrusel1.JPG">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 m-auto">
+					<div class="review-slider owl-carousel">
+						<div class="review-item">
+							<div class="ri-img">
+								<img src="img/classes/author/1.jpg" alt="">
+							</div>
+							<div class="ri-text text-white">
+								<p>Tiene locales de todo tipo. Me gusta la variedad de negocios que tiene. Hay restaurantes, gimnasio, gasolinera, oxxo, oficina de paquetería, escuela de idiomas, farmacia y artículos para el hogar. El estacionamiento es gratis y siempre hay lugar para estacionarse.</p>
+								<h4>Edgar Trejo</h4>
+							</div>
+						</div>
+						<div class="review-item">
+							<div class="ri-img">
+								<img src="img/classes/author/2.jpg" alt="">
+							</div>
+							<div class="ri-text text-white">
+								<p>Un buen café, excelentes tacos árabes, excelente comida oriental, me gusta, desde hace mucho tiempo.</p>
+								<h4>LIC BOBADILLA</h4>
+							</div>
+						</div>
+						<div class="review-item">
+							<div class="ri-img">
+								<img src="img/classes/author/3.jpg" alt="">
+							</div>
+							<div class="ri-text text-white">
+								<p>Se encuentra a la lateral de la caseta a Atlixco cuenta con diversos comercios farmacia, ferretería, estación de gas, comida y hasta gym, buena hubicacion.</p>
+								<h4>Manolo Law</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Review Section end -->
 
-  <div class="timeline">
-    @for (step of steps; track step.step) {
-      <article class="timeline-card">
-        <span>{{ step.step }}</span>
-        <h3>{{ step.title }}</h3>
-        <p>{{ step.description }}</p>
-      </article>
-    }
-  </div>
-</section>
+	<!-- Event Section -->
+	<section class="event-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<img src="img/only logo aventura black.png" alt="">
+				<h2>Próximos Eventos</h2>
+				<p>Practica Yoga para perfeccionar la belleza física, cuidar tu alma y disfrutar más plenamente de la vida!</p>
+			</div>
+			<div class="row">
+				<div class="col-xl-6">
+					<div class="event-video">
+						<img src="img/video.jpg" alt="">
+						<a href="https://www.youtube.com/watch?v=vgv-hzTl5FA" class="video-popup"><img src="img/icons/play.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="event-item">
+						<div class="ei-img">
+							<img src="img/event/1.jpg" alt="">
+						</div>
+						<div class="ei-text">
+							<h4><a href="#">Lole White Yoga Tour</a></h4>
+							<ul>
+								<li><i class="material-icons">person</i>Kelly Alexander</li>
+								<li><i class="material-icons">event_available</i>15 January, 2019</li>
+								<li><i class="material-icons">map</i>184 Main Collins Street</li>
+							</ul>
+						</div>
+					</div>
+					<div class="event-item">
+						<div class="ei-img">
+							<img src="img/event/2.jpg" alt="">
+						</div>
+						<div class="ei-text">
+							<h4>Free Yoga Madrid</h4>
+							<ul>
+								<li><i class="material-icons">person</i>Kelly Alexander</li>
+								<li><i class="material-icons">event_available</i>15 January, 2019</li>
+								<li><i class="material-icons">map</i>184 Main Collins Street</li>
+							</ul>
+						</div>
+					</div>
+					<div class="event-item">
+						<div class="ei-img">
+							<img src="img/event/3.jpg" alt="">
+						</div>
+						<div class="ei-text">
+							<h4>One Love Dallas</h4>
+							<ul>
+								<li><i class="material-icons">person</i>Kelly Alexander</li>
+								<li><i class="material-icons">event_available</i>15 January, 2019</li>
+								<li><i class="material-icons">map</i>184 Main Collins Street</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Event Section end -->
 
-<section class="cta" id="contacto">
-  <div>
-    <span>¿Siguiente paso?</span>
-    <h2>Personaliza esta base con tus contenidos, colores y funcionalidades.</h2>
-  </div>
 
-  <a class="btn btn--primary" href="mailto:contacto@plazaaventura.com">contacto@plazaaventura.com</a>
-</section>
+	<!-- Pricing Section -->
+	<section class="pricing-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<img src="img/only logo aventura black.png" alt="">
+				<h2>Locales Disponibles</h2>
+				<p>Unete a la familia Aventura!</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-item begginer">
+						<div class="pi-top">
+							<h4>Local 14</h4>
+						</div>
+						<div class="pi-price">
+							<h3>$30,000</h3>
+							<p>Mensual</p>
+						</div>
+						<ul>
+							<li>15 mts2</li>
+							<li>Disponible para todos</li>
+							<li>Segundo piso</li>
+							<li>mantenimiento incluido</li>
+						</ul>
+						<a href="#" class="site-btn sb-line-gradient">Saber más</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-item entermediate">
+						<div class="pi-top">
+							<h4>Local 15</h4>
+						</div>
+						<div class="pi-price">
+							<h3>$35,000</h3>
+							<p>Mensual</p>
+						</div>
+						<ul>
+							<li>20 mts2</li>
+							<li>Disponible para todos</li>
+							<li>Primer piso</li>
+							<li>mantenimiento incluido</li>
+						</ul>
+						<a href="#" class="site-btn sb-line-gradient">Saber más</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-item advanced">
+						<div class="pi-top">
+							<h4>Local 16</h4>
+						</div>
+						<div class="pi-price">
+							<h3>$40,000</h3>
+							<p>Mensual  </p>
+						</div>
+						<ul>
+							<li>25 mts2</li>
+							<li>Disponible para todos</li>
+							<li>Primer piso</li>
+							<li>mantenimiento incluido</li>
+						</ul>
+						<a href="#" class="site-btn sb-line-gradient">Saber más</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="pricing-item professional">
+						<div class="pi-top">
+							<h4>Local 17</h4>
+						</div>
+						<div class="pi-price">
+							<h3>$45,000</h3>
+							<p>Mensual</p>
+						</div>
+						<ul>
+							<li>30 mts2</li>
+							<li>Disponible para todos</li>
+							<li>Segundo piso</li>
+							<li>mantenimiento incluido</li>
+						</ul>
+						<a href="#" class="site-btn sb-line-gradient">Saber más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Pricing Section end -->
+
+	<!-- Sign up Section -->
+	<section class="signup-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="signup-map">
+                        <!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33245.297803635964!2d-73.76987401620775!3d40.704774398815005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1575866843291!5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30174.18910577329!2d-98.26659294208008!3d19.029693779019386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc781b8c138e7%3A0x53d75d2fccf3ed93!2sPlaza%20Aventura!5e0!3m2!1ses-419!2smx!4v1776208309582!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+				</div>
+				<div class="col-lg-6">
+					<div class="singup-text">
+						<h3>Contactanos</h3>
+						<p>Para conocer más sobre nuestros locales y servicios, completa el formulario a continuación.</p>
+					</div>
+					<form class="singup-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Nombre">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="Apellido">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="Correo Electrónico">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="Número de Teléfono">
+							</div>
+							<div class="col-md-12">
+								<textarea placeholder="Mensaje"></textarea>
+								<a href="#" class="site-btn sb-gradient">Enviar</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Sign up Section end -->
+
+	<!-- Gallery Section -->
+	<div class="gallery-section">
+		<div class="gallery-slider owl-carousel">
+			<div class="gs-item">
+				<img src="img/gallery/1.JPG" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+			<div class="gs-item">
+				<img src="img/gallery/2.JPG" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+			<div class="gs-item">
+				<img src="img/gallery/3.JPG" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+			<div class="gs-item">
+				<img src="img/gallery/4.JPG" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+			<div class="gs-item">
+				<img src="img/gallery/5.jpg" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+			<div class="gs-item">
+				<img src="img/gallery/6.jpg" alt="">
+				<div class="gs-hover">
+					<i class="fa fa-instagram"></i>
+					<p>plazaaventurapuebla</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Gallery Section end -->
+
+	<!-- Footer Section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<div class="about-widget">
+							<img src="img/only logo aventura black.png" alt="">
+							<p>En plaza aventura nos enorgullece ofrecer experiencias únicas y memorables a nuestros visitantes.</p>
+							<ul>
+								<li><i class="material-icons">phone</i>222 2 83 81 81</li>
+								<li><i class="material-icons">email</i>plazaaventurapuebla@gmail.com</li>
+								<li><i class="material-icons">map</i>Vía Atlixcáyotl 5421, Puebla, México</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<h2 class="fw-title">Empresa</h2>
+						<ul>
+							<li><a href="#">Servicios</a></li>
+							<li><a href="#">Galería</a></li>
+							<li><a href="#">Precios</a></li>
+							<li><a href="#">Política de privacidad</a></li>
+							<li><a href="#">Contáctanos</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Sobre Nosotros</h2>
+						<ul>
+							<li><a href="#">Nuestra Visión</a></li>
+							<li><a href="#">Nuestra Misión</a></li>
+							<li><a href="#">Conoce al Equipo</a></li>
+							<li><a href="#">Introducción</a></li>
+							<li><a href="#">Servicio al Cliente</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="footer-widget pl-0 pl-lg-5">
+						<h2 class="fw-title">Abierto</h2>
+						<ul>
+							<li><i class="material-icons">alarm_on</i>Lun - Vie:  6:30am - 07:45pm</li>
+							<li><i class="material-icons">alarm_on</i>Sáb - Dom:  8:30am - 05:45pm</li>
+						</ul>
+						<form class="infor-form">
+							<input type="text" placeholder="Tu correo electrónico">
+							<button><img src="img/icons/send.png" alt=""></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-md-8 text-md-right">
+						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer Section end -->
+
+	<div class="back-to-top"><img src="img/icons/up-arrow.png" alt=""></div>
+
+	<!-- Search model -->
+	<div class="search-model set-bg" data-setbg="img/search-bg.jpg">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch"><i class="material-icons">close</i></div>
+			<form class="search-moderl-form">
+				<input type="text" id="search-input" placeholder="Search">
+				<button><img src="img/icons/search-2.png" alt=""></button>
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->

@@ -30,7 +30,17 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "src/styles.scss",
+              "public/css/bootstrap.min.css",
+              "public/css/font-awesome.min.css",
+              "public/css/owl.carousel.min.css",
+              "public/css/nice-select.css",
+              "public/css/magnific-popup.css",
+              "public/css/slicknav.min.css",
+              "public/css/animate.css",
+              "public/css/style.css"
+            ]
           },
           "configurations": {
             "production": {
