@@ -209,6 +209,53 @@
   </aside>
 </section>
 
+<section class="testimonials" aria-label="Testimonios de Plaza Aventura">
+  <div class="section-heading">
+    <span>Testimonials</span>
+    <h2>Lo que opinan nuestros visitantes y comercios</h2>
+  </div>
+
+  <article class="testimonials__card">
+    <button
+      class="testimonials__control testimonials__control--prev"
+      type="button"
+      aria-label="Testimonio anterior"
+      (click)="previousTestimonial()"
+    >
+      ‹
+    </button>
+
+    <blockquote class="testimonials__quote">
+      <p>{{ testimonials[activeTestimonialIndex()].quote }}</p>
+      <footer>
+        <strong>{{ testimonials[activeTestimonialIndex()].author }}</strong>
+        <span>{{ testimonials[activeTestimonialIndex()].role }}</span>
+      </footer>
+    </blockquote>
+
+    <button
+      class="testimonials__control testimonials__control--next"
+      type="button"
+      aria-label="Siguiente testimonio"
+      (click)="nextTestimonial()"
+    >
+      ›
+    </button>
+  </article>
+
+  <div class="testimonials__dots" aria-label="Indicadores de testimonios">
+    @for (item of testimonials; track item.author; let i = $index) {
+      <button
+        class="testimonials__dot"
+        [class.testimonials__dot--active]="i === activeTestimonialIndex()"
+        type="button"
+        [attr.aria-label]="'Ir al testimonio ' + (i + 1)"
+        (click)="goToTestimonial(i)"
+      ></button>
+    }
+  </div>
+</section>
+
 <section class="location-section" id="ubicacion" aria-label="Ubicación de Plaza Aventura">
   <div class="section-heading">
     <span>Ubicación</span>

@@ -164,9 +164,31 @@ export class HomeComponent implements AfterViewInit {
     '/img/galeria/galeria_3.jpg',
   ];
 
+  protected readonly testimonials = [
+    {
+      quote:
+        'Excelente ubicación y gran flujo de personas. Nuestro negocio creció desde el primer mes en Plaza Aventura.',
+      author: 'Andrea M.',
+      role: 'Arrendataria Local 10',
+    },
+    {
+      quote:
+        'La plaza es segura, accesible y tiene un ambiente ideal para familias. Siempre encontramos todo en un mismo lugar.',
+      author: 'Carlos R.',
+      role: 'Cliente frecuente',
+    },
+    {
+      quote:
+        'La administración ha sido muy profesional y cercana. Es un espacio comercial con mucho potencial para marcas nuevas.',
+      author: 'Mariana V.',
+      role: 'Comerciante Local 18',
+    },
+  ];
+
   protected readonly indicatorValues = signal<number[]>(this.indicators.map(() => 0));
   protected readonly hasAnimatedIndicators = signal(false);
   protected readonly hasSubmittedContact = signal(false);
+  protected readonly activeTestimonialIndex = signal(0);
 
   protected readonly contactForm = this.formBuilder.nonNullable.group({
     name: ['', [Validators.required, Validators.minLength(3)]],
@@ -192,8 +214,13 @@ export class HomeComponent implements AfterViewInit {
       this.nextSlide();
     }, 5500);
 
+    const testimonialIntervalId = setInterval(() => {
+      this.nextTestimonial();
+    }, 6000);
+
     this.destroyRef.onDestroy(() => {
       clearInterval(intervalId);
+      clearInterval(testimonialIntervalId);
       this.indicatorObserver?.disconnect();
     });
   }
@@ -282,6 +309,30 @@ export class HomeComponent implements AfterViewInit {
   protected nextSlide(): void {
     this.activeSlideIndex.update((currentIndex) => {
       if (currentIndex === this.slides.length - 1) {
+        return 0;
+      }
+
+      return currentIndex + 1;
+    });
+  }
+
+  protected goToTestimonial(index: number): void {
+    this.activeTestimonialIndex.set(index);
+  }
+
+  protected previousTestimonial(): void {
+    this.activeTestimonialIndex.update((currentIndex) => {
+      if (currentIndex === 0) {
+        return this.testimonials.length - 1;
+      }
+
+      return currentIndex - 1;
+    });
+  }
+
+  protected nextTestimonial(): void {
+    this.activeTestimonialIndex.update((currentIndex) => {
+      if (currentIndex === this.testimonials.length - 1) {
         return 0;
       }
 

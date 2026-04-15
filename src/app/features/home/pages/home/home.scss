@@ -9,6 +9,7 @@
 .about-company,
 .indicators,
 .gallery-preview,
+.testimonials,
 .location-section {
   max-width: 1120px;
   margin: 0 auto;
@@ -447,6 +448,86 @@
   object-position: center;
 }
 
+.testimonials {
+  padding-top: 0.8rem;
+}
+
+.testimonials__card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid var(--color-terracotta-border-soft);
+  border-radius: 1.1rem;
+  background: var(--color-panel);
+  box-shadow: 0 14px 32px var(--color-panel-shadow);
+  padding: 1.2rem;
+}
+
+.testimonials__quote {
+  margin: 0;
+  text-align: center;
+}
+
+.testimonials__quote p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  line-height: 1.6;
+}
+
+.testimonials__quote footer {
+  margin-top: 0.95rem;
+  display: grid;
+  gap: 0.15rem;
+}
+
+.testimonials__quote strong {
+  color: var(--color-text);
+  font-size: 0.98rem;
+}
+
+.testimonials__quote span {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.testimonials__control {
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-terracotta-border);
+  background: rgba(200, 107, 92, 0.12);
+  color: var(--color-text);
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.testimonials__dots {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.testimonials__dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(44, 44, 44, 0.25);
+  cursor: pointer;
+}
+
+.testimonials__dot--active {
+  width: 1.55rem;
+  background: var(--color-terracotta-strong);
+}
+
 .location-section {
   padding-top: 0.8rem;
 }
@@ -674,6 +755,15 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .testimonials__card {
+    grid-template-columns: 1fr;
+    gap: 0.95rem;
+  }
+
+  .testimonials__control {
+    justify-self: center;
+  }
+
   .about-company {
     grid-template-columns: 1fr;
   }
@@ -739,6 +829,7 @@
   .basic-services,
   .indicators,
   .gallery-preview,
+  .testimonials,
   .location-section {
     padding-inline: 1rem;
   }
