@@ -1,5 +1,17 @@
 :root {
-  color-scheme: dark;
+  color-scheme: light;
+
+  --color-sand: #f5f0e8;
+  --color-sand-soft: #ece6dc;
+  --color-white: #ffffff;
+  --color-text: #2c2c2c;
+  --color-text-muted: #6f675f;
+  --color-terracotta: #c86b5c;
+  --color-terracotta-strong: #b85a4d;
+  --color-terracotta-border: rgba(200, 107, 92, 0.26);
+  --color-terracotta-border-soft: rgba(200, 107, 92, 0.14);
+  --color-panel: rgba(255, 255, 255, 0.72);
+  --color-panel-shadow: rgba(80, 44, 35, 0.15);
 }
 
 * {
@@ -8,13 +20,20 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@media (max-width: 820px) {
+  html {
+    scroll-padding-top: 8.2rem;
+  }
 }
 
 body {
   margin: 0;
   font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
-  background: #020617;
-  color: #f8fafc;
+  background: var(--color-sand);
+  color: var(--color-text);
 }
 
 a,

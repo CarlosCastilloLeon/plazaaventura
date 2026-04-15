@@ -1,0 +1,82 @@
+<section class="gallery-page" aria-label="Galería de Plaza Aventura">
+  <div class="gallery-page__header">
+    <div>
+      <span class="gallery-page__eyebrow">Galería</span>
+      <h1>Galería de Plaza Aventura</h1>
+      <p>Conoce más imágenes de nuestras instalaciones, comercios y espacios.</p>
+    </div>
+
+    <a class="gallery-page__back" routerLink="/" fragment="inicio">Regresar</a>
+  </div>
+
+  @if (isLoading()) {
+    <p class="gallery-page__status">Cargando imágenes...</p>
+  } @else if (galleryImages().length === 0) {
+    <p class="gallery-page__status">No hay imágenes disponibles en la galería.</p>
+  } @else {
+    <div class="gallery-page__grid">
+      @for (imageSrc of galleryImages(); track imageSrc; let i = $index) {
+        <article class="gallery-page__item">
+          <button
+            class="gallery-page__thumb"
+            type="button"
+            [attr.aria-label]="'Abrir imagen ' + (i + 1)"
+            (click)="openLightbox(i)"
+          >
+            <img
+              class="gallery-page__image"
+              [ngSrc]="imageSrc"
+              alt="Imagen de galería Plaza Aventura"
+              width="700"
+              height="460"
+            />
+          </button>
+        </article>
+      }
+    </div>
+  }
+</section>
+
+@if (isLightboxOpen()) {
+  <section
+    class="gallery-lightbox"
+    aria-label="Lightbox de galería"
+    (click)="closeLightbox()"
+    (touchstart)="onLightboxTouchStart($event)"
+    (touchmove)="onLightboxTouchMove($event)"
+    (touchend)="onLightboxTouchEnd()"
+  >
+    <p class="gallery-lightbox__counter" (click)="$event.stopPropagation()">{{ activeImageLabel() }}</p>
+
+    <button
+      class="gallery-lightbox__close"
+      type="button"
+      aria-label="Cerrar galería"
+      (click)="closeLightbox()"
+    >
+      ×
+    </button>
+
+    <button
+      class="gallery-lightbox__control gallery-lightbox__control--prev"
+      type="button"
+      aria-label="Imagen anterior"
+      (click)="$event.stopPropagation(); previousImage()"
+    >
+      ‹
+    </button>
+
+    <figure class="gallery-lightbox__figure" (click)="$event.stopPropagation()">
+      <img class="gallery-lightbox__image" [src]="activeImageSrc()" alt="Imagen ampliada de Plaza Aventura" />
+    </figure>
+
+    <button
+      class="gallery-lightbox__control gallery-lightbox__control--next"
+      type="button"
+      aria-label="Imagen siguiente"
+      (click)="$event.stopPropagation(); nextImage()"
+    >
+      ›
+    </button>
+  </section>
+}

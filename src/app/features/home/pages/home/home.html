@@ -1,50 +1,139 @@
-<section class="hero" id="inicio">
-  <div class="hero__copy">
-    <span class="eyebrow">Angular · estructura profesional</span>
-    <h1>Un sitio moderno para impulsar la presencia digital de Plaza Aventura.</h1>
-    <p>
-      Esta base inicial está organizada para que puedas construir una web corporativa,
-      catálogo de servicios o landing comercial con buenas prácticas desde el primer día.
-    </p>
+<section class="hero-slider" id="inicio" aria-label="Carrusel principal de Plaza Aventura">
+  <article class="hero-slider__frame">
+    <img
+      class="hero-slider__image"
+      [src]="activeSlide().src"
+      [alt]="activeSlide().alt"
+    />
 
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="#contacto">Empezar ahora</a>
-      <a class="btn btn--secondary" href="#servicios">Ver estructura</a>
+    <div class="hero-slider__overlay">
+      <div class="hero-slider__content">
+        <!--span class="eyebrow">Plaza Aventura</span-->
+        <h1>Encuentra tu próximo local en un entorno comercial con alto flujo.</h1>
+        <p>
+          Explora nuestro directorio y descubre oportunidades para tu marca con ubicaciones estratégicas.
+        </p>
+
+        <div class="hero-slider__actions">
+          <a class="btn btn--primary" href="#tiendas">Directorio</a>
+          <a class="btn btn--secondary" href="#contacto">Contacto</a>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <aside class="hero__panel" aria-label="Resumen del proyecto">
-    <p class="hero__panel-label">Incluye</p>
-    <ul>
-      <li>Routing listo para crecer</li>
-      <li>Layout reutilizable con header y footer</li>
-      <li>Página principal responsive</li>
-      <li>SCSS global y organización por dominios</li>
-    </ul>
-  </aside>
+    <button
+      class="hero-slider__control hero-slider__control--prev"
+      type="button"
+      aria-label="Imagen anterior"
+      (click)="previousSlide()"
+    >
+      ‹
+    </button>
+
+    <button
+      class="hero-slider__control hero-slider__control--next"
+      type="button"
+      aria-label="Imagen siguiente"
+      (click)="nextSlide()"
+    >
+      ›
+    </button>
+
+    <div class="hero-slider__dots" aria-label="Indicadores de carrusel">
+      @for (slide of slides; track slide.src; let i = $index) {
+        <button
+          class="hero-slider__dot"
+          [class.hero-slider__dot--active]="i === activeSlideIndex()"
+          type="button"
+          [attr.aria-label]="'Ir a imagen ' + (i + 1)"
+          (click)="goToSlide(i)"
+        ></button>
+      }
+    </div>
+  </article>
 </section>
 
-<section class="metrics">
-  @for (metric of metrics; track metric.label) {
-    <article class="metric-card">
-      <strong>{{ metric.value }}</strong>
-      <span>{{ metric.label }}</span>
-    </article>
-  }
-</section>
-
-<section class="services" id="servicios">
+<section class="store-carousel" id="tiendas" aria-label="Tiendas de Plaza Aventura">
   <div class="section-heading">
-    <span>Base de trabajo</span>
-    <h2>Estructura pensada para un sitio profesional</h2>
-    <p>
-      El proyecto queda preparado para crecer sin perder orden, consistencia visual ni mantenibilidad.
-    </p>
+    <span>Nuestras Tiendas</span>
+    <h2>Marcas y servicios que ya forman parte de Plaza Aventura</h2>
   </div>
 
-  <div class="card-grid">
-    @for (service of services; track service.title) {
-      <article class="info-card">
+  <div class="store-carousel__shell" aria-label="Controles del carrusel de tiendas">
+    <button
+      class="store-carousel__control"
+      type="button"
+      aria-label="Ver tiendas anteriores"
+      (click)="moveStoreCarousel(storeViewport, -1)"
+    >
+      ‹
+    </button>
+
+    <div class="store-carousel__viewport" #storeViewport>
+      <div class="store-carousel__track">
+        @for (logo of storeLogos; track logo.src) {
+          <article class="store-carousel__card" aria-label="Logo de tienda">
+            <img
+              class="store-carousel__logo"
+              [ngSrc]="logo.src"
+              [alt]="logo.alt"
+              width="220"
+              height="120"
+            />
+          </article>
+        }
+      </div>
+    </div>
+
+    <button
+      class="store-carousel__control"
+      type="button"
+      aria-label="Ver más tiendas"
+      (click)="moveStoreCarousel(storeViewport, 1)"
+    >
+      ›
+    </button>
+  </div>
+</section>
+
+<section class="directory-preview" id="directorio" aria-label="Directorio de comercios">
+  <div class="section-heading">
+    <span>Directorio</span>
+    <h2>Comercios disponibles en Plaza Aventura</h2>
+  </div>
+
+  <div class="directory-preview__list">
+    @for (item of directoryPreview; track item.name) {
+      <article class="directory-preview__row">
+        <img
+          class="directory-preview__logo"
+          [ngSrc]="item.logo"
+          [alt]="item.name"
+          width="64"
+          height="64"
+        />
+
+        <div class="directory-preview__name">{{ item.name }}</div>
+        <div class="directory-preview__schedule">{{ item.schedule }}</div>
+        <div class="directory-preview__local">{{ item.local }}</div>
+      </article>
+    }
+  </div>
+
+  <a class="btn btn--primary directory-preview__cta" routerLink="/directorio">Ver más</a>
+</section>
+
+<section class="basic-services" id="servicios" aria-label="Servicios básicos de la plaza comercial">
+  <div class="section-heading">
+    <span>Servicios Básicos</span>
+    <h2>Todo lo que necesitas para una experiencia cómoda y segura</h2>
+    <p>Conoce los servicios esenciales que hacen de Plaza Aventura un punto comercial funcional.</p>
+  </div>
+
+  <div class="basic-services__grid">
+    @for (service of basicServices; track service.title) {
+      <article class="basic-services__item">
+        <i [class]="'basic-services__icon ' + service.iconClass" aria-hidden="true"></i>
         <h3>{{ service.title }}</h3>
         <p>{{ service.description }}</p>
       </article>
@@ -52,28 +141,138 @@
   </div>
 </section>
 
-<section class="process" id="nosotros">
+<section class="indicators" #indicatorsSection aria-label="Indicadores de Plaza Aventura">
   <div class="section-heading">
-    <span>Flujo recomendado</span>
-    <h2>Cómo está planteada la experiencia</h2>
+    <span>Indicadores</span>
+    <h2>Cifras que reflejan nuestra operación diaria</h2>
   </div>
 
-  <div class="timeline">
-    @for (step of steps; track step.step) {
-      <article class="timeline-card">
-        <span>{{ step.step }}</span>
-        <h3>{{ step.title }}</h3>
-        <p>{{ step.description }}</p>
+  <div class="indicators__grid">
+    @for (item of indicators; track item.title; let i = $index) {
+      <article class="indicators__item">
+        <i [class]="'indicators__icon ' + item.iconClass" aria-hidden="true"></i>
+        <strong>{{ formatIndicatorValue(i) }}</strong>
+        <p>{{ item.title }}</p>
       </article>
     }
   </div>
 </section>
 
-<section class="cta" id="contacto">
-  <div>
-    <span>¿Siguiente paso?</span>
-    <h2>Personaliza esta base con tus contenidos, colores y funcionalidades.</h2>
+<section class="gallery-preview" aria-label="Vista previa de galería">
+  <div class="section-heading">
+    <span>Galería</span>
+    <h2>Momentos y espacios de Plaza Aventura</h2>
+    <p>Explora una selección visual de nuestras instalaciones y comercios.</p>
   </div>
 
-  <a class="btn btn--primary" href="mailto:contacto@plazaaventura.com">contacto@plazaaventura.com</a>
+  <div class="gallery-preview__grid">
+    @for (imageSrc of galleryPreview; track imageSrc) {
+      <article class="gallery-preview__item">
+        <img
+          class="gallery-preview__image"
+          [ngSrc]="imageSrc"
+          alt="Vista de Plaza Aventura"
+          width="520"
+          height="360"
+        />
+      </article>
+    }
+  </div>
+
+  <a class="btn btn--primary gallery-preview__cta" routerLink="/galeria">Ver más</a>
+</section>
+
+<section class="about-company" id="nosotros" aria-label="Nosotros">
+  <article class="about-company__content">
+    <span class="about-company__eyebrow">Nosotros</span>
+    <h2>PLAZA AVENTURA</h2>
+    <p>
+      Somos una Plaza Comercial ubicada en la entrada de Lomas Angelópolis con más de treinta comercios
+      establecidos, entrando por vía Atlixcáyotl.
+    </p>
+    <p>
+      Tenemos una excelente ubicación y estamos mejorando todas nuestras instalaciones.
+    </p>
+    <p>
+      Lo que necesites encuéntralo en Plaza Aventura.
+    </p>
+  </article>
+
+  <aside class="about-company__media" aria-label="Imagen de Plaza Aventura">
+    <img
+      class="about-company__image"
+      ngSrc="/img/nosotros/vertical.jpg"
+      width="620"
+      height="760"
+      alt="Instalaciones de Plaza Aventura"
+    />
+  </aside>
+</section>
+
+<section class="location-section" id="ubicacion" aria-label="Ubicación de Plaza Aventura">
+  <div class="section-heading">
+    <span>Ubicación</span>
+    <h2>Encuéntranos en Vía Atlixcáyotl</h2>
+    <p>Visítanos en Plaza Aventura y conoce nuestros comercios en una zona estratégica de Puebla.</p>
+  </div>
+
+  <div class="location-section__map-wrap">
+    <iframe
+      class="location-section__map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.2813449937935!2d-98.27124401515535!3d19.007320308202175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc781b8c138e7%3A0x53d75d2fccf3ed93!2sPlaza%20Aventura!5e0!3m2!1ses!2sus!4v1776286393316!5m2!1ses!2sus"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Mapa de ubicación Plaza Aventura"
+    ></iframe>
+  </div>
+</section>
+
+<section class="contact-section" id="contacto" aria-label="Contacto Plaza Aventura">
+  <article class="contact-section__intro">
+    <img
+      class="contact-section__logo"
+      ngSrc="/img/logos/only%20logo%20aventura%20black.png"
+      width="180"
+      height="180"
+      alt="Logo Plaza Aventura"
+    />
+    <span>Contacto</span>
+    <h2>Escríbenos para conocer disponibilidad y opciones para tu negocio.</h2>
+    <p>
+      Nuestro equipo de administración te responderá para brindarte información sobre locales, servicios
+      y condiciones comerciales.
+    </p>
+  </article>
+
+  <form class="contact-section__form" [formGroup]="contactForm" (ngSubmit)="submitContactForm()">
+    <label>
+      Nombre completo
+      <input type="text" formControlName="name" placeholder="Tu nombre" />
+    </label>
+
+    <label>
+      Correo electrónico
+      <input type="email" formControlName="email" placeholder="nombre@correo.com" />
+    </label>
+
+    <label>
+      Teléfono
+      <input type="tel" formControlName="phone" placeholder="222 000 0000" />
+    </label>
+
+    <label>
+      Mensaje
+      <textarea formControlName="message" rows="4" placeholder="Cuéntanos en qué podemos ayudarte"></textarea>
+    </label>
+
+    <button class="btn btn--primary" type="submit">Enviar mensaje</button>
+
+    @if (hasSubmittedContact()) {
+      <p class="contact-section__success">Gracias por escribirnos. Te contactaremos pronto.</p>
+    }
+  </form>
 </section>

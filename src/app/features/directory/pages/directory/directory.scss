@@ -1,0 +1,217 @@
+:host {
+  display: block;
+}
+
+.directory-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.directory-page__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.directory-page__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  color: var(--color-terracotta);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.directory-page h1 {
+  margin: 0 0 0.8rem;
+  color: var(--color-text);
+  line-height: 1.1;
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+}
+
+.directory-page p {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.directory-page__back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  background: rgba(200, 107, 92, 0.12);
+  border: 1px solid var(--color-terracotta-border);
+  color: var(--color-text);
+}
+
+.directory-page__filters {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr auto;
+  gap: 0.75rem;
+  align-items: end;
+  margin-bottom: 0.8rem;
+}
+
+.directory-page__field {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.directory-page__field input,
+.directory-page__field select {
+  width: 100%;
+  border: 1px solid var(--color-terracotta-border-soft);
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.8rem;
+  font: inherit;
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.directory-page__clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.66rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-terracotta-border);
+  background: rgba(200, 107, 92, 0.12);
+  color: var(--color-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.directory-page__results {
+  margin: 0 0 0.85rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.directory-page__status {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--color-terracotta-border-soft);
+  color: var(--color-text-muted);
+}
+
+.directory-page__pagination {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.directory-page__pagination p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.directory-page__pager {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.58rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-terracotta-border);
+  background: rgba(200, 107, 92, 0.12);
+  color: var(--color-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.directory-page__pager:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.directory-page__list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.directory-page__row {
+  display: grid;
+  grid-template-columns: auto 1.2fr 1fr auto;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-terracotta-border-soft);
+  background: var(--color-panel);
+  box-shadow: 0 12px 28px var(--color-panel-shadow);
+}
+
+.directory-page__logo {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(200, 107, 92, 0.2);
+  background: #fff;
+}
+
+.directory-page__name {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.directory-page__schedule,
+.directory-page__local {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.directory-page__local {
+  justify-self: end;
+}
+
+@media (max-width: 900px) {
+  .directory-page__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .directory-page__row {
+    grid-template-columns: auto 1fr;
+    gap: 0.55rem 0.9rem;
+  }
+
+  .directory-page__filters {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .directory-page__pagination {
+    flex-wrap: wrap;
+  }
+
+  .directory-page__name,
+  .directory-page__schedule,
+  .directory-page__local {
+    grid-column: 2;
+  }
+
+  .directory-page__local {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .directory-page {
+    padding-inline: 1rem;
+  }
+}
