@@ -64,12 +64,18 @@
       class="store-carousel__control"
       type="button"
       aria-label="Ver tiendas anteriores"
-      (click)="moveStoreCarousel(storeViewport, -1)"
+      (click)="moveStoreCarousel(storeViewport, -1); onStoreCarouselInteraction()"
     >
       ‹
     </button>
 
-    <div class="store-carousel__viewport" #storeViewport>
+    <div
+      class="store-carousel__viewport"
+      #storeViewport
+      (mouseenter)="onStoreCarouselInteraction()"
+      (touchstart)="onStoreCarouselInteraction()"
+      (focusin)="onStoreCarouselInteraction()"
+    >
       <div class="store-carousel__track">
         @for (logo of storeLogos; track logo.src) {
           <article class="store-carousel__card" aria-label="Logo de tienda">
@@ -89,7 +95,7 @@
       class="store-carousel__control"
       type="button"
       aria-label="Ver más tiendas"
-      (click)="moveStoreCarousel(storeViewport, 1)"
+      (click)="moveStoreCarousel(storeViewport, 1); onStoreCarouselInteraction()"
     >
       ›
     </button>

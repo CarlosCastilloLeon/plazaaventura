@@ -23,10 +23,15 @@ export class HomeComponent implements AfterViewInit {
   private readonly destroyRef = inject(DestroyRef);
   private readonly formBuilder = inject(FormBuilder);
   private readonly numberFormatter = new Intl.NumberFormat('es-MX');
+  private readonly storeCarouselAutoplayDelay = 3200;
   private indicatorObserver?: IntersectionObserver;
+  private storeCarouselIntervalId?: number;
 
   @ViewChild('indicatorsSection')
   private readonly indicatorsSection?: ElementRef<HTMLElement>;
+
+  @ViewChild('storeViewport')
+  private readonly storeViewport?: ElementRef<HTMLElement>;
 
   protected readonly slides = [
     {
@@ -209,6 +214,11 @@ export class HomeComponent implements AfterViewInit {
     });
   }
 
+  protected onStoreCarouselInteraction(): void {
+    this.stopStoreCarouselAutoplay();
+    this.startStoreCarouselAutoplay();
+  }
+
   constructor() {
     const intervalId = setInterval(() => {
       this.nextSlide();
@@ -221,6 +231,7 @@ export class HomeComponent implements AfterViewInit {
     this.destroyRef.onDestroy(() => {
       clearInterval(intervalId);
       clearInterval(testimonialIntervalId);
+      this.stopStoreCarouselAutoplay();
       this.indicatorObserver?.disconnect();
     });
   }
@@ -247,6 +258,44 @@ export class HomeComponent implements AfterViewInit {
     );
 
     this.indicatorObserver.observe(section);
+
+    this.startStoreCarouselAutoplay();
+  }
+
+  private startStoreCarouselAutoplay(): void {
+    const viewport = this.storeViewport?.nativeElement;
+
+    if (!viewport) {
+      return;
+    }
+
+    this.stopStoreCarouselAutoplay();
+
+    this.storeCarouselIntervalId = window.setInterval(() => {
+      const maxScrollLeft = viewport.scrollWidth - viewport.clientWidth;
+
+      if (maxScrollLeft <= 0) {
+        return;
+      }
+
+      const isAtEnd = viewport.scrollLeft >= maxScrollLeft - 2;
+
+      if (isAtEnd) {
+        viewport.scrollTo({ left: 0, behavior: 'smooth' });
+        return;
+      }
+
+      this.moveStoreCarousel(viewport, 1);
+    }, this.storeCarouselAutoplayDelay);
+  }
+
+  private stopStoreCarouselAutoplay(): void {
+    if (this.storeCarouselIntervalId === undefined) {
+      return;
+    }
+
+    clearInterval(this.storeCarouselIntervalId);
+    this.storeCarouselIntervalId = undefined;
   }
 
   protected formatIndicatorValue(index: number): string {

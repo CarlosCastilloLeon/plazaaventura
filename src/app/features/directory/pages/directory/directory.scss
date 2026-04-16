@@ -46,7 +46,7 @@
   border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
-  background: rgba(200, 107, 92, 0.12);
+  background: var(--color-accent-soft);
   border: 1px solid var(--color-terracotta-border);
   color: var(--color-text);
 }
@@ -85,7 +85,7 @@
   padding: 0.66rem 0.95rem;
   border-radius: 999px;
   border: 1px solid var(--color-terracotta-border);
-  background: rgba(200, 107, 92, 0.12);
+  background: var(--color-accent-soft);
   color: var(--color-text);
   font-weight: 700;
   cursor: pointer;
@@ -127,7 +127,7 @@
   padding: 0.58rem 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--color-terracotta-border);
-  background: rgba(200, 107, 92, 0.12);
+  background: var(--color-accent-soft);
   color: var(--color-text);
   font-weight: 700;
   cursor: pointer;
@@ -160,7 +160,7 @@
   height: 3.2rem;
   border-radius: 999px;
   object-fit: cover;
-  border: 1px solid rgba(200, 107, 92, 0.2);
+  border: 1px solid var(--color-accent-border-strong);
   background: #fff;
 }
 

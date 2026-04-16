@@ -1,32 +1,99 @@
 <header class="site-header">
-  <div class="site-header__side site-header__side--left" aria-label="Horario de la plaza">
-    Abierto Lun-Dom 6am-10pm
+  <div class="site-header__utility" aria-label="Información general de la plaza">
+    <div class="site-header__utility-container">
+      <p class="site-header__meta">Abierto Lun-Dom 6am-10pm</p>
+
+      <p class="site-header__meta site-header__meta--location">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>Ubicación</span>
+      </p>
+    </div>
   </div>
 
-  <div class="site-header__container">
-    <a class="brand" href="#inicio" aria-label="Ir al inicio de Plaza Aventura">
-      <img
-        class="brand__logo"
-        ngSrc="img/logos/logo aventura black.png"
-        width="210"
-        height="70"
-        alt="Plaza Aventura"
-      />
-    </a>
+  <div class="site-header__main">
+    <div class="site-header__container">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio de Plaza Aventura">
+        <img
+          class="brand__logo"
+          [ngSrc]="currentLogoPath()"
+          width="210"
+          height="70"
+          alt="Plaza Aventura"
+        />
+      </a>
 
-    <nav class="nav" aria-label="Navegación principal">
-      <a href="#inicio">Inicio</a>
-      <a href="#tiendas">Nuestras Tiendas</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#galeria">Galería</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+      <button
+        type="button"
+        class="site-header__burger"
+        aria-controls="main-navigation"
+        [attr.aria-expanded]="isMobileMenuOpen()"
+        [attr.aria-label]="isMobileMenuOpen() ? 'Cerrar menú principal' : 'Abrir menú principal'"
+        [class.site-header__burger--open]="isMobileMenuOpen()"
+        (click)="toggleMobileMenu()"
+      >
+        <span class="site-header__burger-line" aria-hidden="true"></span>
+        <span class="site-header__burger-line" aria-hidden="true"></span>
+        <span class="site-header__burger-line" aria-hidden="true"></span>
+      </button>
 
-    <a class="site-header__cta" href="#disponibles">Locales Disponibles</a>
-  </div>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal" [class.nav--mobile-open]="isMobileMenuOpen()">
+        <div class="nav__mobile-head">
+          <strong>Menú</strong>
 
-  <div class="site-header__side site-header__side--right" aria-label="Ubicación">
-    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <button type="button" class="nav__mobile-close" aria-label="Cerrar menú" (click)="closeMobileMenu()">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <a class="nav__link" href="#inicio" (click)="closeMobileMenu()">Inicio</a>
+        <a class="nav__link" href="#tiendas" (click)="closeMobileMenu()">Nuestras Tiendas</a>
+        <a class="nav__link" href="#servicios" (click)="closeMobileMenu()">Servicios</a>
+        <a class="nav__link" href="#nosotros" (click)="closeMobileMenu()">Nosotros</a>
+        <a class="nav__link" href="#galeria" (click)="closeMobileMenu()">Galería</a>
+        <a class="nav__link" href="#contacto" (click)="closeMobileMenu()">Contacto</a>
+      </nav>
+
+      <button
+        type="button"
+        class="site-header__mobile-backdrop"
+        [class.site-header__mobile-backdrop--open]="isMobileMenuOpen()"
+        aria-label="Cerrar menú principal"
+        (click)="closeMobileMenu()"
+      ></button>
+
+      <div class="site-header__actions">
+        <a class="site-header__cta" href="#disponibles">Locales Disponibles</a>
+
+        <details class="theme-menu" #themeMenu>
+          <summary class="theme-menu__trigger" aria-label="Abrir selector de temas">
+            <i class="fa-solid fa-palette" aria-hidden="true"></i>
+          </summary>
+
+          <button
+            type="button"
+            class="theme-menu__backdrop"
+            aria-label="Cerrar selector de temas"
+            (click)="closeThemeMenu(themeMenu)"
+          ></button>
+
+          <div class="theme-menu__panel" role="menu" aria-label="Seleccionar paleta de colores">
+            @for (theme of themeOptions; track trackByTheme($index, theme)) {
+              <button
+                type="button"
+                class="theme-menu__item"
+                [class.theme-menu__item--active]="selectedTheme() === theme.value"
+                (click)="selectTheme(theme.value, themeMenu)"
+                role="menuitem"
+              >
+                <span>{{ theme.label }}</span>
+                @if (selectedTheme() === theme.value) {
+                  <i class="fa-solid fa-check" aria-hidden="true"></i>
+                }
+              </button>
+            }
+          </div>
+        </details>
+      </div>
+    </div>
   </div>
 </header>
