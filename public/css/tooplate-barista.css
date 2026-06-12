@@ -336,7 +336,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background: #00000070;
   z-index: 999999;
   padding-top: 30px;
   padding-bottom: 30px;
