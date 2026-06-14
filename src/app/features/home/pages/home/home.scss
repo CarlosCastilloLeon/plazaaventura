@@ -82,4 +82,90 @@
   .barista-section .team-block-wrap {
     aspect-ratio: 5 / 6;
   }
+
+.store-carousel{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+.store-carousel {
+  padding-top: 1.75rem;
+}
+
+.store-carousel__viewport {
+  overflow: hidden;
+  border-radius: 1.1rem;
+  border: 1px solid var(--color-terracotta-border-soft);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(247, 243, 238, 0.7));
+}
+
+.store-carousel__shell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.store-carousel__shell .store-carousel__viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.store-carousel__control {
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-terracotta-border);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--color-text);
+  display: grid;
+  place-items: center;
+  font-size: 1.55rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.store-carousel__track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.store-carousel__card {
+  width: 13rem;
+  height: 7.3rem;
+  flex: 0 0 13rem;
+  border-radius: 0.85rem;
+  border: 1px solid var(--color-terracotta-border-soft);
+  background: rgba(255, 255, 255, 0.9);
+  display: grid;
+  place-items: center;
+  padding: 0.85rem;
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+
+.store-carousel__logo {
+  width: auto;
+  height: auto;
+  max-width: 88%;
+  max-height: 76%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+.store-carousel__viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.store-carousel__viewport::-webkit-scrollbar {
+  display: none;
+}
+
 }

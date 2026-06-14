@@ -1,0 +1,30 @@
+<section class="store-carousel" id="tiendas" aria-label="Tiendas de Plaza Aventura">
+    <div class="section-heading">
+
+        <h2 style="color: antiquewhite;">Nuestras Tiendas</h2>
+    </div>
+
+    <div class="store-carousel__shell" aria-label="Controles del carrusel de tiendas">
+        <button class="store-carousel__control" type="button" aria-label="Ver tiendas anteriores"
+            (click)="moveStoreCarousel(storeViewport, -1); onStoreCarouselInteraction()">
+            ‹
+        </button>
+
+        <div class="store-carousel__viewport" #storeViewport (mouseenter)="onStoreCarouselInteraction()"
+            (touchstart)="onStoreCarouselInteraction()" (focusin)="onStoreCarouselInteraction()">
+            <div class="store-carousel__track">
+                @for (logo of storeLogos; track logo.src) {
+                <article class="store-carousel__card" aria-label="Logo de tienda">
+                    <img class="store-carousel__logo" [ngSrc]="logo.src" [alt]="logo.alt" fill
+                        sizes="(min-width: 768px) 15vw, 30vw" />
+                </article>
+                }
+            </div>
+        </div>
+
+        <button class="store-carousel__control" type="button" aria-label="Ver más tiendas"
+            (click)="moveStoreCarousel(storeViewport, 1); onStoreCarouselInteraction()">
+            ›
+        </button>
+    </div>
+</section>

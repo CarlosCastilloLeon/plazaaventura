@@ -16,6 +16,11 @@ export const routes: Routes = [
       import('./features/reservation/pages/reservation/reservation').then((m) => m.ReservationComponent),
   },
   {
+    path: 'carrusel-negocios',
+    loadComponent: () =>
+      import('./features/carrusel-negocios/carrusel-negocios').then((m) => m.CarruselNegocios),
+  },
+  {
     path: '**',
     redirectTo: '',
   },
