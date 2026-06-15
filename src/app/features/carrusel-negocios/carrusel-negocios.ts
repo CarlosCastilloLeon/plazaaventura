@@ -8,7 +8,7 @@ import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, ViewChil
   styleUrl: './carrusel-negocios.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CarruselNegocios implements AfterViewInit{
+export class CarruselNegocios implements AfterViewInit {
   @ViewChild('storeViewport')
   private readonly storeViewport?: ElementRef<HTMLElement>;
   private readonly storeCarouselAutoplayDelay = 3200;
@@ -19,13 +19,14 @@ export class CarruselNegocios implements AfterViewInit{
       alt: 'ATT',
     },
     {
-      src: '/images/logos-tiendas/Avanti%20Cocinas.jpg',
-      alt: 'Avanti Cocinas',
-    },
-    {
       src: '/images/logos-tiendas/DHL_rgb.png',
       alt: 'DHL',
     },
+    {
+      src: '/images/logos-tiendas/Avanti%20Cocinas.jpg',
+      alt: 'Avanti Cocinas',
+    },
+
     {
       src: '/images/logos-tiendas/ecoclean.jpg',
       alt: 'Ecoclean',
@@ -47,7 +48,7 @@ export class CarruselNegocios implements AfterViewInit{
   //Carrusel de negocios
 
   ngAfterViewInit(): void {
-    this.startStoreCarouselAutoplay();
+    // this.startStoreCarouselAutoplay();
   }
 
   protected moveStoreCarousel(viewport: HTMLElement, direction: -1 | 1): void {

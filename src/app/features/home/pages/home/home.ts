@@ -6,10 +6,11 @@ import { SitePublicFooterComponent } from '../../../../core/layout/site-public-f
 import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-header/site-public-header';
 import { BUSINESS_DIRECTORY } from '../../../businesses/data/business-directory.data';
 import { CarruselNegocios } from "../../../carrusel-negocios/carrusel-negocios";
+import { CarruselZ } from '../../../carruselZ/carruselZ';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent, NgOptimizedImage, CarruselNegocios],
+  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent, NgOptimizedImage, CarruselNegocios, CarruselZ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

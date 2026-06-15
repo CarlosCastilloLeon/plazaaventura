@@ -15,8 +15,7 @@
             <div class="store-carousel__track">
                 @for (logo of storeLogos; track logo.src) {
                 <article class="store-carousel__card" aria-label="Logo de tienda">
-                    <img class="store-carousel__logo" [ngSrc]="logo.src" [alt]="logo.alt" fill
-                        sizes="(min-width: 768px) 15vw, 30vw" />
+                    <img class="store-carousel__logo" [ngSrc]="logo.src" [alt]="logo.alt" fill sizes="(min-width: 768px) 25vw, 50vw" />
                 </article>
                 }
             </div>
