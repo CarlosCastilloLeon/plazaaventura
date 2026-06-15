@@ -1,10 +1,10 @@
 <div class="blog">
     <div class="container">
         <div class="section-header text-center">
-           
+
             <h2>Nuestras Tiendas</h2>
         </div>
-        <owl-carousel-o [options]="blogCarouselOptions" class="blog-carousel">
+        <owl-carousel-o [options]="blogCarouselOptions" class="blog-carousel" #blogCarousel>
 
             @for (slide of blogPosts(); track slide.id) {
             <ng-template carouselSlide [id]="slide.id">
@@ -31,6 +31,14 @@
             }
 
         </owl-carousel-o>
+        <div class="owl-nav">
+            <button type="button" class="owl-prev" (click)="blogCarousel.prev()">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="owl-next" (click)="blogCarousel.next()">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </button>
+        </div>
     </div>
 </div>
 

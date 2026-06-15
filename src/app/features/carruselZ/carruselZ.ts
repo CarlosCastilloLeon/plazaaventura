@@ -22,7 +22,7 @@ export class CarruselZ {
    blogPosts = signal<BlogPost[]>([
     {
       id:'1',
-      image: '/images/blog/blog-1.jpg',
+      image: '/images/logos-tiendas/ATT vertical-01.jpg',
       tag: 'Hair Cut',
       date: '01-Jan-2045',
       title: 'Lorem ipsum dolor',
@@ -31,7 +31,7 @@ export class CarruselZ {
     },
     {
       id:'2',
-      image: '/images/blog/blog-2.jpg',
+      image: '/images/logos-tiendas/Avanti Cocinas.jpg',
       tag: 'Beard Style',
       date: '01-Jan-2045',
       title: 'Lorem ipsum dolor',
@@ -40,7 +40,7 @@ export class CarruselZ {
     },
     {
       id:'3',
-      image: '/images/blog/blog-3.jpg',
+      image: '/images/logos-tiendas/DHL_rgb.png',
       tag: 'Color & Wash',
       date: '01-Jan-2045',
       title: 'Lorem ipsum dolor',
@@ -49,7 +49,7 @@ export class CarruselZ {
     },
     {
       id:'4',
-      image: '/images/blog/blog-4.jpg',
+      image: '/images/logos-tiendas/ecoclean.jpg',
       tag: 'Hair Cut',
       date: '01-Jan-2045',
       title: 'Lorem ipsum dolor',
@@ -80,7 +80,7 @@ export class CarruselZ {
     loop: true,
     autoplay: true,
     dots: false,
-    nav: true,
+    nav: false,
     navText: [
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>'
