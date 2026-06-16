@@ -17,10 +17,10 @@
                     <i class="fa fa-list-alt"></i>
                     <a href="javascript:void(0)">{{ slide.tag }}</a>
                     <i class="fa fa-calendar-alt"></i>
-                    <p>{{ slide.date }}</p>
+                    <p style="font-size: 0.85rem;color: #2b1c1c;margin-bottom: 10px;">{{ slide.date }}</p>
                 </div>
                 <div class="blog-text">
-                    <h2>{{ slide.title }}</h2>
+                    <h2 style="font-size: 1.3rem;  font-weight: 700;  color: #333333;  margin: 10px 0;">{{ slide.title }}</h2>
                     <p class="blog-description">{{ slide.excerpt }}</p>
                     <a class="btn" [href]="slide.link || 'javascript:void(0)'">
                         Más Información <i class="fa fa-angle-right"></i>

@@ -34,7 +34,7 @@
 }
 
 .barista-section .team-block-image-wrap {
-  padding-top: 30px;
+  padding-top: 0px;
   text-align: -webkit-center;
 }
 
@@ -170,5 +170,11 @@
   .store-carousel__viewport::-webkit-scrollbar {
     display: none;
   }
-
+  .servicio-card {
+  background: #ffffff; 
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
 }

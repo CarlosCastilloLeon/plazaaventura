@@ -78,7 +78,7 @@ export class CarruselZ {
 
   blogCarouselOptions: OwlOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     dots: false,
     nav: false,
     navText: [
