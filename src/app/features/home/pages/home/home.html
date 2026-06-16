@@ -23,7 +23,9 @@
     <div class="hero-slides"></div>
   </section>
 
-  <section class="about-section section-padding" id="section_2">
+ 
+   <app-carrusel-z style="background: #bc6c25;"></app-carrusel-z>
+    <section class="about-section section-padding" id="section_2">
     <div class="section-overlay"></div>
     <div class="container">
       <div class="row align-items-center">
@@ -69,7 +71,6 @@
       </div>
     </div>
   </section>
-
   <section class="barista-section section-padding section-bg" id="barista-team" id="section_3">
     <div class="container">
       <div class="row justify-content-center">
@@ -165,81 +166,8 @@
   </section>
 
 
-  <app-carrusel-z style="
-    background: #bc6c25;"></app-carrusel-z>
-  <!--section class="menu-section section-padding" id="section_3">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-          <div class="menu-block-wrap">
-            <div class="text-center mb-4 pb-lg-2">
-              <h4 class="text-white">Servicios</h4>
-            </div>
-
-            @for (business of serviceBusinesses; track business.slug) {
-              <div class="menu-block" [class.my-4]="!$first && !$last">
-                <div class="d-flex menu-block__row">
-                  <h6 class="menu-block__title-with-logo">
-                    <a class="menu-block__link" [routerLink]="['/locales', business.slug]">
-                      <img [src]="business.logoSrc" [alt]="business.logoAlt" class="menu-block__logo" />
-                      <span>
-                        {{ business.name }}
-                        @if (business.badge) {
-                          <span class="badge ms-3">{{ business.badge }}</span>
-                        }
-                      </span>
-                    </a>
-                  </h6>
-
-                  <span class="underline"></span>
-
-                  <strong class="ms-auto">{{ business.schedule }}</strong>
-                </div>
-
-                <div class="border-top mt-2 pt-2">
-                  <small>{{ business.unit }}</small>
-                </div>
-              </div>
-            }
-          </div>
-        </div>
-        
-        <div class="col-lg-6 col-12">
-          <div class="menu-block-wrap">
-            <div class="text-center mb-4 pb-lg-2">
-              <h4 class="text-white">Más opciones</h4>
-            </div>
-
-            @for (business of moreOptionBusinesses; track business.slug) {
-              <div class="menu-block" [class.my-4]="!$first && !$last">
-                <div class="d-flex menu-block__row">
-                  <h6 class="menu-block__title-with-logo">
-                    <a class="menu-block__link" [routerLink]="['/locales', business.slug]">
-                      <img [src]="business.logoSrc" [alt]="business.logoAlt" class="menu-block__logo" />
-                      <span>
-                        {{ business.name }}
-                        @if (business.badge) {
-                          <span class="badge ms-3">{{ business.badge }}</span>
-                        }
-                      </span>
-                    </a>
-                  </h6>
-
-                  <span class="underline"></span>
-
-                  <strong class="ms-auto">{{ business.schedule }}</strong>
-                </div>
-
-                <div class="border-top mt-2 pt-2">
-                  <small>{{ business.unit }}</small>
-                </div>
-              </div>
-            }
-          </div>
-        </div>
-      </div>
-    </div>
-  </section-->
+ 
+ 
 
   <section class="reviews-section section-padding section-bg" id="section_4">
     <div class="container">

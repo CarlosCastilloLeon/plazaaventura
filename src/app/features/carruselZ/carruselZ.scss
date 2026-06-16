@@ -5,8 +5,16 @@
     position: relative;
     width: 100%;
     padding: 45px 0;
+    background: #c5a78c;
 }
 
+.blog .section-title {
+    color: #413a3a;
+}
+.blog .blog-description {
+    color: #413a3a;
+    margin-bottom: 30px;
+}
 .blog .blog-carousel {
     position: relative;
     width: calc(100% + 30px);
@@ -57,7 +65,7 @@
     padding: 0;
     font-size: 14px;
     font-weight: 300;
-    color: #797979;
+    color: #311502e0;
 }
 
 .blog .blog-meta i {
