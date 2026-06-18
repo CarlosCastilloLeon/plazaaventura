@@ -1,0 +1,92 @@
+// ── Paleta ──────────────────────────────────────────────────────────────
+// Fondo sección  : #4d271b  (café oscuro, definido en .blog)
+// Tarjeta base   : #FDF6EC  (crema cálido)
+// Tarjeta hover  : #FFF9F0  (crema más claro)
+// Borde tarjeta  : #E8C98A  (dorado arena)
+// Ícono bg       : #C8862A  (ámbar dorado)
+// Ícono bg hover : #A86B1A  (ámbar oscuro)
+// Número         : #3B1F10  (marrón profundo — anclaje a paleta)
+// Flecha         : #C8862A  (ámbar, igual que ícono)
+// Etiqueta       : #6B4226  (marrón medio, legible sobre crema)
+// ────────────────────────────────────────────────────────────────────────
+
+.blog {
+  position: relative;
+  width: 100%;
+  padding: 55px 0;
+  background: #4d271b;
+}
+
+// ── Tarjeta ──────────────────────────────────────────────────────────────
+.fact-card {
+  background: #FDF6EC !important;
+  border: 1.5px solid #E8C98A;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(77, 39, 27, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+
+  &:hover {
+    background: #FFF9F0 !important;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(77, 39, 27, 0.35);
+  }
+
+  // Número grande
+  h1.display-4 {
+    color: #3B1F10;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  // Etiqueta inferior
+  span.fs-5 {
+    color: #6B4226;
+    font-weight: 500;
+  }
+
+  // Flecha separadora
+  i.fa-arrow-right {
+    color: #C8862A !important;
+    font-size: 1rem;
+  }
+}
+
+// ── Ícono ────────────────────────────────────────────────────────────────
+.fact-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C8862A !important;  // Reemplaza bg-primary
+  border-radius: 8px;
+  flex-shrink: 0;
+  transition: background-color 0.25s ease;
+
+  i {
+    color: #FDF6EC !important;
+    font-size: 1.1rem;
+  }
+
+  .fact-card:hover & {
+    background-color: #A86B1A !important;
+  }
+}
+
+// ── Responsive ───────────────────────────────────────────────────────────
+@media (max-width: 767.98px) {
+  .blog {
+    padding: 35px 0;
+  }
+
+  .important-facts-section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .fact-card {
+    h1.display-4 {
+      font-size: 2.5rem;
+    }
+  }
+}

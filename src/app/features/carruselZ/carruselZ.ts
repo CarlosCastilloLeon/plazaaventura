@@ -24,7 +24,7 @@ export class CarruselZ {
       id:'1',
       image: '/images/logos-tiendas/ATT vertical-01.jpg',
       tag: 'ATT&T',
-      date: 'Lun 09:00 - 21:00',
+      date: 'Lun - Sab 09:00 - 21:00',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda ATT&T, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
@@ -33,7 +33,7 @@ export class CarruselZ {
       id:'2',
       image: '/images/logos-tiendas/Avanti Cocinas.jpg',
       tag: 'Avanti Cocinas',
-      date: 'Lun 09:00 - 21:00',
+      date: 'Lun - Sab 09:00 - 21:00',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda Avanti Cocinas, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
@@ -42,7 +42,7 @@ export class CarruselZ {
       id:'3',
       image: '/images/logos-tiendas/DHL_rgb.png',
       tag: 'DHL',
-      date: 'Lun 09:00 - 21:00',
+      date: 'Lun - Sab 09:00 - 21:00',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda DHL, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
@@ -51,7 +51,7 @@ export class CarruselZ {
       id:'4',
       image: '/images/logos-tiendas/ecoclean.jpg',
       tag: 'Ecoclean',
-      date: 'Lun 09:00 - 21:00',
+      date: 'Lun - Sab 09:00 - 21:00',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda Ecoclean, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
@@ -60,7 +60,7 @@ export class CarruselZ {
       id:'5',
       image: '/images/logos-tiendas/italianlogo.png',
       tag: 'Italian Coffee',
-      date: 'Lun a Dom 09:00 - 21:00',
+      date: 'Lun - Dom 09:00 - 21:00',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda Italian Coffee, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
@@ -69,7 +69,7 @@ export class CarruselZ {
       id:'6',
       image: '/images/logos-tiendas/Oxxo.jpg',
       tag: 'Oxxo',
-      date: 'Lun a Dom 24 horas',
+      date: 'Lun - Dom 24 horas',
       title: 'Distribuidor Autorizado',
       excerpt: 'Descripcion de la tienda Oxxo, Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor',
       link: ''
