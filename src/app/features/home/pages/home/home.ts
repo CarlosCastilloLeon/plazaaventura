@@ -5,13 +5,19 @@ import { RouterLink } from '@angular/router';
 import { SitePublicFooterComponent } from '../../../../core/layout/site-public-footer/site-public-footer';
 import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-header/site-public-header';
 import { BUSINESS_DIRECTORY } from '../../../businesses/data/business-directory.data';
-import { CarruselNegocios } from "../../../carrusel-negocios/carrusel-negocios";
 import { CarruselZ } from '../../../carruselZ/carruselZ';
-import { Gallery } from "../../../gallery/gallery";
-
+import { FactsComponent } from "../../../facts/facts.component";
+import { TestimonialsComponent } from '../../../testimonials/testimonials.component';
+import { Gallery } from '../../../gallery/gallery';
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent, NgOptimizedImage, CarruselNegocios, CarruselZ, Gallery],
+  imports: [
+    SitePublicHeaderComponent,
+    SitePublicFooterComponent,
+    CarruselZ, FactsComponent,
+    TestimonialsComponent,
+    Gallery
+],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

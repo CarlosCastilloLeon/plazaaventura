@@ -5,6 +5,16 @@
     position: relative;
     width: 100%;
     padding: 45px 0;
+    background: #c5a78c;
+}
+
+.blog .section-title {
+    color: #413a3a;
+}
+
+.blog .blog-description {
+    color: #413a3a;
+    margin-bottom: 30px;
 }
 
 .blog .blog-carousel {
@@ -16,9 +26,22 @@
 
 .blog .blog-item {
     position: relative;
-    margin: 0 15px;
+    border-radius: 12px;
+    /* Suaviza las esquinas */
+    margin: 15px;
+    /* Espacio entre tarjetas */
     background: rgba(29, 36, 52, .04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+}
+
+.blog-item:hover {
+    transform: translateY(-5px);
+    /* Se eleva sutilmente */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    /* La sombra se intensifica */
 }
 
 .blog .blog-page .blog-item {
@@ -26,8 +49,17 @@
 }
 
 .blog .blog-img {
-    position: relative;
     width: 100%;
+    height: 220px;
+    /* Define una altura fija para que todas las tarjetas midan lo mismo */
+    overflow: hidden;
+    background-color: #ffffff;
+    /* Fondo blanco unificado para logos con transparencias */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0 0;
+    /* Esquinas redondeadas solo arriba */
 }
 
 .blog .blog-img::after {
@@ -44,11 +76,16 @@
 
 .blog .blog-img img {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Ajusta el logo sin deformarlo */
+    padding: 20px;
+    /* Evita que los logos toquen los bordes de la tarjeta */
 }
 
 .blog .blog-meta {
-    position: relative;
-    padding: 20px 30px 12px 30px;
+   padding: 25px; /* Espaciado interno elegante */
+  text-align: left;
 }
 
 .blog .blog-meta * {
@@ -57,7 +94,7 @@
     padding: 0;
     font-size: 14px;
     font-weight: 300;
-    color: #797979;
+    color: #311502e0;
 }
 
 .blog .blog-meta i {
@@ -105,11 +142,27 @@
     display: flex;
 }
 
+.owl-nav button {
+  background: #ffffff !important;
+  color: #333333 !important;
+  border: 1px solid #e0e0e0 !important;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /* Flechas redondas modernas */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+.owl-nav button:hover {
+  background: #333333 !important; /* Invierte color al pasar el cursor */
+  color: #ffffff !important;
+}
+
 .blog .owl-nav .owl-prev,
 .blog .owl-nav .owl-next {
     margin-left: 15px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
