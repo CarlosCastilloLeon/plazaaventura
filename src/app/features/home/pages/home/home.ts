@@ -7,10 +7,11 @@ import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-h
 import { BUSINESS_DIRECTORY } from '../../../businesses/data/business-directory.data';
 import { CarruselNegocios } from "../../../carrusel-negocios/carrusel-negocios";
 import { CarruselZ } from '../../../carruselZ/carruselZ';
+import { Gallery } from "../../../gallery/gallery";
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent, NgOptimizedImage, CarruselNegocios, CarruselZ],
+  imports: [RouterLink, SitePublicHeaderComponent, SitePublicFooterComponent, NgOptimizedImage, CarruselNegocios, CarruselZ, Gallery],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

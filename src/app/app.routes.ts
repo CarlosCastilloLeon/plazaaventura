@@ -21,6 +21,10 @@ export const routes: Routes = [
       import('./features/carrusel-negocios/carrusel-negocios').then((m) => m.CarruselNegocios),
   },
   {
+    path: 'gallery',
+    loadComponent: () => import('./features/gallery/gallery').then((m) => m.Gallery),
+  },
+  {
     path: '**',
     redirectTo: '',
   },
