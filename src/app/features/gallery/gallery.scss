@@ -1,4 +1,4 @@
-gallery {
+﻿gallery {
   width: 100%;
 }
 
@@ -6,4 +6,11 @@ main {
   width: 100%;
   box-sizing: border-box;
   padding: 50px;
+  background-color: burlywood;
+}
+
+p {
+    color: #251003;
+    font-size: var(--p-font-size);
+    font-weight: 600;
 }

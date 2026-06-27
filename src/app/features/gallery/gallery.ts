@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, OnDestroy, ViewChild } from '@angular/core';
 import { GalleryComponent, GalleryItem } from '@daelmaak/ngx-gallery';
 
 @Component({
@@ -8,34 +8,77 @@ import { GalleryComponent, GalleryItem } from '@daelmaak/ngx-gallery';
   styleUrls: ['./gallery.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Gallery {
+export class Gallery implements AfterViewInit, OnDestroy {
+  @ViewChild(GalleryComponent) gallery?: GalleryComponent;
+  private galleryAutoplayTimer?: ReturnType<typeof setInterval>;
+  private readonly galleryAutoplayDelay = 4000;
 
   items: GalleryItem[] = [
     {
-      src: 'https://cdn.pixabay.com/photo/2020/06/23/15/17/avocado-5332878_960_720.jpg',
-      thumbSrc:
-        'https://cdn.pixabay.com/photo/2020/06/23/15/17/avocado-5332878_960_720.jpg',
+      src: 'images/gallery/g1.JPG',
+      thumbSrc: 'images/gallery/g1.JPG',
     },
     {
-      src: 'https://cdn.pixabay.com/photo/2017/01/12/02/34/coffee-1973549_960_720.jpg',
-      thumbSrc:
-        'https://cdn.pixabay.com/photo/2017/01/12/02/34/coffee-1973549_960_720.jpg',
+      src: 'images/gallery/g2.JPG',
+      thumbSrc: 'images/gallery/g2.JPG',
     },
     {
-      src: 'https://cdn.pixabay.com/photo/2020/06/26/04/40/flower-5341644_960_720.jpg',
-      thumbSrc:
-        'https://cdn.pixabay.com/photo/2020/06/26/04/40/flower-5341644_960_720.jpg',
+      src: 'images/gallery/g3.JPG',
+      thumbSrc: 'images/gallery/g3.JPG',
     },
     {
-      src: 'https://cdn.pixabay.com/photo/2020/05/11/18/49/island-5159729_960_720.jpg',
-      thumbSrc:
-        'https://cdn.pixabay.com/photo/2020/05/11/18/49/island-5159729_960_720.jpg',
+      src: 'images/gallery/g4.JPG',
+      thumbSrc: 'images/gallery/g4.JPG',
     },
     {
-      src: 'https://cdn.pixabay.com/photo/2013/11/15/23/18/john-work-garrett-library-211375_960_720.jpg',
-      thumbSrc:
-        'https://cdn.pixabay.com/photo/2013/11/15/23/18/john-work-garrett-library-211375_960_720.jpg',
+      src: 'images/gallery/g5.JPG',
+      thumbSrc: 'images/gallery/g5.JPG',
     },
+    {
+      src: 'images/gallery/g6.JPG',
+      thumbSrc: 'images/gallery/g6.JPG',
+    },
+    {
+      src: 'images/gallery/g7.JPG',
+      thumbSrc: 'images/gallery/g7.JPG',
+    },
+    {
+      src: 'images/gallery/g8.JPG',
+      thumbSrc: 'images/gallery/g8.JPG',
+    },
+    {
+      src: 'images/gallery/g9.JPG',
+      thumbSrc: 'images/gallery/g9.JPG',
+    },
+    {
+      src: 'images/gallery/g10.JPG',
+      thumbSrc: 'images/gallery/g10.JPG',
+    },
+    {
+      src: 'images/gallery/g11.JPG',
+      thumbSrc: 'images/gallery/g11.JPG',
+    },
+    {
+      src: 'images/gallery/g12.JPG',
+      thumbSrc: 'images/gallery/g12.JPG',
+    },
+    {
+      src: 'images/gallery/g13.JPG',
+      thumbSrc: 'images/gallery/g13.JPG',
+    },
+
+
   ];
 
+  ngAfterViewInit(): void {
+    this.galleryAutoplayTimer = setInterval(() => {
+      this.gallery?.next();
+    }, this.galleryAutoplayDelay);
+  }
+
+  ngOnDestroy(): void {
+    if (this.galleryAutoplayTimer) {
+      clearInterval(this.galleryAutoplayTimer);
+    }
+  }
 }
