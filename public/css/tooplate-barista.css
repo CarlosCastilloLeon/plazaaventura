@@ -134,7 +134,7 @@ strong {
 -----------------------------------------*/
 .section-padding {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
 }
 
 .section-bg {
@@ -789,7 +789,12 @@ strong {
 .reviews-group i {
   color: var(--white-color);
 }
-
+/*---------------------------------------
+  GALLERY              
+-----------------------------------------*/
+.gallery-section {
+  background-color: var(--secondary-color);
+}
 
 /*---------------------------------------
   BOOKING SECTION              
