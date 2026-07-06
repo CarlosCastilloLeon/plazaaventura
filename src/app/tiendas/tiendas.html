@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{tienda?.nombre}}</title>
+</head>
+<body>
+
+    <article class="tienda-contenedor">
+        
+        <header class="tienda-header">
+            <img [src]="tienda?.logo" [alt]="'Logo de ' + tienda?.nombre" class="tienda-logo" width="150">
+            <h1>{{tienda?.nombre}}</h1>
+            <p class="tienda-ubicacion">📍 {{tienda?.ubicacion}}</p>
+        </header>
+
+        <hr>
+
+        <main class="tienda-info">
+            <section class="descripcion">
+                <h2>Sobre Nosotros</h2>
+                <p>{{tienda?.descripcion}}</p>
+            </section>
+
+            <section class="horarios">
+                <h2>Horario de Atención</h2>
+                <ul>
+                    <li><strong>Lun - Vie:</strong> {{tienda?.horario1}}</li>
+                    <li><strong>Sáb:</strong> {{tienda?.horario2}}</li>
+                    <li><strong>Dom:</strong> {{tienda?.horario3}}</li>
+                </ul>
+            </section>
+        </main>
+
+        <hr>
+
+        <section class="tienda-galeria">
+            <h2>Galería de Productos</h2>
+            <div class="galeria-grid">
+                @for (item of tienda?.imagenes; track $index) {
+                    <img  [src]="item.src" [alt]="item.alt" width="200">
+                }
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <footer class="tienda-contacto">
+            <h2>Contacto</h2>
+            
+            <div class="contacto-datos">
+                <p><strong>Teléfono:</strong> <a href="tel:{{tienda?.telefono}}">{{tienda?.telefono}}</a></p>
+                <p><strong>Email:</strong> <a href="mailto:{{tienda?.email}}">{{tienda?.email}}</a></p>
+            </div>
+
+            <div class="redes-sociales">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="https://facebook.com/{{tienda?.facebook}}" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://instagram.com/{{tienda?.instagram}}" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://twitter.com/{{tienda?.twitter}}" target="_blank" rel="noopener">Twitter</a></li>
+                    <li><a href="https://tiktok.com/@{{tienda?.tiktok}}" target="_blank" rel="noopener">TikTok</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </article>
+
+</body>
+</html>
