@@ -1,9 +1,10 @@
 import { AfterViewInit, ChangeDetectionStrategy, Component, OnDestroy, ViewChild } from '@angular/core';
-import { GalleryComponent, GalleryItem } from '@daelmaak/ngx-gallery';
+import { NgIf } from '@angular/common';
+import { GalleryComponent, GalleryItem, GalleryItemEvent } from '@daelmaak/ngx-gallery';
 
 @Component({
   selector: 'app-gallery',
-  imports: [GalleryComponent],
+  imports: [GalleryComponent, NgIf],
   templateUrl: './gallery.html',  
   styleUrls: ['./gallery.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -69,6 +70,36 @@ export class Gallery implements AfterViewInit, OnDestroy {
 
 
   ];
+
+  selectedIndex = -1;
+
+  get currentImage(): GalleryItem | undefined {
+    return this.items[this.selectedIndex];
+  }
+
+  openImage(event: GalleryItemEvent): void {
+    this.selectedIndex = event.index;
+  }
+
+  closeViewer(): void {
+    this.selectedIndex = -1;
+  }
+
+  prevImage(): void {
+    if (this.items.length === 0) {
+      return;
+    }
+
+    this.selectedIndex = (this.selectedIndex - 1 + this.items.length) % this.items.length;
+  }
+
+  nextImage(): void {
+    if (this.items.length === 0) {
+      return;
+    }
+
+    this.selectedIndex = (this.selectedIndex + 1) % this.items.length;
+  }
 
   ngAfterViewInit(): void {
     this.galleryAutoplayTimer = setInterval(() => {
