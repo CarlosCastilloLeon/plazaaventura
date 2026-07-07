@@ -8,9 +8,9 @@
 
             @for (slide of blogPosts(); track slide.tiendaId) {
             <ng-template carouselSlide [id]="slide.tiendaId+''">
-                <div class="blog-item">
+                <div class="blog-item" (click)="openTienda(slide)">
                     <div class="blog-img">
-                        <img [src]="slide.imagen" [alt]="slide.nombre" [title]="slide.nombre" [width]="402"
+                        <img (click)="openTienda(slide)" [src]="slide.imagen" [alt]="slide.nombre" [title]="slide.nombre" [width]="402"
                             [height]="251">
                     </div>
                 </div>

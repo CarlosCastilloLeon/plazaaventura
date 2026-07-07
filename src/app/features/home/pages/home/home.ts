@@ -1,7 +1,8 @@
-import { isPlatformBrowser, NgOptimizedImage } from '@angular/common';
+import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
 import { AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, PLATFORM_ID, ViewChild, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { FormsModule, NgForm } from '@angular/forms';
 
+import { EmailService } from '../../../../shared/services/email.service';
 import { SitePublicFooterComponent } from '../../../../core/layout/site-public-footer/site-public-footer';
 import { SitePublicHeaderComponent } from '../../../../core/layout/site-public-header/site-public-header';
 import { BUSINESS_DIRECTORY } from '../../../businesses/data/business-directory.data';
@@ -10,14 +11,18 @@ import { FactsComponent } from "../../../facts/facts.component";
 import { TestimonialsComponent } from '../../../testimonials/testimonials.component';
 import { Gallery } from '../../../gallery/gallery';
 @Component({
+  standalone: true,
   selector: 'app-home',
   imports: [
+    CommonModule,
+    FormsModule,
     SitePublicHeaderComponent,
     SitePublicFooterComponent,
-    CarruselZ, FactsComponent,
+    CarruselZ,
+    FactsComponent,
     TestimonialsComponent,
     Gallery
-],
+  ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -27,6 +32,41 @@ export class HomeComponent implements AfterViewInit {
   @ViewChild('storeViewport')
   private readonly storeViewport?: ElementRef<HTMLElement>;
   readonly serviceBusinesses = BUSINESS_DIRECTORY.filter((business) => business.section === 'services');
+  contact = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  sending = false;
+  statusMessage?: string;
+  statusClass?: 'success' | 'error';
+
+  private readonly emailService = inject(EmailService);
+
+  async sendMessage(form: NgForm): Promise<void> {
+    if (!form.valid) {
+      this.statusMessage = 'Completa todos los campos obligatorios.';
+      this.statusClass = 'error';
+      return;
+    }
+
+    this.sending = true;
+    this.statusMessage = undefined;
+
+    try {
+      await this.emailService.sendEmail(this.contact);
+      this.statusClass = 'success';
+      this.statusMessage = 'Mensaje enviado correctamente. Gracias por contactarnos.';
+      form.resetForm();
+    } catch (error) {
+      console.error('EmailJS send error', error);
+      this.statusClass = 'error';
+      this.statusMessage = 'No fue posible enviar el mensaje. Intenta de nuevo más tarde.';
+    } finally {
+      this.sending = false;
+    }
+  }
+
   readonly moreOptionBusinesses = BUSINESS_DIRECTORY.filter((business) => business.section === 'more-options');
   private readonly storeCarouselAutoplayDelay = 3200;
   private indicatorObserver?: IntersectionObserver;

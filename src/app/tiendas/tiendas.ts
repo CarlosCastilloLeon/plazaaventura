@@ -1,13 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SitePublicFooterComponent } from '../core/layout/site-public-footer/site-public-footer';
+import { SitePublicHeaderComponent } from '../core/layout/site-public-header/site-public-header';
 import { Tienda } from '../shared/interface/tienda.interface';
 import tiendasData from '../BDlocal/tiendas.json';
 
 @Component({
   standalone: true,
   selector: 'app-tiendas',
-  imports: [CommonModule],
+  imports: [CommonModule, SitePublicHeaderComponent, SitePublicFooterComponent],
   templateUrl: './tiendas.html',
   styleUrls: ['./tiendas.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -27,5 +29,4 @@ export class Tiendas {
   goBack() {
     this.router.navigate(['/']);
   }
-
 }

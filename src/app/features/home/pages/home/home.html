@@ -194,31 +194,39 @@
         </div>
 
         <div class="col-lg-6 col-12">
-          <form action="#" method="post" class="custom-form contact-form" role="form">
+          <form #contactForm="ngForm" (ngSubmit)="sendMessage(contactForm)" class="custom-form contact-form" role="form" novalidate>
             <div class="row">
               <div class="col-lg-6 col-12">
                 <label for="name" class="form-label">Nombre <sup class="text-danger">*</sup></label>
 
-                <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required />
+                <input type="text" name="name" id="name" class="form-control" placeholder="Introduce tu nombre" required [(ngModel)]="contact.name" />
               </div>
 
               <div class="col-lg-6 col-12">
                 <label for="email" class="form-label">Correo Electrónico</label>
 
                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
-                  placeholder="Jack@gmail.com" required />
+                  placeholder="tuCorreo@gmail.com" required [(ngModel)]="contact.email" />
               </div>
 
               <div class="col-12">
                 <label for="message" class="form-label">¿Cómo podemos ayudarte?</label>
 
-                <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message"
-                  required></textarea>
+                <textarea name="message" rows="4" class="form-control" id="message" placeholder="Mensaje"
+                  required [(ngModel)]="contact.message"></textarea>
+              </div>
+            </div>
+
+            <div *ngIf="statusMessage" class="col-12 mt-3">
+              <div class="alert" [ngClass]="{ 'alert-success': statusClass === 'success', 'alert-danger': statusClass === 'error' }">
+                {{ statusMessage }}
               </div>
             </div>
 
             <div class="col-lg-5 col-12 mx-auto mt-3">
-              <button type="submit" class="form-control">Enviar Mensaje</button>
+              <button type="submit" class="form-control" [disabled]="sending">
+                {{ sending ? 'Enviando...' : 'Enviar Mensaje' }}
+              </button>
             </div>
           </form>
         </div>

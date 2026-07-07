@@ -22,6 +22,8 @@ export class CarruselZ {
     autoplay: true,
     dots: false,
     nav: false,
+    touchDrag: false,
+    mouseDrag: false,
     navText: [
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>'

@@ -1,3 +1,47 @@
 :host {
   display: block;
+}:host {
+  display: block;
+}
+
+.opening-hours-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.opening-hours-list li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.95rem;
+  margin-bottom: 0.9rem;
+}
+
+.opening-hours-list li:last-child {
+  margin-bottom: 0;
+}
+
+.opening-hours-list li .underline {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.opening-hours-list li strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .opening-hours-list li {
+    grid-template-columns: 1fr auto;
+  }
+
+  .opening-hours-list li .underline {
+    display: none;
+  }
 }
