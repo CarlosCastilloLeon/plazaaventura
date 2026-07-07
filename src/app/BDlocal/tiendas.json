@@ -1,0 +1,94 @@
+[
+    {
+        "tiendaId": 1,
+        "nombre": "Café Astral & Co.",
+        "tag":"Cafe Astral",
+        "descripcion": "Especialistas en café de especialidad, repostería artesanal y un ambiente ideal para coworking.",
+        "imagen": "images/logos-tiendas/1.jpg",
+        "categoria": "Cafeterías y Restaurantes",
+        "logo": "images/logos-tiendas/1.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600",
+                "tiendaId": 1,
+                "alt": "Interior del café con mesas de madera"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600",
+                "tiendaId": 1,
+                "alt": "Taza de café latte art con croissant"
+            }
+        ],
+        "ubicacion": "Av. de la Aurora #405, Zona Centro",
+        "horario1": "Lunes a Viernes: 07:00 AM - 09:00 PM",
+        "horario2": "Sábados: 08:00 AM - 10:00 PM",
+        "horario3": "Domingos: 09:00 AM - 04:00 PM",
+        "telefono": "+525551234567",
+        "email": "contacto@cafeastral.com",
+        "facebook": "https://facebook.com/cafeastral",
+        "instagram": "https://instagram.com/cafeastral",
+        "twitter": "https://twitter.com/cafeastral",
+        "tiktok": "https://tiktok.com/@cafeastral"
+    },
+    {
+        "tiendaId": 2,
+        "nombre": "Pixel & Play",
+        "tag": "Pixel & Play",
+        "descripcion": "Tu tienda de confianza para videojuegos, consolas de última generación y coleccionables geek.",
+        "imagen": "images/logos-tiendas/2.jpg",
+        "categoria": "Tecnología y Entretenimiento",
+        "logo": "images/logos-tiendas/2.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600",
+                "tiendaId": 2,
+                "alt": "Estante lleno de figuras coleccionables y funkos"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
+                "tiendaId": 2,
+                "alt": "Zona de torneos y pantallas gaming"
+            }
+        ],
+        "ubicacion": "Centro Comercial Plaza Nova, Local 22",
+        "horario1": "Lunes a Sábado: 10:00 AM - 08:00 PM",
+        "horario2": "Domingos: 11:00 AM - 07:00 PM",
+        "horario3": "Días Festivos: Cerrado",
+        "telefono": "+525559876543",
+        "email": "soporte@pixelandplay.com",
+        "facebook": "https://facebook.com/pixelandplay",
+        "instagram": "https://instagram.com/pixelandplay",
+        "twitter": "https://twitter.com/pixelandplay",
+        "tiktok": "https://tiktok.com/@pixelandplay"
+    },
+    {
+        "tiendaId": 3,
+        "nombre": "Boutique Verde Oliva",
+        "descripcion": "Moda sustentable, ropa de diseñadores locales hecha con materiales orgánicos y reciclados.",
+        "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600",
+        "categoria": "Ropa y Moda",
+        "logo": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=150",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=600",
+                "tiendaId": 3,
+                "alt": "Exhibición de prendas de lino orgánico"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=600",
+                "tiendaId": 3,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos"
+            }
+        ],
+        "ubicacion": "Calle de la Ecología #88, Col. Jardines",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525554433221",
+        "email": "hola@verdeolivaboutique.com",
+        "facebook": "https://facebook.com/verdeoliva",
+        "instagram": "https://instagram.com/verdeoliva",
+        "twitter": "https://twitter.com/verdeoliva",
+        "tiktok": "https://tiktok.com/@verdeoliva"
+    }
+]
