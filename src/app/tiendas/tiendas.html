@@ -45,6 +45,28 @@
             </div>
           </section>
 
+          <app-generic-gallery [items]="tienda()?.imagenes!" [titulo]="'Galería'"></app-generic-gallery>
+
+           <!--app-generic-gallery [items]="tienda()?.promociones!" [titulo]="'Promociones'"></app-generic-gallery-->
+
+     
+
+          <section class="tienda-promociones mt-4">
+            <h2>Promociones</h2>
+            <div class="promociones-grid">
+              @for (promocion of tienda()?.promociones ?? []; track $index) {
+                <article class="promocion-card">
+                  <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
+                  <div class="promocion-text">
+                    <h3>{{promocion.titulo}}</h3>
+                    <p>{{promocion.descripcion}}</p>
+                    <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
+                  </div>
+                </article>
+              }
+            </div>
+          </section>
+
           <section class="tienda-galeria mt-4">
             <h2>Galería de Productos</h2>
             <div class="galeria-grid">

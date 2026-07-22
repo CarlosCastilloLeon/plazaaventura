@@ -10,14 +10,46 @@
         "imagenes": [
             {
                 "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=150",
                 "tiendaId": 1,
                 "alt": "Interior del café con mesas de madera"
             },
             {
                 "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=150",
                 "tiendaId": 1,
                 "alt": "Taza de café latte art con croissant"
             }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 1,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1.jpg"
+            },
+            {
+                "tiendaId": 1,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2.jpg"
+            },
+            {
+                "tiendaId": 1,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2.jpg"
+            }
+            
         ],
         "ubicacion": "Av. de la Aurora #405, Zona Centro",
         "horario1": "Lunes a Viernes: 07:00 AM - 09:00 PM",
@@ -41,13 +73,35 @@
         "imagenes": [
             {
                 "src": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=150",
                 "tiendaId": 2,
                 "alt": "Estante lleno de figuras coleccionables y funkos"
             },
             {
                 "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=150",
                 "tiendaId": 2,
                 "alt": "Zona de torneos y pantallas gaming"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 2,  
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 2,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
         "ubicacion": "Centro Comercial Plaza Nova, Local 22",
@@ -72,12 +126,34 @@
             {
                 "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=600",
                 "tiendaId": 3,
-                "alt": "Exhibición de prendas de lino orgánico"
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=150"
             },
             {
                 "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=600",
                 "tiendaId": 3,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos"
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 3,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 3,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
         "ubicacion": "Calle de la Ecología #88, Col. Jardines",

@@ -7,6 +7,7 @@ export interface Tienda{
     categoria?: string;
     logo?: string;
     imagenes?: ImagenesTienda[];
+    promociones?: Promociones[];
     ubicacion?: string;
     horario1?: string;
     horario2?: string;
@@ -22,7 +23,19 @@ export interface Tienda{
 
 export interface ImagenesTienda{
     src: string;
+    thumbSrc: string;
     tiendaId: number;
     alt: string;
 
+}
+
+export interface Promociones{
+    promocionId?: number;
+    titulo?: string;
+    descripcion?: string;
+    fechaInicio?: string;
+    fechaFin?: string;
+    tiendaId?: number;
+    src: string;
+    thumbSrc: string;
 }

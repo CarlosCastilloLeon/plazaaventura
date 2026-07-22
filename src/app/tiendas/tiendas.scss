@@ -143,6 +143,50 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+.tienda-promociones {
+  margin-top: 1.5rem;
+}
+
+.promociones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.promocion-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.promocion-img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.promocion-text {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.promocion-fecha {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.95rem;
+}
+
+.tienda-card h2,
+.tienda-card h3 {
+  color: #f7f3ee;
+}
 .contact-bars {
   display: grid;
   gap: 1rem;

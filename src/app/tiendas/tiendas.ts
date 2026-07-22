@@ -5,11 +5,12 @@ import { SitePublicFooterComponent } from '../core/layout/site-public-footer/sit
 import { SitePublicHeaderComponent } from '../core/layout/site-public-header/site-public-header';
 import { Tienda } from '../shared/interface/tienda.interface';
 import tiendasData from '../BDlocal/tiendas.json';
+import { GenericGallery } from "../features/genericGallery/genericGallery";
 
 @Component({
   standalone: true,
   selector: 'app-tiendas',
-  imports: [CommonModule, SitePublicHeaderComponent, SitePublicFooterComponent],
+  imports: [CommonModule, SitePublicHeaderComponent, SitePublicFooterComponent, GenericGallery],
   templateUrl: './tiendas.html',
   styleUrls: ['./tiendas.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
