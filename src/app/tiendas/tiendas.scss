@@ -19,6 +19,7 @@
 
 .tienda-horario-panel {
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .block-panel--horario {
@@ -41,7 +42,7 @@
 
 .horario-items {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -69,10 +70,24 @@
 .tienda-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 0.9rem;
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: left;
+}
+
+.tienda-header-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.tienda-title-wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .tienda-logo {
@@ -88,14 +103,17 @@
   margin: 0;
   color: #ffffff;
   font-size: clamp(2rem, 4vw, 3.2rem);
+  text-align: center;
 }
 
 .tienda-ubicacion {
   color: rgba(255, 255, 255, 0.78);
   margin: 0;
+  width: 100%;
 }
 
 .tienda-card {
+  position: relative;
   padding: clamp(2rem, 3.5vw, 3.5rem);
   border-radius: 2rem;
   background: rgba(10, 17, 31, 0.8);
@@ -240,15 +258,23 @@
 
 .button-row {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.tienda-card-action {
+  position: absolute;
+  top: clamp(1.1rem, 2.2vw, 1.5rem);
+  right: clamp(1.1rem, 2.2vw, 1.5rem);
+  margin: 0;
+  z-index: 2;
 }
 
 .btn-go-back {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.9rem 1.8rem;
-  min-width: 220px;
+  padding: 0.65rem 1.25rem;
+  min-width: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -256,8 +282,24 @@
     padding-top: 5rem;
   }
 
-  .tienda-header {
+  .tienda-header-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 0.75rem;
+  }
+
+  .tienda-header {
+    align-items: center;
+    gap: 0.75rem;
+    text-align: center;
+    margin-top: 3.5rem;
+  }
+
+  .tienda-card-action {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
   }
 
   .horario-items {

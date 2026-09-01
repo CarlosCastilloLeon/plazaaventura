@@ -2,6 +2,7 @@ export interface Tienda{
     tiendaId?: number;
     nombre?: string;
     descripcion?: string;
+    tienePromocion?: boolean;
     tag?: string;
     imagen?: string;
     categoria?: string;

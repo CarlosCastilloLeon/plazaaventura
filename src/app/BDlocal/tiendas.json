@@ -1,22 +1,23 @@
-[
+﻿[
     {
         "tiendaId": 1,
-        "nombre": "Café Astral & Co.",
-        "tag":"Cafe Astral",
+        "nombre": "Rickis",
+        "tienePromocion": false,
+        "tag": "Cafe Astral",
         "descripcion": "Especialistas en café de especialidad, repostería artesanal y un ambiente ideal para coworking.",
         "imagen": "images/logos-tiendas/1.jpg",
         "categoria": "Cafeterías y Restaurantes",
         "logo": "images/logos-tiendas/1.jpg",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=150",
+                "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80\u0026w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80\u0026w=150",
                 "tiendaId": 1,
                 "alt": "Interior del café con mesas de madera"
             },
             {
-                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=150",
+                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80\u0026w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80\u0026w=150",
                 "tiendaId": 1,
                 "alt": "Taza de café latte art con croissant"
             }
@@ -49,12 +50,11 @@
                 "src": "images/promociones/2.jpg",
                 "thumbSrc": "images/promociones/2.jpg"
             }
-            
         ],
-        "ubicacion": "Av. de la Aurora #405, Zona Centro",
-        "horario1": "Lunes a Viernes: 07:00 AM - 09:00 PM",
-        "horario2": "Sábados: 08:00 AM - 10:00 PM",
-        "horario3": "Domingos: 09:00 AM - 04:00 PM",
+        "ubicacion": "Local 1",
+        "horario1": "Lunes a Domingo de 10:00am a 11:00pm",
+        "horario2": "",
+        "horario3": "",
         "telefono": "+525551234567",
         "email": "contacto@cafeastral.com",
         "facebook": "https://facebook.com/cafeastral",
@@ -64,29 +64,30 @@
     },
     {
         "tiendaId": 2,
-        "nombre": "Pixel & Play",
-        "tag": "Pixel & Play",
-        "descripcion": "Tu tienda de confianza para videojuegos, consolas de última generación y coleccionables geek.",
+        "nombre": "Casa de Cambio",
+        "tienePromocion": false,
+        "tag": "Casa de Cambio",
+        "descripcion": "Tu tienda de confianza para cambiar divisas de manera rápida y segura.",
         "imagen": "images/logos-tiendas/2.jpg",
         "categoria": "Tecnología y Entretenimiento",
         "logo": "images/logos-tiendas/2.jpg",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=150",
+                "src": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80\u0026w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80\u0026w=150",
                 "tiendaId": 2,
                 "alt": "Estante lleno de figuras coleccionables y funkos"
             },
             {
-                "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=150",
+                "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80\u0026w=600",
+                "thumbSrc": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80\u0026w=150",
                 "tiendaId": 2,
                 "alt": "Zona de torneos y pantallas gaming"
             }
         ],
         "promociones": [
             {
-                "tiendaId": 2,  
+                "tiendaId": 2,
                 "titulo": "Descuento del 15% en bebidas calientes",
                 "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
                 "fechaInicio": "2024-06-01",
@@ -117,23 +118,24 @@
     },
     {
         "tiendaId": 3,
-        "nombre": "Boutique Verde Oliva",
+        "nombre": "Agua de Puebla",
+        "tienePromocion": false,
         "descripcion": "Moda sustentable, ropa de diseñadores locales hecha con materiales orgánicos y reciclados.",
-        "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600",
+        "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80\u0026w=600",
         "categoria": "Ropa y Moda",
-        "logo": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=150",
+        "logo": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80\u0026w=150",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=600",
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
                 "tiendaId": 3,
                 "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=150"
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=600",
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
                 "tiendaId": 3,
                 "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=150"
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
             }
         ],
         "promociones": [
@@ -166,5 +168,1913 @@
         "instagram": "https://instagram.com/verdeoliva",
         "twitter": "https://twitter.com/verdeoliva",
         "tiktok": "https://tiktok.com/@verdeoliva"
+    },
+    {
+        "tiendaId": 4,
+        "nombre": "Agua de Puebla",
+        "tienePromocion": false,
+        "descripcion": "Moda sustentable, ropa de diseñadores locales hecha con materiales orgánicos y reciclados.",
+        "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80\u0026w=600",
+        "categoria": "Ropa y Moda",
+        "logo": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80\u0026w=150",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 4,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 4,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 4,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 3,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Calle de la Ecología #88, Col. Jardines",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525554433221",
+        "email": "hola@verdeolivaboutique.com",
+        "facebook": "https://facebook.com/verdeoliva",
+        "instagram": "https://instagram.com/verdeoliva",
+        "twitter": "https://twitter.com/verdeoliva",
+        "tiktok": "https://tiktok.com/@verdeoliva"
+    },
+    {
+        "tiendaId": 5,
+        "nombre": "Agua de Puebla",
+        "tienePromocion": false,
+        "descripcion": "Moda sustentable, ropa de diseñadores locales hecha con materiales orgánicos y reciclados.",
+        "imagen": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80\u0026w=600",
+        "categoria": "Ropa y Moda",
+        "logo": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80\u0026w=150",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 5,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 5,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 5,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 5,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Calle de la Ecología #88, Col. Jardines",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525554433221",
+        "email": "hola@verdeolivaboutique.com",
+        "facebook": "https://facebook.com/verdeoliva",
+        "instagram": "https://instagram.com/verdeoliva",
+        "twitter": "https://twitter.com/verdeoliva",
+        "tiktok": "https://tiktok.com/@verdeoliva"
+    },
+    {
+        "tiendaId": 6,
+        "nombre": "La Oriental",
+        "tienePromocion": false,
+        "descripcion": "Empresa 100% poblana, ofreciendo un concepto único creado por nuestro fundador, quien estableció la primera taquería en el centro de la Ciudad de Puebla.",
+        "imagen": "images/logos-tiendas/6.jpg",
+        "categoria": "Comida y Bebidas",
+        "logo": "images/logos-tiendas/6.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 6,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 6,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 6,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 6,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Local 6",
+        "horario1": "Lunes a Domingo de 10:00am a 11:00pm",
+        "horario2": "",
+        "horario3": "",
+        "telefono": "+525500000006",
+        "email": "mock6@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda6",
+        "instagram": "https://instagram.com/mocktienda6",
+        "twitter": "https://twitter.com/mocktienda6",
+        "tiktok": "https://tiktok.com/@mocktienda6"
+    },
+    {
+        "tiendaId": 7,
+        "nombre": "Mock Tienda 7",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/7.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/7.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 7,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 7,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 7,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 7,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 7",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000007",
+        "email": "mock7@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda7",
+        "instagram": "https://instagram.com/mocktienda7",
+        "twitter": "https://twitter.com/mocktienda7",
+        "tiktok": "https://tiktok.com/@mocktienda7"
+    },
+    {
+        "tiendaId": 8,
+        "nombre": "Mock Tienda 8",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/8.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/8.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 8,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 8,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 8,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 8,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 8",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000008",
+        "email": "mock8@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda8",
+        "instagram": "https://instagram.com/mocktienda8",
+        "twitter": "https://twitter.com/mocktienda8",
+        "tiktok": "https://tiktok.com/@mocktienda8"
+    },
+    {
+        "tiendaId": 9,
+        "nombre": "Mock Tienda 9",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/9.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/9.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 9,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 9,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 9,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 9,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 9",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000009",
+        "email": "mock9@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda9",
+        "instagram": "https://instagram.com/mocktienda9",
+        "twitter": "https://twitter.com/mocktienda9",
+        "tiktok": "https://tiktok.com/@mocktienda9"
+    },
+    {
+        "tiendaId": 10,
+        "nombre": "Mock Tienda 10",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/10.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/10.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 10,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 10,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 10,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 10,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 10",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000010",
+        "email": "mock10@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda10",
+        "instagram": "https://instagram.com/mocktienda10",
+        "twitter": "https://twitter.com/mocktienda10",
+        "tiktok": "https://tiktok.com/@mocktienda10"
+    },
+    {
+        "tiendaId": 11,
+        "nombre": "Mock Tienda 11",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/11.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/11.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 11,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 11,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 11,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 11,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 11",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000011",
+        "email": "mock11@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda11",
+        "instagram": "https://instagram.com/mocktienda11",
+        "twitter": "https://twitter.com/mocktienda11",
+        "tiktok": "https://tiktok.com/@mocktienda11"
+    },
+    {
+        "tiendaId": 12,
+        "nombre": "Mock Tienda 12",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/12.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/12.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 12,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 12,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 12,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 12,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 12",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000012",
+        "email": "mock12@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda12",
+        "instagram": "https://instagram.com/mocktienda12",
+        "twitter": "https://twitter.com/mocktienda12",
+        "tiktok": "https://tiktok.com/@mocktienda12"
+    },
+    {
+        "tiendaId": 13,
+        "nombre": "Mock Tienda 13",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/13.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/13.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 13,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 13,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 13,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 13,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 13",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000013",
+        "email": "mock13@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda13",
+        "instagram": "https://instagram.com/mocktienda13",
+        "twitter": "https://twitter.com/mocktienda13",
+        "tiktok": "https://tiktok.com/@mocktienda13"
+    },
+    {
+        "tiendaId": 14,
+        "nombre": "Mock Tienda 14",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/14.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/14.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 14,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 14,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 14,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 14,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 14",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000014",
+        "email": "mock14@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda14",
+        "instagram": "https://instagram.com/mocktienda14",
+        "twitter": "https://twitter.com/mocktienda14",
+        "tiktok": "https://tiktok.com/@mocktienda14"
+    },
+    {
+        "tiendaId": 15,
+        "nombre": "Mock Tienda 15",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/15.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/15.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 15,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 15,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 15,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 15,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 15",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000015",
+        "email": "mock15@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda15",
+        "instagram": "https://instagram.com/mocktienda15",
+        "twitter": "https://twitter.com/mocktienda15",
+        "tiktok": "https://tiktok.com/@mocktienda15"
+    },
+    {
+        "tiendaId": 16,
+        "nombre": "Mock Tienda 16",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/16.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/16.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 16,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 16,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 16,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 16,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 16",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000016",
+        "email": "mock16@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda16",
+        "instagram": "https://instagram.com/mocktienda16",
+        "twitter": "https://twitter.com/mocktienda16",
+        "tiktok": "https://tiktok.com/@mocktienda16"
+    },
+    {
+        "tiendaId": 17,
+        "nombre": "Mock Tienda 17",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/17.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/17.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 17,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 17,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 17,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 17,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 17",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000017",
+        "email": "mock17@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda17",
+        "instagram": "https://instagram.com/mocktienda17",
+        "twitter": "https://twitter.com/mocktienda17",
+        "tiktok": "https://tiktok.com/@mocktienda17"
+    },
+    {
+        "tiendaId": 18,
+        "nombre": "Mock Tienda 18",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/18.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/18.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 18,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 18,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 18,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 18,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 18",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000018",
+        "email": "mock18@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda18",
+        "instagram": "https://instagram.com/mocktienda18",
+        "twitter": "https://twitter.com/mocktienda18",
+        "tiktok": "https://tiktok.com/@mocktienda18"
+    },
+    {
+        "tiendaId": 19,
+        "nombre": "Mock Tienda 19",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/19.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/19.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 19,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 19,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 19,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 19,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 19",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000019",
+        "email": "mock19@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda19",
+        "instagram": "https://instagram.com/mocktienda19",
+        "twitter": "https://twitter.com/mocktienda19",
+        "tiktok": "https://tiktok.com/@mocktienda19"
+    },
+    {
+        "tiendaId": 20,
+        "nombre": "Mock Tienda 20",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/20.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/20.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 20,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 20,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 20,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 20,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 20",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000020",
+        "email": "mock20@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda20",
+        "instagram": "https://instagram.com/mocktienda20",
+        "twitter": "https://twitter.com/mocktienda20",
+        "tiktok": "https://tiktok.com/@mocktienda20"
+    },
+    {
+        "tiendaId": 21,
+        "nombre": "Mock Tienda 21",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/21.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/21.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 21,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 21,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 21,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 21,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 21",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000021",
+        "email": "mock21@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda21",
+        "instagram": "https://instagram.com/mocktienda21",
+        "twitter": "https://twitter.com/mocktienda21",
+        "tiktok": "https://tiktok.com/@mocktienda21"
+    },
+    {
+        "tiendaId": 22,
+        "nombre": "Mock Tienda 22",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/22.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/22.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 22,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 22,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 22,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 22,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 22",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000022",
+        "email": "mock22@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda22",
+        "instagram": "https://instagram.com/mocktienda22",
+        "twitter": "https://twitter.com/mocktienda22",
+        "tiktok": "https://tiktok.com/@mocktienda22"
+    },
+    {
+        "tiendaId": 23,
+        "nombre": "Mock Tienda 23",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/23.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/23.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 23,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 23,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 23,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 23,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 23",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000023",
+        "email": "mock23@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda23",
+        "instagram": "https://instagram.com/mocktienda23",
+        "twitter": "https://twitter.com/mocktienda23",
+        "tiktok": "https://tiktok.com/@mocktienda23"
+    },
+    {
+        "tiendaId": 24,
+        "nombre": "Mock Tienda 24",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/24.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/24.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 24,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 24,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 24,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 24,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 24",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000024",
+        "email": "mock24@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda24",
+        "instagram": "https://instagram.com/mocktienda24",
+        "twitter": "https://twitter.com/mocktienda24",
+        "tiktok": "https://tiktok.com/@mocktienda24"
+    },
+    {
+        "tiendaId": 25,
+        "nombre": "Mock Tienda 25",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/25.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/25.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 25,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 25,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 25,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 25,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 25",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000025",
+        "email": "mock25@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda25",
+        "instagram": "https://instagram.com/mocktienda25",
+        "twitter": "https://twitter.com/mocktienda25",
+        "tiktok": "https://tiktok.com/@mocktienda25"
+    },
+    {
+        "tiendaId": 26,
+        "nombre": "Mock Tienda 26",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/26.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/26.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 26,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 26,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 26,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 26,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 26",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000026",
+        "email": "mock26@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda26",
+        "instagram": "https://instagram.com/mocktienda26",
+        "twitter": "https://twitter.com/mocktienda26",
+        "tiktok": "https://tiktok.com/@mocktienda26"
+    },
+    {
+        "tiendaId": 27,
+        "nombre": "Mock Tienda 27",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/27.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/27.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 27,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 27,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 27,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 27,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 27",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000027",
+        "email": "mock27@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda27",
+        "instagram": "https://instagram.com/mocktienda27",
+        "twitter": "https://twitter.com/mocktienda27",
+        "tiktok": "https://tiktok.com/@mocktienda27"
+    },
+    {
+        "tiendaId": 28,
+        "nombre": "Mock Tienda 28",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/28.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/28.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 28,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 28,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 28,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 28,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 28",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000028",
+        "email": "mock28@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda28",
+        "instagram": "https://instagram.com/mocktienda28",
+        "twitter": "https://twitter.com/mocktienda28",
+        "tiktok": "https://tiktok.com/@mocktienda28"
+    },
+    {
+        "tiendaId": 29,
+        "nombre": "Mock Tienda 29",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/29.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/29.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 29,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 29,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 29,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 29,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 29",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000029",
+        "email": "mock29@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda29",
+        "instagram": "https://instagram.com/mocktienda29",
+        "twitter": "https://twitter.com/mocktienda29",
+        "tiktok": "https://tiktok.com/@mocktienda29"
+    },
+    {
+        "tiendaId": 30,
+        "nombre": "Mock Tienda 30",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/30.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/30.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 30,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 30,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 30,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 30,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 30",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000030",
+        "email": "mock30@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda30",
+        "instagram": "https://instagram.com/mocktienda30",
+        "twitter": "https://twitter.com/mocktienda30",
+        "tiktok": "https://tiktok.com/@mocktienda30"
+    },
+    {
+        "tiendaId": 31,
+        "nombre": "Mock Tienda 31",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/31.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/31.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 31,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 31,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 31,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 31,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 31",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000031",
+        "email": "mock31@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda31",
+        "instagram": "https://instagram.com/mocktienda31",
+        "twitter": "https://twitter.com/mocktienda31",
+        "tiktok": "https://tiktok.com/@mocktienda31"
+    },
+    {
+        "tiendaId": 32,
+        "nombre": "Mock Tienda 32",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/32.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/32.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 32,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 32,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 32,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 32,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 32",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000032",
+        "email": "mock32@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda32",
+        "instagram": "https://instagram.com/mocktienda32",
+        "twitter": "https://twitter.com/mocktienda32",
+        "tiktok": "https://tiktok.com/@mocktienda32"
+    },
+    {
+        "tiendaId": 33,
+        "nombre": "Mock Tienda 33",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/33.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/33.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 33,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 33,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 33,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 33,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 33",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000033",
+        "email": "mock33@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda33",
+        "instagram": "https://instagram.com/mocktienda33",
+        "twitter": "https://twitter.com/mocktienda33",
+        "tiktok": "https://tiktok.com/@mocktienda33"
+    },
+    {
+        "tiendaId": 34,
+        "nombre": "Mock Tienda 34",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/34.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/34.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 34,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 34,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 34,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 34,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 34",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000034",
+        "email": "mock34@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda34",
+        "instagram": "https://instagram.com/mocktienda34",
+        "twitter": "https://twitter.com/mocktienda34",
+        "tiktok": "https://tiktok.com/@mocktienda34"
+    },
+    {
+        "tiendaId": 35,
+        "nombre": "Mock Tienda 35",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/35.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/35.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 35,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 35,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 35,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 35,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 35",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000035",
+        "email": "mock35@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda35",
+        "instagram": "https://instagram.com/mocktienda35",
+        "twitter": "https://twitter.com/mocktienda35",
+        "tiktok": "https://tiktok.com/@mocktienda35"
+    },
+    {
+        "tiendaId": 36,
+        "nombre": "Mock Tienda 36",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/36.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/36.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 36,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 36,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 36,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 36,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 36",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000036",
+        "email": "mock36@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda36",
+        "instagram": "https://instagram.com/mocktienda36",
+        "twitter": "https://twitter.com/mocktienda36",
+        "tiktok": "https://tiktok.com/@mocktienda36"
+    },
+    {
+        "tiendaId": 37,
+        "nombre": "Mock Tienda 37",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/37.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/37.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 37,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 37,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 37,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 37,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 37",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000037",
+        "email": "mock37@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda37",
+        "instagram": "https://instagram.com/mocktienda37",
+        "twitter": "https://twitter.com/mocktienda37",
+        "tiktok": "https://tiktok.com/@mocktienda37"
+    },
+    {
+        "tiendaId": 38,
+        "nombre": "Mock Tienda 38",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/38.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/38.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 38,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 38,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 38,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 38,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 38",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000038",
+        "email": "mock38@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda38",
+        "instagram": "https://instagram.com/mocktienda38",
+        "twitter": "https://twitter.com/mocktienda38",
+        "tiktok": "https://tiktok.com/@mocktienda38"
+    },
+    {
+        "tiendaId": 39,
+        "nombre": "Mock Tienda 39",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/39.jpg",
+        "categoria": "Ropa y Moda",
+        "logo": "images/logos-tiendas/39.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 39,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 39,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 39,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 39,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Pasillo Mock, Local 39",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000039",
+        "email": "mock39@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda39",
+        "instagram": "https://instagram.com/mocktienda39",
+        "twitter": "https://twitter.com/mocktienda39",
+        "tiktok": "https://tiktok.com/@mocktienda39"
     }
 ]

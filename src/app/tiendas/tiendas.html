@@ -3,18 +3,22 @@
 
   <section class="tienda-section section-padding">
     <div class="container">
-      <div class="button-row mb-4 text-center">
-        <button type="button" class="btn-go-back custom-btn custom-border-btn" (click)="goBack()">Regresar al directorio</button>
-      </div>
-
       <article class="tienda-contenedor text-white">
-        <header class="tienda-header text-center">
-          <img [src]="tienda()?.logo" [alt]="'Logo de ' + tienda()?.nombre" class="tienda-logo img-fluid" width="180" />
-          <h1>{{tienda()?.nombre}}</h1>
-          <p class="tienda-ubicacion">📍 {{tienda()?.ubicacion}}</p>
-        </header>
-
         <div class="tienda-card">
+          <div class="button-row tienda-card-action">
+            <button type="button" class="btn-go-back custom-btn custom-border-btn" (click)="goBack()">Regresar al directorio</button>
+          </div>
+
+          <header class="tienda-header">
+            <div class="tienda-header-main">
+              <img [src]="tienda()?.logo" [alt]="'Logo de ' + tienda()?.nombre" class="tienda-logo img-fluid" width="180" />
+              <div class="tienda-title-wrap">
+                <h1>{{tienda()?.nombre}}</h1>
+              </div>
+            </div>
+            <p class="tienda-ubicacion">📍 {{tienda()?.ubicacion}}</p>
+          </header>
+
           <section class="tienda-info row gx-5 gy-4">
             <div class="col-12">
               <div class="block-panel">
@@ -30,17 +34,10 @@
               </div>
               <div class="horario-items">
                 <div class="horario-item">
-                  <span class="horario-label">Lun - Vie</span>
                   <strong>{{tienda()?.horario1}}</strong>
                 </div>
-                <div class="horario-item">
-                  <span class="horario-label">Sáb</span>
-                  <strong>{{tienda()?.horario2}}</strong>
-                </div>
-                <div class="horario-item">
-                  <span class="horario-label">Dom</span>
-                  <strong>{{tienda()?.horario3}}</strong>
-                </div>
+             
+                
               </div>
             </div>
           </section>
@@ -50,7 +47,23 @@
            <!--app-generic-gallery [items]="tienda()?.promociones!" [titulo]="'Promociones'"></app-generic-gallery-->
 
      
-
+          @if(tienda()?.tienePromocion) {
+            <section class="tienda-promociones mt-4">
+              <h2>Promociones</h2>
+              <div class="promociones-grid">
+                @for (promocion of tienda()?.promociones ?? []; track $index) {
+                  <article class="promocion-card">
+                    <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
+                    <div class="promocion-text">
+                      <h3>{{promocion.titulo}}</h3>
+                      <p>{{promocion.descripcion}}</p>
+                      <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
+                    </div>
+                  </article>
+                }
+              </div>
+            </section>
+         
           <section class="tienda-promociones mt-4">
             <h2>Promociones</h2>
             <div class="promociones-grid">
@@ -66,15 +79,15 @@
               }
             </div>
           </section>
-
-          <section class="tienda-galeria mt-4">
+        }
+          <!--section class="tienda-galeria mt-4">
             <h2>Galería de Productos</h2>
             <div class="galeria-grid">
               @for (item of tienda()?.imagenes ?? []; track $index) {
                 <img [src]="item.src" [alt]="item.alt" />
               }
             </div>
-          </section>
+          </section-->
 
           <section class="tienda-contacto mt-4">
             <h2>Contacto</h2>
