@@ -27,7 +27,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_3' : '/#section_3'">Directorio</a>
+          @if (directoryMode()) {
+            <a class="nav-link active" routerLink="/directorio" aria-current="page">Directorio</a>
+          } @else {
+            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_3' : '/#section_3'">Directorio</a>
+          }
         </li>
 
         <li class="nav-item">

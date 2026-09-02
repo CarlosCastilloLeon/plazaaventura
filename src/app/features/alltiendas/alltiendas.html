@@ -1,0 +1,88 @@
+<main class="directory-page">
+	<app-site-public-header [directoryMode]="true" />
+
+	<section class="directory-section" aria-labelledby="directory-title">
+		<div class="container">
+			<header class="directory-heading">
+				<p class="directory-eyebrow">Directorio comercial</p>
+				<h1 id="directory-title">Nuestras Tiendas</h1>
+
+				<nav class="category-list" aria-label="Filtrar por categoría">
+					@for (category of categories(); track category) {
+						<button
+							type="button"
+							class="category-button"
+							[class.is-active]="selectedCategory() === category"
+							(click)="selectCategory(category)"
+						>
+							{{ category }}
+						</button>
+					}
+				</nav>
+
+				<label class="search-field" for="store-search">
+					<i class="bi bi-search" aria-hidden="true"></i>
+					<span class="visually-hidden">Buscar tienda</span>
+					<input
+						id="store-search"
+						type="search"
+						placeholder="Buscar tienda"
+						[value]="searchTerm()"
+						(input)="updateSearchTerm($any($event.target).value)"
+					/>
+				</label>
+			</header>
+
+			@if (visibleStores().length) {
+				<div class="stores-grid">
+					@for (store of visibleStores(); track store.tiendaId) {
+						<article class="store-card">
+							<a class="store-card-main" [routerLink]="['/tiendas', store.tiendaId]" [attr.aria-label]="'Ver detalle de ' + store.nombre">
+								<div class="store-logo-wrap">
+									<img class="store-logo" [src]="store.logo || store.imagen" [alt]="'Logo de ' + store.nombre" />
+								</div>
+								<div class="store-content">
+									<p class="store-category">{{ store.categoria }}</p>
+									<h2>{{ store.nombre }}</h2>
+									<p class="store-schedule">{{ store.horario1 }}</p>
+									<p class="store-location">{{ store.ubicacion }}</p>
+								</div>
+							</a>
+							<footer class="store-actions">
+								<a [href]="'tel:' + store.telefono" [attr.aria-label]="'Llamar a ' + store.nombre" title="Llamar">
+									<i class="bi bi-telephone-fill" aria-hidden="true"></i>
+								</a>
+								<a [routerLink]="['/tiendas', store.tiendaId]" [attr.aria-label]="'Ver información de ' + store.nombre" title="Ver información">
+									<i class="bi bi-info-circle-fill" aria-hidden="true"></i>
+								</a>
+								<a [href]="mapUrl(store)" target="_blank" rel="noopener" [attr.aria-label]="'Ver ubicación de ' + store.nombre" title="Ver ubicación">
+									<i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+								</a>
+							</footer>
+						</article>
+					}
+				</div>
+			} @else {
+				<p class="empty-state">No encontramos tiendas que coincidan con tu búsqueda.</p>
+			}
+
+			@if (totalPages() > 1) {
+				<nav class="pagination" aria-label="Paginación del directorio">
+					<button type="button" (click)="goToPage(currentPage() - 1)" [disabled]="currentPage() === 1" aria-label="Página anterior">
+						<i class="bi bi-chevron-left" aria-hidden="true"></i>
+					</button>
+					@for (page of pageNumbers(); track page) {
+						<button type="button" [class.is-active]="currentPage() === page" (click)="goToPage(page)" [attr.aria-current]="currentPage() === page ? 'page' : null">
+							{{ page }}
+						</button>
+					}
+					<button type="button" (click)="goToPage(currentPage() + 1)" [disabled]="currentPage() === totalPages()" aria-label="Página siguiente">
+						<i class="bi bi-chevron-right" aria-hidden="true"></i>
+					</button>
+				</nav>
+			}
+		</div>
+	</section>
+
+	<app-site-public-footer />
+</main>

@@ -25,6 +25,10 @@ export const routes: Routes = [
     loadComponent: () => import('./features/gallery/gallery').then((m) => m.Gallery),
   },
   {
+    path: 'directorio',
+    loadComponent: () => import('./features/alltiendas/alltiendas').then((m) => m.Alltiendas),
+  },
+  {
     path: 'tiendas/:id',
     loadComponent: () => import('./tiendas/tiendas').then((m) => m.Tiendas),
   },

@@ -10,6 +10,7 @@ import { CarruselZ } from '../../../carruselZ/carruselZ';
 import { FactsComponent } from "../../../facts/facts.component";
 import { TestimonialsComponent } from '../../../testimonials/testimonials.component';
 import { Gallery } from '../../../gallery/gallery';
+import { Alltiendas } from "../../../alltiendas/alltiendas";
 @Component({
   standalone: true,
   selector: 'app-home',
@@ -21,8 +22,9 @@ import { Gallery } from '../../../gallery/gallery';
     CarruselZ,
     FactsComponent,
     TestimonialsComponent,
-    Gallery
-  ],
+    Gallery,
+    Alltiendas
+],
   templateUrl: './home.html',
   styleUrl: './home.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
