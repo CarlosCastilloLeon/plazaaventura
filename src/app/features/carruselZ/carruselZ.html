@@ -24,7 +24,7 @@
                     <h2 style="font-size: 1.3rem;  font-weight: 700;  color: #333333;  margin: 10px 0;">{{ slide.nombre
                         }}</h2>
                     <p class="blog-description">{{ slide.descripcion }}</p>
-                    <a class="btn" [href]="slide.link || 'javascript:void(0)'">
+                    <a class="btn" (click)="openTienda(slide)">
                         Más Información <i class="fa fa-angle-right"></i>
                     </a>
                 </div>

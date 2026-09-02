@@ -55,12 +55,10 @@
         "horario1": "Lunes a Domingo de 10:00am a 11:00pm",
         "horario2": "",
         "horario3": "",
-        "telefono": "+525551234567",
-        "email": "contacto@cafeastral.com",
-        "facebook": "https://facebook.com/cafeastral",
-        "instagram": "https://instagram.com/cafeastral",
-        "twitter": "https://twitter.com/cafeastral",
-        "tiktok": "https://tiktok.com/@cafeastral"
+        "telefono": "2222838068",
+        "email": "lomas@antiguataquerialaoriental.com",
+        "facebook": "https://www.facebook.com/AntiguaTaqueriaLaOriental",
+        "instagram": "https://www.instagram.com/antiguataqueria_laoriental"
     },
     {
         "tiendaId": 2,
@@ -112,9 +110,7 @@
         "telefono": "+525559876543",
         "email": "soporte@pixelandplay.com",
         "facebook": "https://facebook.com/pixelandplay",
-        "instagram": "https://instagram.com/pixelandplay",
-        "twitter": "https://twitter.com/pixelandplay",
-        "tiktok": "https://tiktok.com/@pixelandplay"
+        "instagram": "https://instagram.com/pixelandplay"
     },
     {
         "tiendaId": 3,
@@ -165,9 +161,7 @@
         "telefono": "+525554433221",
         "email": "hola@verdeolivaboutique.com",
         "facebook": "https://facebook.com/verdeoliva",
-        "instagram": "https://instagram.com/verdeoliva",
-        "twitter": "https://twitter.com/verdeoliva",
-        "tiktok": "https://tiktok.com/@verdeoliva"
+        "instagram": "https://instagram.com/verdeoliva"
     },
     {
         "tiendaId": 4,
@@ -218,9 +212,7 @@
         "telefono": "+525554433221",
         "email": "hola@verdeolivaboutique.com",
         "facebook": "https://facebook.com/verdeoliva",
-        "instagram": "https://instagram.com/verdeoliva",
-        "twitter": "https://twitter.com/verdeoliva",
-        "tiktok": "https://tiktok.com/@verdeoliva"
+        "instagram": "https://instagram.com/verdeoliva"
     },
     {
         "tiendaId": 5,
@@ -271,9 +263,7 @@
         "telefono": "+525554433221",
         "email": "hola@verdeolivaboutique.com",
         "facebook": "https://facebook.com/verdeoliva",
-        "instagram": "https://instagram.com/verdeoliva",
-        "twitter": "https://twitter.com/verdeoliva",
-        "tiktok": "https://tiktok.com/@verdeoliva"
+        "instagram": "https://instagram.com/verdeoliva"
     },
     {
         "tiendaId": 6,
@@ -285,16 +275,28 @@
         "logo": "images/logos-tiendas/6.jpg",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnmTBydJubdoybC8Yv_DuEPzOT77AMsOyqO3-97Te-bz_XAT8P0-N2EZcREKLNcvGfY9yUqBF5yGgU8T8j8iCRqEnFvh1pm-yF1l1PR-UwUDrD_X6mgQG2oEO22BSqTa8SpXZU=s680-w680-h510-rw",
                 "tiendaId": 6,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "La Oriental",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnmTBydJubdoybC8Yv_DuEPzOT77AMsOyqO3-97Te-bz_XAT8P0-N2EZcREKLNcvGfY9yUqBF5yGgU8T8j8iCRqEnFvh1pm-yF1l1PR-UwUDrD_X6mgQG2oEO22BSqTa8SpXZU=s680-w680-h510-rw"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7faguW_vApDo84h9JyiEX1AFx5sERMJcBD9z_VIEoNb7LwrfoYETLgQMoAvaHxLPzfA2sr5Saie8SG_FMRSHIEo9MUmFfm3SckcPOomFStcvZ_y5HCXmHBMACI5YWZC-Xnj2v=s680-w680-h510-rw",
                 "tiendaId": 6,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "La Oriental",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7faguW_vApDo84h9JyiEX1AFx5sERMJcBD9z_VIEoNb7LwrfoYETLgQMoAvaHxLPzfA2sr5Saie8SG_FMRSHIEo9MUmFfm3SckcPOomFStcvZ_y5HCXmHBMACI5YWZC-Xnj2v=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmJmlVe9J0pJLtxugczyL6_eModw2wPzsCwPNDjPhS-kbIy2Q2j74Ug2c7fPX4E4wyx5_tOS3-PW_ENwTs0SGZWkz3TZlIyWl66ClYakW6365hIOPkjECuKulHqq6sXokmmPEac=s680-w680-h510-rw",
+                "tiendaId": 6,
+                "alt": "La Oriental",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmJmlVe9J0pJLtxugczyL6_eModw2wPzsCwPNDjPhS-kbIy2Q2j74Ug2c7fPX4E4wyx5_tOS3-PW_ENwTs0SGZWkz3TZlIyWl66ClYakW6365hIOPkjECuKulHqq6sXokmmPEac=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIPIIvStGnjCfi8uvNu_CHSavk6MrWh6Rdc0kvJlSyCpjUSaxcDr6SSRh0Et-PBPEtvqwvWpPpLbBVoyKmbpU4Q4-wSj3oAfr4JepLR5CtLFE1bBs4eKE4jxYxj8yDR6OvSWyqPnJystfJ=s680-w680-h510-rw",
+                "tiendaId": 6,
+                "alt": "La Oriental",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIPIIvStGnjCfi8uvNu_CHSavk6MrWh6Rdc0kvJlSyCpjUSaxcDr6SSRh0Et-PBPEtvqwvWpPpLbBVoyKmbpU4Q4-wSj3oAfr4JepLR5CtLFE1bBs4eKE4jxYxj8yDR6OvSWyqPnJystfJ=s680-w680-h510-rw"
             }
         ],
         "promociones": [
@@ -321,12 +323,10 @@
         "horario1": "Lunes a Domingo de 10:00am a 11:00pm",
         "horario2": "",
         "horario3": "",
-        "telefono": "+525500000006",
-        "email": "mock6@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda6",
-        "instagram": "https://instagram.com/mocktienda6",
-        "twitter": "https://twitter.com/mocktienda6",
-        "tiktok": "https://tiktok.com/@mocktienda6"
+        "telefono": "2222838068",
+        "email": "lomas@antiguataquerialaoriental.com",
+        "facebook": "https://www.facebook.com/AntiguaTaqueriaLaOriental",
+        "instagram": "https://www.instagram.com/antiguataqueria_laoriental"
     },
     {
         "tiendaId": 7,
@@ -377,9 +377,7 @@
         "telefono": "+525500000007",
         "email": "mock7@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda7",
-        "instagram": "https://instagram.com/mocktienda7",
-        "twitter": "https://twitter.com/mocktienda7",
-        "tiktok": "https://tiktok.com/@mocktienda7"
+        "instagram": "https://instagram.com/mocktienda7"
     },
     {
         "tiendaId": 8,
@@ -430,9 +428,7 @@
         "telefono": "+525500000008",
         "email": "mock8@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda8",
-        "instagram": "https://instagram.com/mocktienda8",
-        "twitter": "https://twitter.com/mocktienda8",
-        "tiktok": "https://tiktok.com/@mocktienda8"
+        "instagram": "https://instagram.com/mocktienda8"
     },
     {
         "tiendaId": 9,
@@ -483,9 +479,7 @@
         "telefono": "+525500000009",
         "email": "mock9@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda9",
-        "instagram": "https://instagram.com/mocktienda9",
-        "twitter": "https://twitter.com/mocktienda9",
-        "tiktok": "https://tiktok.com/@mocktienda9"
+        "instagram": "https://instagram.com/mocktienda9"
     },
     {
         "tiendaId": 10,
@@ -536,9 +530,7 @@
         "telefono": "+525500000010",
         "email": "mock10@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda10",
-        "instagram": "https://instagram.com/mocktienda10",
-        "twitter": "https://twitter.com/mocktienda10",
-        "tiktok": "https://tiktok.com/@mocktienda10"
+        "instagram": "https://instagram.com/mocktienda10"
     },
     {
         "tiendaId": 11,
@@ -589,9 +581,7 @@
         "telefono": "+525500000011",
         "email": "mock11@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda11",
-        "instagram": "https://instagram.com/mocktienda11",
-        "twitter": "https://twitter.com/mocktienda11",
-        "tiktok": "https://tiktok.com/@mocktienda11"
+        "instagram": "https://instagram.com/mocktienda11"
     },
     {
         "tiendaId": 12,
@@ -642,9 +632,7 @@
         "telefono": "+525500000012",
         "email": "mock12@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda12",
-        "instagram": "https://instagram.com/mocktienda12",
-        "twitter": "https://twitter.com/mocktienda12",
-        "tiktok": "https://tiktok.com/@mocktienda12"
+        "instagram": "https://instagram.com/mocktienda12"
     },
     {
         "tiendaId": 13,
@@ -695,9 +683,7 @@
         "telefono": "+525500000013",
         "email": "mock13@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda13",
-        "instagram": "https://instagram.com/mocktienda13",
-        "twitter": "https://twitter.com/mocktienda13",
-        "tiktok": "https://tiktok.com/@mocktienda13"
+        "instagram": "https://instagram.com/mocktienda13"
     },
     {
         "tiendaId": 14,
@@ -748,9 +734,7 @@
         "telefono": "+525500000014",
         "email": "mock14@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda14",
-        "instagram": "https://instagram.com/mocktienda14",
-        "twitter": "https://twitter.com/mocktienda14",
-        "tiktok": "https://tiktok.com/@mocktienda14"
+        "instagram": "https://instagram.com/mocktienda14"
     },
     {
         "tiendaId": 15,
@@ -801,9 +785,7 @@
         "telefono": "+525500000015",
         "email": "mock15@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda15",
-        "instagram": "https://instagram.com/mocktienda15",
-        "twitter": "https://twitter.com/mocktienda15",
-        "tiktok": "https://tiktok.com/@mocktienda15"
+        "instagram": "https://instagram.com/mocktienda15"
     },
     {
         "tiendaId": 16,
@@ -854,9 +836,7 @@
         "telefono": "+525500000016",
         "email": "mock16@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda16",
-        "instagram": "https://instagram.com/mocktienda16",
-        "twitter": "https://twitter.com/mocktienda16",
-        "tiktok": "https://tiktok.com/@mocktienda16"
+        "instagram": "https://instagram.com/mocktienda16"
     },
     {
         "tiendaId": 17,
@@ -907,9 +887,7 @@
         "telefono": "+525500000017",
         "email": "mock17@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda17",
-        "instagram": "https://instagram.com/mocktienda17",
-        "twitter": "https://twitter.com/mocktienda17",
-        "tiktok": "https://tiktok.com/@mocktienda17"
+        "instagram": "https://instagram.com/mocktienda17"
     },
     {
         "tiendaId": 18,
@@ -960,9 +938,7 @@
         "telefono": "+525500000018",
         "email": "mock18@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda18",
-        "instagram": "https://instagram.com/mocktienda18",
-        "twitter": "https://twitter.com/mocktienda18",
-        "tiktok": "https://tiktok.com/@mocktienda18"
+        "instagram": "https://instagram.com/mocktienda18"
     },
     {
         "tiendaId": 19,
@@ -1013,9 +989,7 @@
         "telefono": "+525500000019",
         "email": "mock19@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda19",
-        "instagram": "https://instagram.com/mocktienda19",
-        "twitter": "https://twitter.com/mocktienda19",
-        "tiktok": "https://tiktok.com/@mocktienda19"
+        "instagram": "https://instagram.com/mocktienda19"
     },
     {
         "tiendaId": 20,
@@ -1066,9 +1040,7 @@
         "telefono": "+525500000020",
         "email": "mock20@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda20",
-        "instagram": "https://instagram.com/mocktienda20",
-        "twitter": "https://twitter.com/mocktienda20",
-        "tiktok": "https://tiktok.com/@mocktienda20"
+        "instagram": "https://instagram.com/mocktienda20"
     },
     {
         "tiendaId": 21,
@@ -1119,9 +1091,7 @@
         "telefono": "+525500000021",
         "email": "mock21@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda21",
-        "instagram": "https://instagram.com/mocktienda21",
-        "twitter": "https://twitter.com/mocktienda21",
-        "tiktok": "https://tiktok.com/@mocktienda21"
+        "instagram": "https://instagram.com/mocktienda21"
     },
     {
         "tiendaId": 22,
@@ -1172,9 +1142,7 @@
         "telefono": "+525500000022",
         "email": "mock22@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda22",
-        "instagram": "https://instagram.com/mocktienda22",
-        "twitter": "https://twitter.com/mocktienda22",
-        "tiktok": "https://tiktok.com/@mocktienda22"
+        "instagram": "https://instagram.com/mocktienda22"
     },
     {
         "tiendaId": 23,
@@ -1225,9 +1193,7 @@
         "telefono": "+525500000023",
         "email": "mock23@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda23",
-        "instagram": "https://instagram.com/mocktienda23",
-        "twitter": "https://twitter.com/mocktienda23",
-        "tiktok": "https://tiktok.com/@mocktienda23"
+        "instagram": "https://instagram.com/mocktienda23"
     },
     {
         "tiendaId": 24,
@@ -1278,9 +1244,7 @@
         "telefono": "+525500000024",
         "email": "mock24@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda24",
-        "instagram": "https://instagram.com/mocktienda24",
-        "twitter": "https://twitter.com/mocktienda24",
-        "tiktok": "https://tiktok.com/@mocktienda24"
+        "instagram": "https://instagram.com/mocktienda24"
     },
     {
         "tiendaId": 25,
@@ -1331,9 +1295,7 @@
         "telefono": "+525500000025",
         "email": "mock25@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda25",
-        "instagram": "https://instagram.com/mocktienda25",
-        "twitter": "https://twitter.com/mocktienda25",
-        "tiktok": "https://tiktok.com/@mocktienda25"
+        "instagram": "https://instagram.com/mocktienda25"
     },
     {
         "tiendaId": 26,
@@ -1384,9 +1346,7 @@
         "telefono": "+525500000026",
         "email": "mock26@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda26",
-        "instagram": "https://instagram.com/mocktienda26",
-        "twitter": "https://twitter.com/mocktienda26",
-        "tiktok": "https://tiktok.com/@mocktienda26"
+        "instagram": "https://instagram.com/mocktienda26"
     },
     {
         "tiendaId": 27,
@@ -1437,9 +1397,7 @@
         "telefono": "+525500000027",
         "email": "mock27@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda27",
-        "instagram": "https://instagram.com/mocktienda27",
-        "twitter": "https://twitter.com/mocktienda27",
-        "tiktok": "https://tiktok.com/@mocktienda27"
+        "instagram": "https://instagram.com/mocktienda27"
     },
     {
         "tiendaId": 28,
@@ -1490,9 +1448,7 @@
         "telefono": "+525500000028",
         "email": "mock28@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda28",
-        "instagram": "https://instagram.com/mocktienda28",
-        "twitter": "https://twitter.com/mocktienda28",
-        "tiktok": "https://tiktok.com/@mocktienda28"
+        "instagram": "https://instagram.com/mocktienda28"
     },
     {
         "tiendaId": 29,
@@ -1543,9 +1499,7 @@
         "telefono": "+525500000029",
         "email": "mock29@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda29",
-        "instagram": "https://instagram.com/mocktienda29",
-        "twitter": "https://twitter.com/mocktienda29",
-        "tiktok": "https://tiktok.com/@mocktienda29"
+        "instagram": "https://instagram.com/mocktienda29"
     },
     {
         "tiendaId": 30,
@@ -1596,9 +1550,7 @@
         "telefono": "+525500000030",
         "email": "mock30@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda30",
-        "instagram": "https://instagram.com/mocktienda30",
-        "twitter": "https://twitter.com/mocktienda30",
-        "tiktok": "https://tiktok.com/@mocktienda30"
+        "instagram": "https://instagram.com/mocktienda30"
     },
     {
         "tiendaId": 31,
@@ -1649,9 +1601,7 @@
         "telefono": "+525500000031",
         "email": "mock31@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda31",
-        "instagram": "https://instagram.com/mocktienda31",
-        "twitter": "https://twitter.com/mocktienda31",
-        "tiktok": "https://tiktok.com/@mocktienda31"
+        "instagram": "https://instagram.com/mocktienda31"
     },
     {
         "tiendaId": 32,
@@ -1702,9 +1652,7 @@
         "telefono": "+525500000032",
         "email": "mock32@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda32",
-        "instagram": "https://instagram.com/mocktienda32",
-        "twitter": "https://twitter.com/mocktienda32",
-        "tiktok": "https://tiktok.com/@mocktienda32"
+        "instagram": "https://instagram.com/mocktienda32"
     },
     {
         "tiendaId": 33,
@@ -1755,9 +1703,7 @@
         "telefono": "+525500000033",
         "email": "mock33@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda33",
-        "instagram": "https://instagram.com/mocktienda33",
-        "twitter": "https://twitter.com/mocktienda33",
-        "tiktok": "https://tiktok.com/@mocktienda33"
+        "instagram": "https://instagram.com/mocktienda33"
     },
     {
         "tiendaId": 34,
@@ -1808,9 +1754,7 @@
         "telefono": "+525500000034",
         "email": "mock34@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda34",
-        "instagram": "https://instagram.com/mocktienda34",
-        "twitter": "https://twitter.com/mocktienda34",
-        "tiktok": "https://tiktok.com/@mocktienda34"
+        "instagram": "https://instagram.com/mocktienda34"
     },
     {
         "tiendaId": 35,
@@ -1861,9 +1805,7 @@
         "telefono": "+525500000035",
         "email": "mock35@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda35",
-        "instagram": "https://instagram.com/mocktienda35",
-        "twitter": "https://twitter.com/mocktienda35",
-        "tiktok": "https://tiktok.com/@mocktienda35"
+        "instagram": "https://instagram.com/mocktienda35"
     },
     {
         "tiendaId": 36,
@@ -1914,9 +1856,7 @@
         "telefono": "+525500000036",
         "email": "mock36@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda36",
-        "instagram": "https://instagram.com/mocktienda36",
-        "twitter": "https://twitter.com/mocktienda36",
-        "tiktok": "https://tiktok.com/@mocktienda36"
+        "instagram": "https://instagram.com/mocktienda36"
     },
     {
         "tiendaId": 37,
@@ -1967,9 +1907,7 @@
         "telefono": "+525500000037",
         "email": "mock37@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda37",
-        "instagram": "https://instagram.com/mocktienda37",
-        "twitter": "https://twitter.com/mocktienda37",
-        "tiktok": "https://tiktok.com/@mocktienda37"
+        "instagram": "https://instagram.com/mocktienda37"
     },
     {
         "tiendaId": 38,
@@ -2020,9 +1958,7 @@
         "telefono": "+525500000038",
         "email": "mock38@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda38",
-        "instagram": "https://instagram.com/mocktienda38",
-        "twitter": "https://twitter.com/mocktienda38",
-        "tiktok": "https://tiktok.com/@mocktienda38"
+        "instagram": "https://instagram.com/mocktienda38"
     },
     {
         "tiendaId": 39,
@@ -2073,8 +2009,6 @@
         "telefono": "+525500000039",
         "email": "mock39@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda39",
-        "instagram": "https://instagram.com/mocktienda39",
-        "twitter": "https://twitter.com/mocktienda39",
-        "tiktok": "https://tiktok.com/@mocktienda39"
+        "instagram": "https://instagram.com/mocktienda39"
     }
 ]

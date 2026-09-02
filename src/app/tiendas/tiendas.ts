@@ -6,11 +6,12 @@ import { SitePublicHeaderComponent } from '../core/layout/site-public-header/sit
 import { Tienda } from '../shared/interface/tienda.interface';
 import tiendasData from '../BDlocal/tiendas.json';
 import { GenericGallery } from "../features/genericGallery/genericGallery";
+import { TelefonoPipe } from '../shared/pipes/telefono.pipe';
 
 @Component({
   standalone: true,
   selector: 'app-tiendas',
-  imports: [CommonModule, SitePublicHeaderComponent, SitePublicFooterComponent, GenericGallery],
+  imports: [CommonModule, SitePublicHeaderComponent, SitePublicFooterComponent, GenericGallery, TelefonoPipe],
   templateUrl: './tiendas.html',
   styleUrls: ['./tiendas.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
