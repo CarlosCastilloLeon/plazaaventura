@@ -29,6 +29,8 @@ import { Gallery } from '../../../gallery/gallery';
 })
 export class HomeComponent implements AfterViewInit {
   private readonly platformId = inject(PLATFORM_ID);
+  @ViewChild('heroVideo')
+  private readonly heroVideo?: ElementRef<HTMLVideoElement>;
   @ViewChild('storeViewport')
   private readonly storeViewport?: ElementRef<HTMLElement>;
   readonly serviceBusinesses = BUSINESS_DIRECTORY.filter((business) => business.section === 'services');
@@ -109,7 +111,24 @@ export class HomeComponent implements AfterViewInit {
     this.scrollToHashTarget(window.location.hash);
     window.addEventListener('hashchange', () => this.scrollToHashTarget(window.location.hash), { passive: true });
 
+    this.startHeroVideo();
     void this.initializeTemplate();
+  }
+
+  private startHeroVideo(): void {
+    const video = this.heroVideo?.nativeElement;
+
+    if (!video) {
+      return;
+    }
+
+    video.muted = true;
+    video.defaultMuted = true;
+    void video.play().catch(() => {
+      video.addEventListener('canplay', () => {
+        void video.play().catch(() => undefined);
+      }, { once: true });
+    });
   }
 
   private scrollToHashTarget(hash: string): void {
@@ -152,20 +171,6 @@ export class HomeComponent implements AfterViewInit {
         navbar.sticky({ topSpacing: 0 });
       }
 
-      const heroSlides = jquery('.hero-slides');
-
-      if (heroSlides.length && typeof heroSlides.vegas === 'function') {
-        if (heroSlides.hasClass('vegas-container')) {
-          heroSlides.vegas('destroy');
-        }
-
-        heroSlides.vegas({
-          slides: await this.resolveHeroSlides(),
-          timer: false,
-          animation: 'kenburns',
-        });
-      }
-
       jquery('.navbar-collapse a').off('click.barista').on('click.barista', () => {
         jquery('.navbar-collapse').collapse('hide');
       });
@@ -192,36 +197,6 @@ export class HomeComponent implements AfterViewInit {
 
         jquery('body, html').animate({ scrollTop: offsetTop }, 300);
       });
-    });
-  }
-
-  private async resolveHeroSlides(): Promise<Array<{ src: string }>> {
-    const preferredSlides = [
-      'images/slides/carrusel1.jpg',
-      'images/slides/carrusel2.jpg',
-      'images/slides/carrusel3.jpg',
-    ];
-
-    const availablePreferredSlides = await Promise.all(preferredSlides.map((src) => this.imageExists(src)));
-
-    if (availablePreferredSlides.every(Boolean)) {
-      return preferredSlides.map((src) => ({ src }));
-    }
-
-    return [
-      { src: 'images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg' },
-      { src: 'images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg' },
-      { src: 'images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg' },
-    ];
-  }
-
-  private imageExists(src: string): Promise<boolean> {
-    return new Promise((resolve) => {
-      const image = new Image();
-
-      image.onload = () => resolve(true);
-      image.onerror = () => resolve(false);
-      image.src = src;
     });
   }
 

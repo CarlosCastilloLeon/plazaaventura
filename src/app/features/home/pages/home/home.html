@@ -2,6 +2,10 @@
   <app-site-public-header [homeMode]="true" />
 
   <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+    <video #heroVideo class="hero-video" autoplay loop muted playsinline preload="auto" aria-hidden="true">
+      <source src="/videos/VIDEO%20PLAZA%20AVENTURA.mp4" type="video/mp4" />
+    </video>
+
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-12 mx-auto">
@@ -21,7 +25,6 @@
       </div>
     </div>
 
-    <div class="hero-slides"></div>
   </section>
   <!--   -->
   <section class="about-section section-padding" id="section_2">
