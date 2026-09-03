@@ -3,23 +3,41 @@
         "tiendaId": 1,
         "nombre": "Rickis",
         "tienePromocion": false,
-        "tag": "Cafe Astral",
-        "descripcion": "Especialistas en café de especialidad, repostería artesanal y un ambiente ideal para coworking.",
+        "tag": "Rickis",
+        "descripcion": "Taquería.",
         "imagen": "images/logos-tiendas/1.jpg",
-        "categoria": "Cafeterías y Restaurantes",
+        "categoria": "Restaurantes",
         "logo": "images/logos-tiendas/1.jpg",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80\u0026w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80\u0026w=150",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuPOb_X_kk6vVKF2ONXw-XDuStv1lAwZgHgVFf5rm78rmnu7Q4UDv6hNCiUrErw9RYoYlDWjBPSSSpm07cl8QzAosnhmbam4tKqbPglxEjYWiNZ2kY04JMs17VNYIcl6eg7fkxm259w9lM=s680-w680-h510-rw",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuPOb_X_kk6vVKF2ONXw-XDuStv1lAwZgHgVFf5rm78rmnu7Q4UDv6hNCiUrErw9RYoYlDWjBPSSSpm07cl8QzAosnhmbam4tKqbPglxEjYWiNZ2kY04JMs17VNYIcl6eg7fkxm259w9lM=s680-w680-h510-rw",
                 "tiendaId": 1,
-                "alt": "Interior del café con mesas de madera"
+                "alt": "rickis"
             },
             {
-                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80\u0026w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80\u0026w=150",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnL-kAnu77Iush6C9TVPdoPoAB0rcI5pVjCHbuk0bjkZ5OhdTXepgCBO4dZ10uQLhScyJhsHO_Gwt5dhC0d_1BfN3-DuioXh99wkm3loYmypbHu_hoSwVjs49bPxyQwRjbFpg04rcfPIGCz=s680-w680-h510-rw",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnL-kAnu77Iush6C9TVPdoPoAB0rcI5pVjCHbuk0bjkZ5OhdTXepgCBO4dZ10uQLhScyJhsHO_Gwt5dhC0d_1BfN3-DuioXh99wkm3loYmypbHu_hoSwVjs49bPxyQwRjbFpg04rcfPIGCz=s680-w680-h510-rw",
                 "tiendaId": 1,
-                "alt": "Taza de café latte art con croissant"
+                "alt": "rickis"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgU62X0vJTWp7TS8r0sysHe9oLR5J93SSTKmknxHkoqpqgvyi1Z68FMrQIwRQyNDcTEQkHXVjFpPPSH7YEjLzncBvJJptPpY_H3I42yLurGC-l_W6Ch0e0VwqgltsZwQKMXvl2=s680-w680-h510-rw",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgU62X0vJTWp7TS8r0sysHe9oLR5J93SSTKmknxHkoqpqgvyi1Z68FMrQIwRQyNDcTEQkHXVjFpPPSH7YEjLzncBvJJptPpY_H3I42yLurGC-l_W6Ch0e0VwqgltsZwQKMXvl2=s680-w680-h510-rw",
+                "tiendaId": 1,
+                "alt": "rickis"
+            },
+            {
+                "src": "https://scontent.fmex25-1.fna.fbcdn.net/v/t39.30808-6/715494792_891518487295502_7830844826446697391_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x1706&ctp=s1365x1706&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEONC47MxxIbncTfyozXSrVmf8DUXiQGseZ_wNReJAax063uUOOWJFo5RK_cW1URzSAdEQyUPTgUYhbKMu_bGex&_nc_ohc=kg5Iln8YeRwQ7kNvwEgZTPm&_nc_oc=Adp5-9lw6480Zrh4Ag37qwLQOFpSKB67WFhCuZoJRdjkPjvxf6KjYr01Uf_WPp0EVSY&_nc_zt=23&_nc_ht=scontent.fmex25-1.fna&_nc_gid=uQLpwu9q8RTCH3wT1bn1MQ&_nc_ss=7b2a8&oh=00_AQJQSgCofyTsarY6cqQERQtLc8fetT8qsy4sfmct1kpzVQ&oe=6A9F8939",
+                "thumbSrc": "https://scontent.fmex25-1.fna.fbcdn.net/v/t39.30808-6/715494792_891518487295502_7830844826446697391_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x1706&ctp=s1365x1706&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEONC47MxxIbncTfyozXSrVmf8DUXiQGseZ_wNReJAax063uUOOWJFo5RK_cW1URzSAdEQyUPTgUYhbKMu_bGex&_nc_ohc=kg5Iln8YeRwQ7kNvwEgZTPm&_nc_oc=Adp5-9lw6480Zrh4Ag37qwLQOFpSKB67WFhCuZoJRdjkPjvxf6KjYr01Uf_WPp0EVSY&_nc_zt=23&_nc_ht=scontent.fmex25-1.fna&_nc_gid=uQLpwu9q8RTCH3wT1bn1MQ&_nc_ss=7b2a8&oh=00_AQJQSgCofyTsarY6cqQERQtLc8fetT8qsy4sfmct1kpzVQ&oe=6A9F8939",
+                 "tiendaId": 1,
+                "alt": "rickis"
+            },
+            {
+                "src": "https://scontent.fmex26-1.fna.fbcdn.net/v/t51.82787-15/530980397_17953390836002873_2754524965529432901_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeELDw68OJDqSqjPDay2hOYy6tHGcXiiH6Hq0cZxeKIfoW3rdcIVrhX5F71mokkTlTZbX-QNrgd6kOUOtseEDkux&_nc_ohc=MwUpzhkWHBEQ7kNvwHH9tB7&_nc_oc=AdppQCPjvOKkcq0NGKsgqvYt2gjZkao9MlAV9g3X3jvW2OsjGhBBiby-EL7J9laya6Q&_nc_zt=23&_nc_ht=scontent.fmex26-1.fna&_nc_gid=s-qa03Ie0Gr19R65fr0Nlw&_nc_ss=7b2a8&oh=00_AQLflMXysEX_nxSrG0I5o1Rnnw-slmceIgTA6ZNIudJ-jg&oe=6A9FA12B",
+                "thumbSrc": "https://scontent.fmex26-1.fna.fbcdn.net/v/t51.82787-15/530980397_17953390836002873_2754524965529432901_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeELDw68OJDqSqjPDay2hOYy6tHGcXiiH6Hq0cZxeKIfoW3rdcIVrhX5F71mokkTlTZbX-QNrgd6kOUOtseEDkux&_nc_ohc=MwUpzhkWHBEQ7kNvwHH9tB7&_nc_oc=AdppQCPjvOKkcq0NGKsgqvYt2gjZkao9MlAV9g3X3jvW2OsjGhBBiby-EL7J9laya6Q&_nc_zt=23&_nc_ht=scontent.fmex26-1.fna&_nc_gid=s-qa03Ie0Gr19R65fr0Nlw&_nc_ss=7b2a8&oh=00_AQLflMXysEX_nxSrG0I5o1Rnnw-slmceIgTA6ZNIudJ-jg&oe=6A9FA12B",
+                "tiendaId": 1,
+                "alt": "rickis"
             }
         ],
         "promociones": [
@@ -52,26 +70,27 @@
             }
         ],
         "ubicacion": "Local 1",
-        "horario1": "Lunes a Domingo de 10:00am a 11:00pm",
+        "horario1": "Lunes a Jueves de 2:00 pm a 10:30 pm \n \n Viernes y Sábado de 2:00 pm a 11:30 pm \n \n Domingo de 2:00 pm a 9:00 pm",
         "horario2": "",
         "horario3": "",
-        "telefono": "2222838068",
-        "email": "lomas@antiguataquerialaoriental.com",
-        "facebook": "https://www.facebook.com/AntiguaTaqueriaLaOriental",
-        "instagram": "https://www.instagram.com/antiguataqueria_laoriental"
+        "telefono": "221 151 4668",
+        "email": "",
+        "facebook": "https://www.facebook.com/p/Tacos-Rickis-Lomas-de-Angel%C3%B3polis-100093120770922",
+        "instagram": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Ftacosrickislomas%3Ffbclid%3DIwcGRvZgVleHRuA2FlbQIxMABicmlkETFtYUF6N3NiQXFLb2JIeEpWc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvGD1EWXy9BHtCrU9WH1cLFkTaknhpYLvv9PfrcpqT0hUjR48uERaEcLZDM4_aem_9etm8JCL-9gP0Q9OzIg-bA&h=AUBitOfZvFiG_PBY9EJkj6F_yzlf9JfyZrg-k0rMPGHe13OFYyVzbWFVViDV3Umrtwc9fDiUrewb0R9BrLwnno_jqCDRDuy4F54WrzzGrcsqxENcO6SngJAw388aNnX0clL3",
+        "tiktok": "https://www.tiktok.com/@tacosrickislomas"
     },
     {
         "tiendaId": 2,
         "nombre": "Casa de Cambio",
         "tienePromocion": false,
         "tag": "Casa de Cambio",
-        "descripcion": "Tu tienda de confianza para cambiar divisas de manera rápida y segura.",
+        "descripcion": "Casa de Cambio.",
         "imagen": "images/logos-tiendas/2.jpg",
-        "categoria": "Tecnología y Entretenimiento",
+        "categoria": "Otros",
         "logo": "images/logos-tiendas/2.jpg",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuPOb_X_kk6vVKF2ONXw-XDuStv1lAwZgHgVFf5rm78rmnu7Q4UDv6hNCiUrErw9RYoYlDWjBPSSSpm07cl8QzAosnhmbam4tKqbPglxEjYWiNZ2kY04JMs17VNYIcl6eg7fkxm259w9lM=s680-w680-h510-rw",
                 "thumbSrc": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80\u0026w=150",
                 "tiendaId": 2,
                 "alt": "Estante lleno de figuras coleccionables y funkos"
@@ -103,12 +122,12 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Centro Comercial Plaza Nova, Local 22",
-        "horario1": "Lunes a Sábado: 10:00 AM - 08:00 PM",
-        "horario2": "Domingos: 11:00 AM - 07:00 PM",
-        "horario3": "Días Festivos: Cerrado",
-        "telefono": "+525559876543",
-        "email": "soporte@pixelandplay.com",
+        "ubicacion": "Local 1A",
+        "horario1": "Abierto",
+        "horario2": "",
+        "horario3": "",
+        "telefono": "",
+        "email": "",
         "facebook": "https://facebook.com/pixelandplay",
         "instagram": "https://instagram.com/pixelandplay"
     },

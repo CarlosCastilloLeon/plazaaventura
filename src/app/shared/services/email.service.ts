@@ -5,7 +5,7 @@ import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
   providedIn: 'root',
 })
 export class EmailService {
-  private readonly serviceId = 'service_6zop3ib';
+  private readonly serviceId = 'service_7otq0pe';
   private readonly templateId = 'template_wtiuqlm';
   private readonly publicKey = 'Jk2KqHDd0WhAmMziy';
 

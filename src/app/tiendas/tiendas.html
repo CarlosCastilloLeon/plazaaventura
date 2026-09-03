@@ -93,33 +93,43 @@
             <h2>Contacto</h2>
             <div class="contact-bars">
               <div class="contact-bar contact-bar--info">
+                @if (tienda()?.telefono) {
                 <a class="contact-item" href="tel:{{tienda()?.telefono}}" >
                   <i class="bi bi-telephone-fill"></i>
                   <span>{{ (tienda()?.telefono) | telefono }}</span>
                 </a>
+                }
+                @if (tienda()?.email) {
                 <a class="contact-item" href="mailto:{{tienda()?.email}}">
                   <i class="bi bi-envelope-fill"></i>
                   <span>{{tienda()?.email}}</span>
                 </a>
+                }
               </div>
 
               <div class="contact-bar contact-bar--social">
+                @if (tienda()?.facebook) {
                 <a class="contact-item" href="{{tienda()?.facebook}}" target="_blank" rel="noopener">
                   <i class="bi bi-facebook"></i>
                   <span>Facebook</span>
                 </a>
+                }
+                @if (tienda()?.instagram) {
                 <a class="contact-item" href="{{tienda()?.instagram}}" target="_blank" rel="noopener">
                   <i class="bi bi-instagram"></i>
                   <span>Instagram</span>
                 </a>
+                }
                 <!--a class="contact-item" href="https://twitter.com/{{tienda()?.twitter}}" target="_blank" rel="noopener">
                   <i class="bi bi-twitter"></i>
                   <span>Twitter</span>
-                </a>
-                <a class="contact-item" href="https://tiktok.com/@{{tienda()?.tiktok}}" target="_blank" rel="noopener">
+                </a-->
+                @if(tienda()?.tiktok){
+                <a class="contact-item" href="{{tienda()?.tiktok}}" target="_blank" rel="noopener">
                   <i class="bi bi-tiktok"></i>
                   <span>TikTok</span>
-                </a-->
+                </a>
+                }
               </div>
             </div>
           </section>
