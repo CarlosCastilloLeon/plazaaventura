@@ -19,27 +19,43 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-lg-auto">
         <li class="nav-item">
-          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_1' : '/#section_1'">Inicio</a>
+          @if (directoryMode()) {
+            <a class="nav-link" [routerLink]="['/']" [fragment]="'section_1'">Inicio</a>
+          } @else {
+            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_1' : '/#section_1'">Inicio</a>
+          }
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_2' : '/#section_2'">Nosotros</a>
+          @if (directoryMode()) {
+            <a class="nav-link" [routerLink]="['/']" [fragment]="'section_2'">Nosotros</a>
+          } @else {
+            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_2' : '/#section_2'">Nosotros</a>
+          }
         </li>
 
         <li class="nav-item">
           @if (directoryMode()) {
             <a class="nav-link active" routerLink="/directorio" aria-current="page">Directorio</a>
           } @else {
-            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_3' : '/#section_3'">Directorio</a>
+            <a class="nav-link" routerLink="/directorio">Directorio</a>
           }
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_4' : '/#section_4'">Promociones</a>
+          @if (directoryMode()) {
+            <a class="nav-link" [routerLink]="['/']" [fragment]="'section_4'">Servicios</a>
+          } @else {
+            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_4' : '/#section_4'">Servicios</a>
+          }
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_5' : '/#section_5'">Contacto</a>
+          @if (directoryMode()) {
+            <a class="nav-link" [routerLink]="['/']" [fragment]="'section_5'">Contacto</a>
+          } @else {
+            <a class="nav-link" [class.click-scroll]="homeMode()" [attr.href]="homeMode() ? '#section_5' : '/#section_5'">Contacto</a>
+          }
         </li>
       </ul>
 

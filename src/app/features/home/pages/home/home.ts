@@ -10,7 +10,6 @@ import { CarruselZ } from '../../../carruselZ/carruselZ';
 import { FactsComponent } from "../../../facts/facts.component";
 import { TestimonialsComponent } from '../../../testimonials/testimonials.component';
 import { Gallery } from '../../../gallery/gallery';
-import { Alltiendas } from "../../../alltiendas/alltiendas";
 @Component({
   standalone: true,
   selector: 'app-home',
@@ -23,7 +22,6 @@ import { Alltiendas } from "../../../alltiendas/alltiendas";
     FactsComponent,
     TestimonialsComponent,
     Gallery,
-    Alltiendas
 ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
@@ -108,7 +106,31 @@ export class HomeComponent implements AfterViewInit {
       return;
     }
 
+    this.scrollToHashTarget(window.location.hash);
+    window.addEventListener('hashchange', () => this.scrollToHashTarget(window.location.hash), { passive: true });
+
     void this.initializeTemplate();
+  }
+
+  private scrollToHashTarget(hash: string): void {
+    if (!hash || !hash.startsWith('#')) {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      const target = document.getElementById(hash.slice(1));
+
+      if (!target) {
+        return;
+      }
+
+      const navbar = document.querySelector('.navbar') as HTMLElement | null;
+      const stickyWrapper = document.querySelector('.sticky-wrapper') as HTMLElement | null;
+      const offset = (stickyWrapper?.offsetHeight ?? navbar?.offsetHeight ?? 0) + 32;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({ top, behavior: 'smooth' });
+    });
   }
 
   private async initializeTemplate(): Promise<void> {

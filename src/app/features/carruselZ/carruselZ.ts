@@ -42,4 +42,8 @@ export class CarruselZ {
     }
   }
 
+  goToDirectory(): void {
+    this.router.navigate(['/directorio']);
+  }
+
 }
