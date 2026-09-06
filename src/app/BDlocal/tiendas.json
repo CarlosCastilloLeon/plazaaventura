@@ -81,25 +81,32 @@
     },
     {
         "tiendaId": 2,
-        "nombre": "Casa de Cambio",
+        "nombre": "Baleares",
         "tienePromocion": false,
         "tag": "Casa de Cambio",
         "descripcion": "Casa de Cambio.",
-        "imagen": "images/logos-tiendas/2.jpg",
-        "categoria": "Otros",
-        "logo": "images/logos-tiendas/2.jpg",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/273469040_1103568550480711_6951917664042138513_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s200x200&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=HXr64QoqH2QQ7kNvwFg6VmZ&_nc_oc=AdrA2nTX2hrWe8-xy8Ke-nYz11JZAysuQDp1EvRXH4D9ULcszpFq7Y51r1ULpD6G6IDqRoIyz69og537D_xkZZI1&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=pc12On6TZC6OX0X9Rv-7eA&_nc_ss=7b289&oh=00_AQKMxwUTJ1glSPqwyEZ9s0l_yvm-6hDSsRVeMGFQu1pxeA&oe=6AA38C8D",
+        "categoria": "Servicios",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/273469040_1103568550480711_6951917664042138513_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s200x200&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=HXr64QoqH2QQ7kNvwFg6VmZ&_nc_oc=AdrA2nTX2hrWe8-xy8Ke-nYz11JZAysuQDp1EvRXH4D9ULcszpFq7Y51r1ULpD6G6IDqRoIyz69og537D_xkZZI1&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=pc12On6TZC6OX0X9Rv-7eA&_nc_ss=7b289&oh=00_AQKMxwUTJ1glSPqwyEZ9s0l_yvm-6hDSsRVeMGFQu1pxeA&oe=6AA38C8D",
         "imagenes": [
             {
-                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuPOb_X_kk6vVKF2ONXw-XDuStv1lAwZgHgVFf5rm78rmnu7Q4UDv6hNCiUrErw9RYoYlDWjBPSSSpm07cl8QzAosnhmbam4tKqbPglxEjYWiNZ2kY04JMs17VNYIcl6eg7fkxm259w9lM=s680-w680-h510-rw",
-                "thumbSrc": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80\u0026w=150",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/273972419_1106016480235918_4334352203892954545_n.png?stp=dst-jpg_tt6&cstp=mx1000x500&ctp=s1000x500&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ySlxpZ2M7bQQ7kNvwG-CyBS&_nc_oc=Adrs6xJO080hpZfqya4RKHwgU84vtHLleie1pQeUZB6kfwqdMGpHoStQH5Wu4Viv2QyBYMuoPPaEA5L7nujbOhBk&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=lUZlwR-kcTYKCkqSUsmkSw&_nc_ss=7b289&oh=00_AQLRBDOstcQ18kzQH1NI7IgFftPIK9PlVOSDCI6hG18m-g&oe=6AA3A43B",
+
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/273972419_1106016480235918_4334352203892954545_n.png?stp=dst-jpg_tt6&cstp=mx1000x500&ctp=s1000x500&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ySlxpZ2M7bQQ7kNvwG-CyBS&_nc_oc=Adrs6xJO080hpZfqya4RKHwgU84vtHLleie1pQeUZB6kfwqdMGpHoStQH5Wu4Viv2QyBYMuoPPaEA5L7nujbOhBk&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=lUZlwR-kcTYKCkqSUsmkSw&_nc_ss=7b289&oh=00_AQLRBDOstcQ18kzQH1NI7IgFftPIK9PlVOSDCI6hG18m-g&oe=6AA3A43B",
                 "tiendaId": 2,
-                "alt": "Estante lleno de figuras coleccionables y funkos"
+                "alt": "Centro Cambiario"
             },
             {
-                "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80\u0026w=600",
-                "thumbSrc": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80\u0026w=150",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/273895732_1105994646904768_3409145491994508042_n.png?stp=dst-jpg_tt6&cstp=mx1000x500&ctp=s1000x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qITYUwOrlzEQ7kNvwEwy9l8&_nc_oc=AdqNw2WIlj99JjYz-mwbu3o6cZCRe6AOgpRHvHb7LNBB3Gmm6SUW4xq-5HEsyMUra7KU2_ckfPhkshzP5Ph-lU9m&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=TuCz2cO2acysKql5QvlwNA&_nc_ss=7b289&oh=00_AQKznAttokC_HX3wyjo5aCmPGvyngPYHjeW4VGt_tClkWA&oe=6AA3A682",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/273895732_1105994646904768_3409145491994508042_n.png?stp=dst-jpg_tt6&cstp=mx1000x500&ctp=s1000x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qITYUwOrlzEQ7kNvwEwy9l8&_nc_oc=AdqNw2WIlj99JjYz-mwbu3o6cZCRe6AOgpRHvHb7LNBB3Gmm6SUW4xq-5HEsyMUra7KU2_ckfPhkshzP5Ph-lU9m&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=TuCz2cO2acysKql5QvlwNA&_nc_ss=7b289&oh=00_AQKznAttokC_HX3wyjo5aCmPGvyngPYHjeW4VGt_tClkWA&oe=6AA3A682",
                 "tiendaId": 2,
-                "alt": "Zona de torneos y pantallas gaming"
+                "alt": "Baleares"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/474147111_1792359811601578_5864291683033638234_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RuN8bsEQo-sQ7kNvwEfxv3E&_nc_oc=AdrL287CsEluss4lP-s89ccZPenu13y-3QbDgrEd0TvXqv2erD4CXzMthmeK9oo1EKruNRm4z9lZ9fvfEtZsWMu_&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=XJvo2r4TPtBynH2a9rhyUw&_nc_ss=7b289&oh=00_AQJeIVAkCxNieTva5zK_yB1NBOho6acQZwZ6bOYfUDfvOw&oe=6AA38377",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/474147111_1792359811601578_5864291683033638234_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RuN8bsEQo-sQ7kNvwEfxv3E&_nc_oc=AdrL287CsEluss4lP-s89ccZPenu13y-3QbDgrEd0TvXqv2erD4CXzMthmeK9oo1EKruNRm4z9lZ9fvfEtZsWMu_&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=XJvo2r4TPtBynH2a9rhyUw&_nc_ss=7b289&oh=00_AQJeIVAkCxNieTva5zK_yB1NBOho6acQZwZ6bOYfUDfvOw&oe=6AA38377",
+                "tiendaId": 2,
+                "alt": "Imagen genérica"
             }
         ],
         "promociones": [
@@ -123,13 +130,13 @@
             }
         ],
         "ubicacion": "Local 1A",
-        "horario1": "Abierto",
+        "horario1": "Lunes a Viernes de 10:00 am  a 6:00pm\n \n  Sábado de 10:00 am a 16:00 pm \n \n Domingo Cerrado",
         "horario2": "",
         "horario3": "",
-        "telefono": "",
+        "telefono": "222 211 3493",
         "email": "",
-        "facebook": "https://facebook.com/pixelandplay",
-        "instagram": "https://instagram.com/pixelandplay"
+        "facebook": "",
+        "instagram": ""
     },
     {
         "tiendaId": 3,
@@ -386,9 +393,9 @@
         "nombre": "Antares Inmobiliaria",
         "tienePromocion": false,
         "descripcion": "Antares Inmobiliaria ofrece servicios profesionales en la compra, venta y renta de propiedades.",
-        "imagen": "images/logos-tiendas/7.jpg",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/494924140_122106439730909707_3476765368168043504_n.jpg?stp=dst-jpg_tt6&cstp=mx1789x1950&ctp=s1789x1950&_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeENaeBZ5cpWThi_pLIteuKzC_q554OUdaAL-rnng5R1oEiUirToQhCUPSbN7QrTNQ9jsC34qvIbffpVUGIfUnW5&_nc_ohc=rl-7zXKW4d0Q7kNvwEEToyg&_nc_oc=Adp3zEQE_gxIOeDtDtmgdZjtaAIUsOBIcLw2EepIzlGphQz7k2CUhLvOzh9vj4sRxrsdvAyUP6G57W5C87a6BHVK&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=qLsoJ8yg1Jx9-axr17NOzg&_nc_ss=7b2a8&oh=00_AQIECrMnwuH44IVLCYrCv-3UJNsgEMn-sH-uZHMOdJ4LQw&oe=6AA3821F",
         "categoria": "Servicios",
-        "logo": "images/logos-tiendas/7.jpg",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/494924140_122106439730909707_3476765368168043504_n.jpg?stp=dst-jpg_tt6&cstp=mx1789x1950&ctp=s1789x1950&_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeENaeBZ5cpWThi_pLIteuKzC_q554OUdaAL-rnng5R1oEiUirToQhCUPSbN7QrTNQ9jsC34qvIbffpVUGIfUnW5&_nc_ohc=rl-7zXKW4d0Q7kNvwEEToyg&_nc_oc=Adp3zEQE_gxIOeDtDtmgdZjtaAIUsOBIcLw2EepIzlGphQz7k2CUhLvOzh9vj4sRxrsdvAyUP6G57W5C87a6BHVK&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=qLsoJ8yg1Jx9-axr17NOzg&_nc_ss=7b2a8&oh=00_AQIECrMnwuH44IVLCYrCv-3UJNsgEMn-sH-uZHMOdJ4LQw&oe=6AA3821F",
         "imagenes": [
             {
                 "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
@@ -427,7 +434,7 @@
         "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000007",
+        "telefono": "5534884600",
         "email": "mock7@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda7",
         "instagram": "https://instagram.com/mocktienda7"
@@ -722,24 +729,36 @@
     },
     {
         "tiendaId": 13,
-        "nombre": "Mock Tienda 13",
+        "nombre": "Paquete Express",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/13.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/13.jpg",
+        "descripcion": "Paquetexpress, su confianza nos mueve.",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/618559580_1300222382133498_1349648294050063758_n.jpg?stp=dst-jpg_tt6&cstp=mx667x667&ctp=s667x667&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFPzGo5pVHPlEou5SibwUBVzyW1i70EtAjPJbWLvQS0CEewLbPSxTuyuGntSX1fYK3k9RmlKkAkPG9Oo3uh4rkK&_nc_ohc=TNVor_V898gQ7kNvwGh7Ikz&_nc_oc=AdoZqyCqL_gvg62uk7QAJn8tPzcNvpNyDvILd2KwF8GG9I7mD0dNYak8VUzTDTleLW-bxd4j2lqlyswM1wSJlSPB&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=q84ZVwOMplBnd4jJorMRww&_nc_ss=7b2a8&oh=00_AQJ6MeFIJH0-OQsAnH4qGVzQhXZvwPbrgc8j1dQqQ9NjyQ&oe=6AA3833C",
+        "categoria": "Paquetería",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/618559580_1300222382133498_1349648294050063758_n.jpg?stp=dst-jpg_tt6&cstp=mx667x667&ctp=s667x667&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFPzGo5pVHPlEou5SibwUBVzyW1i70EtAjPJbWLvQS0CEewLbPSxTuyuGntSX1fYK3k9RmlKkAkPG9Oo3uh4rkK&_nc_ohc=TNVor_V898gQ7kNvwGh7Ikz&_nc_oc=AdoZqyCqL_gvg62uk7QAJn8tPzcNvpNyDvILd2KwF8GG9I7mD0dNYak8VUzTDTleLW-bxd4j2lqlyswM1wSJlSPB&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=q84ZVwOMplBnd4jJorMRww&_nc_ss=7b2a8&oh=00_AQJ6MeFIJH0-OQsAnH4qGVzQhXZvwPbrgc8j1dQqQ9NjyQ&oe=6AA3833C",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/785290727_1487185266770541_3085797829756379974_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEEgHg9SSF_Ia8EBw-TGDx5alpw-9YHFNtqWnD71gcU21QDhYSS0gAGHCRLjeLh6MyGSFyIPf2y3lJmpaSq_d4x&_nc_ohc=C9jb5dQ51F0Q7kNvwH_LTzt&_nc_oc=AdqAPq3sy_TpA6I2zl-sB7A--g__PoIi6V4h0noStnDCw3CsCj2xkvkQa8ozw68XLlqyk-TIQ9N8k9JUfucXVGYh&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=Gj2LMfkxmrPaUihEI3WcRA&_nc_ss=7b2a8&oh=00_AQITiLL0pua4KuAZGVIBkkImt_LWHJ-6B4p5j3ea3ezMIw&oe=6AA36942",
                 "tiendaId": 13,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "Paquete Express",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/785290727_1487185266770541_3085797829756379974_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEEgHg9SSF_Ia8EBw-TGDx5alpw-9YHFNtqWnD71gcU21QDhYSS0gAGHCRLjeLh6MyGSFyIPf2y3lJmpaSq_d4x&_nc_ohc=C9jb5dQ51F0Q7kNvwH_LTzt&_nc_oc=AdqAPq3sy_TpA6I2zl-sB7A--g__PoIi6V4h0noStnDCw3CsCj2xkvkQa8ozw68XLlqyk-TIQ9N8k9JUfucXVGYh&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=Gj2LMfkxmrPaUihEI3WcRA&_nc_ss=7b2a8&oh=00_AQITiLL0pua4KuAZGVIBkkImt_LWHJ-6B4p5j3ea3ezMIw&oe=6AA36942"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX2Q-tudAoqi8mQqYQVzuwz0-wH4EIGNbn526L28LWk7VkfnUw6EmqHGAwkVfKxHUISHIjEjjKL7WHYlgowdJSEdSF0l0XAkHie9qds-zJanBnwfUK3uCkrCWQKs1_mLhrJf-oheith3xG=s680-w680-h510-rw",
                 "tiendaId": 13,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "Paquete Express",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX2Q-tudAoqi8mQqYQVzuwz0-wH4EIGNbn526L28LWk7VkfnUw6EmqHGAwkVfKxHUISHIjEjjKL7WHYlgowdJSEdSF0l0XAkHie9qds-zJanBnwfUK3uCkrCWQKs1_mLhrJf-oheith3xG=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeJ3tgkjcOjEmIdlqPMiMxlyMCTuOqs_N7LyKXFwzp9oW5v92fq7b_eB2ZHu_uNa2FjQ29eHy9agVEwwE_rGhK-JgMfIBHLOFJzOIpfvcevzfop7XDbQhtlnrKC8zJii4dWHk=s680-w680-h510-rw",
+                "tiendaId": 13,
+                "alt": "Paquete Express",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeJ3tgkjcOjEmIdlqPMiMxlyMCTuOqs_N7LyKXFwzp9oW5v92fq7b_eB2ZHu_uNa2FjQ29eHy9agVEwwE_rGhK-JgMfIBHLOFJzOIpfvcevzfop7XDbQhtlnrKC8zJii4dWHk=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/786757580_1482708157218252_7024144331807051140_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHV8JdnZ0GMeREb04Fqgk0soakK6z2x8v-hqQrrPbHy_3e6TKfphCEokVTWOZorVQnWUrrXE7oEWODdVC4eHAew&_nc_ohc=A4HboH7If7EQ7kNvwFLcVVh&_nc_oc=AdpK7RIuGpH4G_YoBFrR2O1IhXK0vbh5c-gHdhFgY8Hql_znp6R9f3W-giOiwZcaww2nA2hFm8OX3F4SX8QuH0jR&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=t2PRrnCM6Nqdb-kxi03Ocg&_nc_ss=7b2a8&oh=00_AQIQMyEmW8dxw0pd5ElbOwHPkjLhWyVZraAbP53FLwrDmg&oe=6AA36FFB",
+                "tiendaId": 13,
+                "alt": "Paquete Express",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/786757580_1482708157218252_7024144331807051140_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHV8JdnZ0GMeREb04Fqgk0soakK6z2x8v-hqQrrPbHy_3e6TKfphCEokVTWOZorVQnWUrrXE7oEWODdVC4eHAew&_nc_ohc=A4HboH7If7EQ7kNvwFLcVVh&_nc_oc=AdpK7RIuGpH4G_YoBFrR2O1IhXK0vbh5c-gHdhFgY8Hql_znp6R9f3W-giOiwZcaww2nA2hFm8OX3F4SX8QuH0jR&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=t2PRrnCM6Nqdb-kxi03Ocg&_nc_ss=7b2a8&oh=00_AQIQMyEmW8dxw0pd5ElbOwHPkjLhWyVZraAbP53FLwrDmg&oe=6AA36FFB"
             }
         ],
         "promociones": [
@@ -762,35 +781,56 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 13",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 13",
+        "horario1": "Lunes a Viernes de 9:00 am  a 7:00pm\n \n  Sábado de 9:00 am a 2:00 pm \n \n Domingo Cerrado",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000013",
-        "email": "mock13@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda13",
-        "instagram": "https://instagram.com/mocktienda13"
+        "telefono": "222 129 0156",
+        "email": "",
+        "facebook": "https://www.facebook.com/PaquetexpressOficial/",
+        "instagram": "https://www.instagram.com/paquetexpress.oficial",
+        "twitter": "https://twitter.com/paquetexpress",
+        "tiktok": "https://www.tiktok.com/@paquetexpressoficial"
     },
     {
         "tiendaId": 14,
-        "nombre": "Mock Tienda 14",
+        "nombre": "TecnoLite",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/14.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/14.jpg",
+        "descripcion": "Diseñando con luz, Automatizando cada espacio",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/759664172_122112850353379408_7889709489190386371_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s200x200&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeEK7gG8cL0lC2tknxruSD_Zswm7j5yOMECzCbuPnI4wQKhajO8IjLLyssaeRaNXmFD05pUTt0lxNVfAbfwy9fLn&_nc_ohc=3yDRvBK1sXEQ7kNvwFv1Iy5&_nc_oc=Adpa86hhUY-zYnN1gIJgowvsaLggTiVjywJwh798zeC4_rXyIbgSEy7kvSXRmz14KmbsiABrb2ajqTwatO9biEfO&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=qoraCiU8Hzc9vqnt0pIrhA&_nc_ss=7b2a8&oh=00_AQIurbN06GiX2RvnzLaJSQNqQexrfbDzvrFzma6_jDw9_g&oe=6AA3971C",
+        "categoria": "Tecnología",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/759664172_122112850353379408_7889709489190386371_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s200x200&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeEK7gG8cL0lC2tknxruSD_Zswm7j5yOMECzCbuPnI4wQKhajO8IjLLyssaeRaNXmFD05pUTt0lxNVfAbfwy9fLn&_nc_ohc=3yDRvBK1sXEQ7kNvwFv1Iy5&_nc_oc=Adpa86hhUY-zYnN1gIJgowvsaLggTiVjywJwh798zeC4_rXyIbgSEy7kvSXRmz14KmbsiABrb2ajqTwatO9biEfO&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=qoraCiU8Hzc9vqnt0pIrhA&_nc_ss=7b2a8&oh=00_AQIurbN06GiX2RvnzLaJSQNqQexrfbDzvrFzma6_jDw9_g&oe=6AA3971C  ",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWne-vi4e5UOa60SCEBHKCjrs4A4CnfBRm_9LcnhZYp9Q8UiK_Ee_uA6cDvovS9E1sPn7QxgxzxYoURMlKo1ymlJF4lUqvS81jCuM3t1_hV_FXFz9iGPcLOf8ogMSNqD7UxA9aPD=s680-w680-h510-rw",
                 "tiendaId": 14,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "Tecnolite",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWne-vi4e5UOa60SCEBHKCjrs4A4CnfBRm_9LcnhZYp9Q8UiK_Ee_uA6cDvovS9E1sPn7QxgxzxYoURMlKo1ymlJF4lUqvS81jCuM3t1_hV_FXFz9iGPcLOf8ogMSNqD7UxA9aPD=s680-w680-h510-rw"
+                
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOQ-jpjcaQA5y5ry8c8GgIJSKwfPA9ZvfSFyRA2Y5ypp1qLDyCttTd8eYpZDvu-gTY5MDaOy9n54tMLYJVmaqr_E-wdzx-Oo6m_W_IQoa5XV6iyHcFaNvdSpIN-xGhzdhrfmQQ=s680-w680-h510-rw",
                 "tiendaId": 14,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "Tecnolite",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOQ-jpjcaQA5y5ry8c8GgIJSKwfPA9ZvfSFyRA2Y5ypp1qLDyCttTd8eYpZDvu-gTY5MDaOy9n54tMLYJVmaqr_E-wdzx-Oo6m_W_IQoa5XV6iyHcFaNvdSpIN-xGhzdhrfmQQ=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMn6lqiTwDNYsaBLJa7cwEt24UOPLluKNzDrV7cFL-oyHluKMS6BGX7Vn7kSEkKBjbcTa6ZE8G3vlg-pzGqNiTzv2m3xKeO6Lobhva1gUY5otb-1EtM_GMmy4AAn6aMze7_BkZcQ=s680-w680-h510-rw",
+                "tiendaId": 14,
+                "alt": "Tecnolite",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMn6lqiTwDNYsaBLJa7cwEt24UOPLluKNzDrV7cFL-oyHluKMS6BGX7Vn7kSEkKBjbcTa6ZE8G3vlg-pzGqNiTzv2m3xKeO6Lobhva1gUY5otb-1EtM_GMmy4AAn6aMze7_BkZcQ=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmJ60Gqb4nI2J5s4k0mcdMh5TI8zzGr8QvdMjWrCo2yIBmpbEc5fIT8Hig4eHELJXaNuf0KCTUZ70VRwPZJOLZD9rxngfz2l95UDKnEd6tqEvIoLwreAxX2sIBiawENWO4yrtnY=s680-w680-h510-rw",
+                "tiendaId": 14,
+                "alt": "Tecnolite",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmJ60Gqb4nI2J5s4k0mcdMh5TI8zzGr8QvdMjWrCo2yIBmpbEc5fIT8Hig4eHELJXaNuf0KCTUZ70VRwPZJOLZD9rxngfz2l95UDKnEd6tqEvIoLwreAxX2sIBiawENWO4yrtnY=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmzbqqMM80yd7nDAE-kiwJHku27E0EJXvbRXbhFcfioVGYqoYSGDDE6kEWj04VPQ38j6fcWXwy4qAsN3d9qeivBs0CzkyfRI9OnCGdg1Ra0TnYSP-EDebFXrqW6hT5_Ig_nEmOv=s680-w680-h510-rw",
+                "tiendaId": 14,
+                "alt": "Tecnolite",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmzbqqMM80yd7nDAE-kiwJHku27E0EJXvbRXbhFcfioVGYqoYSGDDE6kEWj04VPQ38j6fcWXwy4qAsN3d9qeivBs0CzkyfRI9OnCGdg1Ra0TnYSP-EDebFXrqW6hT5_Ig_nEmOv=s680-w680-h510-rw"
             }
         ],
         "promociones": [
@@ -813,35 +853,41 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 14",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 14",
+        "horario1": "Lunes a Viernes de 9:30 am  a 8:00pm\n \n  Sábado de 9:30 am a 2:00 pm \n \n Domingo Cerrado",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000014",
-        "email": "mock14@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda14",
-        "instagram": "https://instagram.com/mocktienda14"
+        "telefono": "222 688 1580",
+        "email": "tecnolite.lomas@gmail.com",
+        "facebook": "https://www.facebook.com/people/Allux-Iluminaci%C3%B3n-Tecnolite",
+        "instagram": "https://www.instagram.com/allux_iluminacion"
     },
     {
         "tiendaId": 15,
-        "nombre": "Mock Tienda 15",
+        "nombre": "Prenda Mex",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/15.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/15.jpg",
-        "imagenes": [
+        "descripcion": "Casa de Empeño",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/784242778_122104286775444053_8215394569520972903_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeFNsAn-J4-TqvFUaexnMWuVdOQDJu7SQFx05AMm7tJAXGlpt0ZguSuz-_Wbg-3mV6HB8XskeT786NwDGz38jIB-&_nc_ohc=lI7P6UWgUN8Q7kNvwFhyfrf&_nc_oc=Ado026lgQaUtuZYqLzyAoW4HlrycXvcfDEc4jVQykD6JaEVu7kfR4ddAPDh1ekPghEHfmFy2I8a96bc0fppCp-RN&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=RsTejP4e7bYH9Dj8_A4cjQ&_nc_ss=7b2a8&oh=00_AQI-zg7J8jO3Ohr-rWgSfvxChcJBOyGYAHJ7fyQFjM3OCg&oe=6AA3842F",
+        "categoria": "Servicios",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/784242778_122104286775444053_8215394569520972903_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeFNsAn-J4-TqvFUaexnMWuVdOQDJu7SQFx05AMm7tJAXGlpt0ZguSuz-_Wbg-3mV6HB8XskeT786NwDGz38jIB-&_nc_ohc=lI7P6UWgUN8Q7kNvwFhyfrf&_nc_oc=Ado026lgQaUtuZYqLzyAoW4HlrycXvcfDEc4jVQykD6JaEVu7kfR4ddAPDh1ekPghEHfmFy2I8a96bc0fppCp-RN&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=RsTejP4e7bYH9Dj8_A4cjQ&_nc_ss=7b2a8&oh=00_AQI-zg7J8jO3Ohr-rWgSfvxChcJBOyGYAHJ7fyQFjM3OCg&oe=6AA3842F",
+         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/798414517_122109182445444053_7475632960971177850_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHZZhINKO3SFFiZAqrjUKnX6St1F4Hn7V3pK3UXgeftXar4C1PRF8tDItEDPx9CENflswRWuptwugo-fdBvjzTN&_nc_ohc=ZZ-_oCzEvjIQ7kNvwHZlpxs&_nc_oc=AdqBAM4eVuHM2EDPn23quKWgHbhOh4WE0xmM8urvePYiWg1IHkIUC3MuPleml8beYeU7Jcfyecsd_EIRpRJ6lbyf&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=myfXyRpqhYw9PSa1vprLAQ&_nc_ss=7b2a8&oh=00_AQI9xA-fd_O6rvfECfpKE9pt_G2tpHQ00q9mbnn3tt9ong&oe=6AA393D4",
                 "tiendaId": 15,
                 "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/798414517_122109182445444053_7475632960971177850_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHZZhINKO3SFFiZAqrjUKnX6St1F4Hn7V3pK3UXgeftXar4C1PRF8tDItEDPx9CENflswRWuptwugo-fdBvjzTN&_nc_ohc=ZZ-_oCzEvjIQ7kNvwHZlpxs&_nc_oc=AdqBAM4eVuHM2EDPn23quKWgHbhOh4WE0xmM8urvePYiWg1IHkIUC3MuPleml8beYeU7Jcfyecsd_EIRpRJ6lbyf&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=myfXyRpqhYw9PSa1vprLAQ&_nc_ss=7b2a8&oh=00_AQI9xA-fd_O6rvfECfpKE9pt_G2tpHQ00q9mbnn3tt9ong&oe=6AA393D4"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/788208298_122106698607444053_9176384342178233507_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1536&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGgcnR4ssgcisZ6pvn9-PwK6H56ydFIVdLofnrJ0UhV0irQCyAzYj94Y8euZPct68emt4hICPg1SNCpD4fJmAvJ&_nc_ohc=6y1aiTW6tewQ7kNvwEq01mo&_nc_oc=AdqUsg1t16d90yIgVOahPJyUDvpyq7UQBaU3FsUsAZ99cGhjkVuEDThr6DdZRK5kgMXUpfS3IHd3FLmitJIFNK7E&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=sASKJvvbudRD-l_FnRWCBA&_nc_ss=7b2a8&oh=00_AQLnVmNt131_h8LStsOl_8yGO8XNI_D6V2nNXDGVUZXnPg&oe=6AA37E1E",
                 "tiendaId": 15,
                 "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/788208298_122106698607444053_9176384342178233507_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1536&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGgcnR4ssgcisZ6pvn9-PwK6H56ydFIVdLofnrJ0UhV0irQCyAzYj94Y8euZPct68emt4hICPg1SNCpD4fJmAvJ&_nc_ohc=6y1aiTW6tewQ7kNvwEq01mo&_nc_oc=AdqUsg1t16d90yIgVOahPJyUDvpyq7UQBaU3FsUsAZ99cGhjkVuEDThr6DdZRK5kgMXUpfS3IHd3FLmitJIFNK7E&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=sASKJvvbudRD-l_FnRWCBA&_nc_ss=7b2a8&oh=00_AQLnVmNt131_h8LStsOl_8yGO8XNI_D6V2nNXDGVUZXnPg&oe=6AA37E1E"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/784080212_122104285887444053_571390175728939355_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=p526x296&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF4TnXkdNWKa5_un77temIdNi6NUYpFFB82Lo1RikUUH_0vYWwAi8dGRDALFOnENQKZbJ3US5DqVw68yuaTrJwY&_nc_ohc=HiWZqdJq1xUQ7kNvwH_ZfLb&_nc_oc=AdpEDbA9tPdVjKYfQRXfcmk8b_baDXs-gi0I8S3b0o0I4FG_9HUgKw8KJmSDLzF8vZ9sLDHqPSaagN0w-N6kdeWW&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=doPQ7oZib5jX_BjnPVg4gw&_nc_ss=7b2a8&oh=00_AQLOMmSYoLjewC3MNSi6V8v-Zln7mnWQ8GqHbyvwRoEgoQ&oe=6AA36F96",
+                "tiendaId": 15,
+                "alt": "Sección de ropa y accesorios ecológicos",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/784080212_122104285887444053_571390175728939355_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=p526x296&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF4TnXkdNWKa5_un77temIdNi6NUYpFFB82Lo1RikUUH_0vYWwAi8dGRDALFOnENQKZbJ3US5DqVw68yuaTrJwY&_nc_ohc=HiWZqdJq1xUQ7kNvwH_ZfLb&_nc_oc=AdpEDbA9tPdVjKYfQRXfcmk8b_baDXs-gi0I8S3b0o0I4FG_9HUgKw8KJmSDLzF8vZ9sLDHqPSaagN0w-N6kdeWW&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=doPQ7oZib5jX_BjnPVg4gw&_nc_ss=7b2a8&oh=00_AQLOMmSYoLjewC3MNSi6V8v-Zln7mnWQ8GqHbyvwRoEgoQ&oe=6AA36F96"
             }
         ],
         "promociones": [
@@ -864,35 +910,35 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 15",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 15",
+        "horario1": "Abierto",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000015",
-        "email": "mock15@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda15",
-        "instagram": "https://instagram.com/mocktienda15"
+        "telefono": "",
+        "email": "",
+        "facebook": "https://www.facebook.com/profile.php?id=61593321615192",
+        "instagram": "https://www.instagram.com/prendamexoficial/"
     },
     {
         "tiendaId": 16,
-        "nombre": "Mock Tienda 16",
+        "nombre": "Lonchemía",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/16.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/16.jpg",
+        "descripcion": "Lonchería",
+        "imagen": "https://cdn-icons-png.flaticon.com/512/18233/18233667.png",
+        "categoria": "Restaurantes",
+        "logo": "https://cdn-icons-png.flaticon.com/512/18233/18233667.png",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3AKRH4Lm6Ti3nprhJfjtZXdFUyVZAP1W21c_psZbgXXNpy-sxUvRW7yZu&s=10",
                 "tiendaId": 16,
                 "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "thumbSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3AKRH4Lm6Ti3nprhJfjtZXdFUyVZAP1W21c_psZbgXXNpy-sxUvRW7yZu&s=10"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYfFw0sEOyDpVFPxOcZWdKsVyPFJG_WDtyiUesRepenQ&s=10",
                 "tiendaId": 16,
                 "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "thumbSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYfFw0sEOyDpVFPxOcZWdKsVyPFJG_WDtyiUesRepenQ&s=10"
             }
         ],
         "promociones": [
@@ -915,35 +961,41 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 16",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 16",
+        "horario1": "Abierto",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000016",
-        "email": "mock16@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda16",
-        "instagram": "https://instagram.com/mocktienda16"
+        "telefono": "",
+        "email": "",
+        "facebook": "",
+        "instagram": ""
     },
     {
         "tiendaId": 17,
-        "nombre": "Mock Tienda 17",
+        "nombre": "La Chiquita",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/17.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/17.jpg",
+        "descripcion": "Fundadores de las auténticas chalupas poblanas.",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/305767491_493578359445574_1308727650204981206_n.jpg?stp=dst-jpg_tt6&cstp=mx1047x1047&ctp=s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=NVY24ZPWX70Q7kNvwGtpbBm&_nc_oc=AdpnttcKHrgxwsJW1U4XZX3kBRzeUW9rO1RV9Bg9Zf-O0fDJXBnddbrRgm5EPiHpDFM0vawfRr1Xt7nOggwWI-Li&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=HhtcjvX6K-I8EKvMSbPUWA&_nc_ss=7b289&oh=00_AQIW9P5WNyqSU94nZC1fpv5oe4L1nKrV81rDyde9nxyUzw&oe=6AA3A2AB",
+        "categoria": "Restaurantes",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-1/305767491_493578359445574_1308727650204981206_n.jpg?stp=dst-jpg_tt6&cstp=mx1047x1047&ctp=s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=NVY24ZPWX70Q7kNvwGtpbBm&_nc_oc=AdpnttcKHrgxwsJW1U4XZX3kBRzeUW9rO1RV9Bg9Zf-O0fDJXBnddbrRgm5EPiHpDFM0vawfRr1Xt7nOggwWI-Li&_nc_zt=24&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=HhtcjvX6K-I8EKvMSbPUWA&_nc_ss=7b289&oh=00_AQIW9P5WNyqSU94nZC1fpv5oe4L1nKrV81rDyde9nxyUzw&oe=6AA3A2AB",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0PpJ3I8NYqG_VdjinbJOtj88LJ3gt7ZKZRW3xPw6lRX0svEUUJTDcwSpAkVlf6_NEFM3PRFhX8wWyRZTXStyg8NPnfUfEkH23tX7qIaSNbFH2fJYvf198IPnttZz9nQQc54Qkk7gDHNvV=s680-w680-h510-rw",
                 "tiendaId": 17,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "Exhibición de chalupas poblanas",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0PpJ3I8NYqG_VdjinbJOtj88LJ3gt7ZKZRW3xPw6lRX0svEUUJTDcwSpAkVlf6_NEFM3PRFhX8wWyRZTXStyg8NPnfUfEkH23tX7qIaSNbFH2fJYvf198IPnttZz9nQQc54Qkk7gDHNvV=s680-w680-h510-rw"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgZmgCnk1Ef06uVGDcHEretk_ufLNARrl3PUuItbITn1ryGjnNwz9HRHRwXEfZE7ug7nNDDGTbVm9gxTMOBwN6jzgyXFTzI-KbXQuC0w_MBZCKIRhc07ZYGHhyOV43Z_DNFCYjxDZT0lMg=s680-w680-h510-rw",
                 "tiendaId": 17,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "Chiquita Poblana",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgZmgCnk1Ef06uVGDcHEretk_ufLNARrl3PUuItbITn1ryGjnNwz9HRHRwXEfZE7ug7nNDDGTbVm9gxTMOBwN6jzgyXFTzI-KbXQuC0w_MBZCKIRhc07ZYGHhyOV43Z_DNFCYjxDZT0lMg=s680-w680-h510-rw"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6txTG2VmXeQN47FmKsFl-Y5NeYluVRHvyx6rFk_te84GJYTeAlgIabbZODwLsiIFSkyz5DegoBU4N3WM_q0yirTnhbH3uNXyKi25yCH9o6XQ39XFoAtaNI0u67EuuJDxEzuzqyPwk0Yk=s680-w680-h510-rw",
+                "tiendaId": 17,
+                "alt": "Chalupa Poblana",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6txTG2VmXeQN47FmKsFl-Y5NeYluVRHvyx6rFk_te84GJYTeAlgIabbZODwLsiIFSkyz5DegoBU4N3WM_q0yirTnhbH3uNXyKi25yCH9o6XQ39XFoAtaNI0u67EuuJDxEzuzqyPwk0Yk=s680-w680-h510-rw"
             }
         ],
         "promociones": [
@@ -966,36 +1018,46 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 17",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 17",
+        "horario1": "Lunes a Viernes de 10:00 am  a 6:00pm\n \n  Sábado de 9:00 am a 7:00 pm \n \n Domingo 9:00 pm a 7:00 pm",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000017",
-        "email": "mock17@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda17",
-        "instagram": "https://instagram.com/mocktienda17"
+        "telefono": "221 415 2878",
+        "email": "Lachiquitapoblana.facturas@gmail.com",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/lachiquitapoblana1896",
+        "twitter": "https://x.com/Lachiquita1896"
     },
     {
         "tiendaId": 18,
-        "nombre": "Mock Tienda 18",
+        "nombre": "Farmacias Ahorro",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/18.jpg",
-        "categoria": "Ropa y Moda",
-        "logo": "images/logos-tiendas/18.jpg",
+        "descripcion": "Te queremos… bien",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/381006937_692864556211107_4286278528793152712_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGTsz0NCE1jh6PTr2GwWuGmTGW1dPjRjClMZbV0-NGMKTtlXJ_gpNgRhY5e6Eyq_StA7nfU-5X9W6NgsDGJfPsj&_nc_ohc=k7Elh3qdTmYQ7kNvwHA4R6O&_nc_oc=AdoEM-adjSdf3ykKUDnXj_BhvcaPzWmJ0JuBnBnuOtycIcn3tclfS80Yzr4b0mTb9EA6lzOQVQkFEniGSk1jLBF0&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=RRuMVkCkoyF353nvkSWzEw&_nc_ss=7b2a8&oh=00_AQJ5uabNlA9DjDXoF2ibSWHpvZd7kJk5TzpAFLfWMPQqKw&oe=6AA3AB26",
+        "categoria": "Servicios",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/381006937_692864556211107_4286278528793152712_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGTsz0NCE1jh6PTr2GwWuGmTGW1dPjRjClMZbV0-NGMKTtlXJ_gpNgRhY5e6Eyq_StA7nfU-5X9W6NgsDGJfPsj&_nc_ohc=k7Elh3qdTmYQ7kNvwHA4R6O&_nc_oc=AdoEM-adjSdf3ykKUDnXj_BhvcaPzWmJ0JuBnBnuOtycIcn3tclfS80Yzr4b0mTb9EA6lzOQVQkFEniGSk1jLBF0&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=RRuMVkCkoyF353nvkSWzEw&_nc_ss=7b2a8&oh=00_AQJ5uabNlA9DjDXoF2ibSWHpvZd7kJk5TzpAFLfWMPQqKw&oe=6AA3AB26",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnVe79WlqMvI8BcGMV9SUzZQylRVhWW5KPisRQUnXkMJEY_lw2MVIrZ93QKYmMqcqX6vb7Pno8vch2a2ApSsQp-9LcnFLw_m7HKyAzIwuMk8LVTizEQRhxM7zQoCtAps5cLrdQ=s680-w680-h510-rw",
                 "tiendaId": 18,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "Farmacias Ahorro",
+                "thumbSrc": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnVe79WlqMvI8BcGMV9SUzZQylRVhWW5KPisRQUnXkMJEY_lw2MVIrZ93QKYmMqcqX6vb7Pno8vch2a2ApSsQp-9LcnFLw_m7HKyAzIwuMk8LVTizEQRhxM7zQoCtAps5cLrdQ=s680-w680-h510-rw"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/794061826_1550161380481416_5640002368469133913_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHOVrhFVt6GlNykFMcETXf7S4Eho6Y_wNJLgSGjpj_A0juS4-DB511vl5mQFaPtn6G6HwulXzLMQbZ0EU3j6IR6&_nc_ohc=yiTrf9uIV4wQ7kNvwHJ60Lb&_nc_oc=AdqJ5a75z0z5WRiqLnVpWzg4JBF5NkmaZeypuwxkbOm5zQf4oWJy_zCOcea4dMHvOF567GU5_NoyacOYYW9gfnIw&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=b9beA6kfUYos4fB221Z4IA&_nc_ss=7b2a8&oh=00_AQIVa31L2OAU-u216L65gE-bNQcA-i_8BPrzSo_f2_bM_g&oe=6AA3A4EF",
                 "tiendaId": 18,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "Farmacias Ahorro",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/794061826_1550161380481416_5640002368469133913_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHOVrhFVt6GlNykFMcETXf7S4Eho6Y_wNJLgSGjpj_A0juS4-DB511vl5mQFaPtn6G6HwulXzLMQbZ0EU3j6IR6&_nc_ohc=yiTrf9uIV4wQ7kNvwHJ60Lb&_nc_oc=AdqJ5a75z0z5WRiqLnVpWzg4JBF5NkmaZeypuwxkbOm5zQf4oWJy_zCOcea4dMHvOF567GU5_NoyacOYYW9gfnIw&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=b9beA6kfUYos4fB221Z4IA&_nc_ss=7b2a8&oh=00_AQIVa31L2OAU-u216L65gE-bNQcA-i_8BPrzSo_f2_bM_g&oe=6AA3A4EF"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.99422-6/780388976_1425872026132796_2817372703269284032_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXQqQmsWHYAYMaJBIyOaiQFg7gherY7VQWDuCF6tjtVJPwg5Y9SwKboDQas8FRA47d4NigmU3KM5AFkSn2_-Fo&_nc_ohc=QJ6YMPo2AOAQ7kNvwGB81DZ&_nc_oc=AdrFfcnoq3H4SZU-61gYpgT-JDf_qwS2cQIqfuXKR47o7pfIaO5Bn-5HWc0cR-pUWt4uctckxgB7EQciqQ7bAY5G&_nc_zt=14&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=EhbyzEnhni-oYBJW4J3kcA&_nc_ss=7b2a8&oh=00_AQK6Rx4hMfthSIOb40dS3kBrYCUaanM6h9m9NHQy_-qQ-g&oe=6AA39126",
+                "tiendaId": 18,
+                "alt": "Farmacias Ahorro",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.99422-6/780388976_1425872026132796_2817372703269284032_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHXQqQmsWHYAYMaJBIyOaiQFg7gherY7VQWDuCF6tjtVJPwg5Y9SwKboDQas8FRA47d4NigmU3KM5AFkSn2_-Fo&_nc_ohc=QJ6YMPo2AOAQ7kNvwGB81DZ&_nc_oc=AdrFfcnoq3H4SZU-61gYpgT-JDf_qwS2cQIqfuXKR47o7pfIaO5Bn-5HWc0cR-pUWt4uctckxgB7EQciqQ7bAY5G&_nc_zt=14&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=EhbyzEnhni-oYBJW4J3kcA&_nc_ss=7b2a8&oh=00_AQK6Rx4hMfthSIOb40dS3kBrYCUaanM6h9m9NHQy_-qQ-g&oe=6AA39126"
+            
             }
+
+ 
         ],
         "promociones": [
             {
@@ -1017,22 +1079,22 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 18",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 18",
+        "horario1": "Lunes a Domingo de 7:00 am  a 11:00pm",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000018",
-        "email": "mock18@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda18",
-        "instagram": "https://instagram.com/mocktienda18"
+        "telefono": "222 231 3383",
+        "email": "clientes@fahorro.com.mx",
+        "facebook": "https://www.facebook.com/FAhorro",
+        "instagram": "https://www.instagram.com/fahorro"
     },
     {
         "tiendaId": 19,
-        "nombre": "Mock Tienda 19",
+        "nombre": "Avanti",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/19.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/19.jpg",
         "imagenes": [
             {
@@ -1079,11 +1141,11 @@
     },
     {
         "tiendaId": 20,
-        "nombre": "Mock Tienda 20",
+        "nombre": "On Harmony",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/20.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/20.jpg",
         "imagenes": [
             {
@@ -1130,7 +1192,7 @@
     },
     {
         "tiendaId": 21,
-        "nombre": "Mock Tienda 21",
+        "nombre": "María Antonieta Boutique",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/21.jpg",
@@ -1181,11 +1243,11 @@
     },
     {
         "tiendaId": 22,
-        "nombre": "Mock Tienda 22",
+        "nombre": "Alianza",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/22.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/22.jpg",
         "imagenes": [
             {
@@ -1232,11 +1294,11 @@
     },
     {
         "tiendaId": 23,
-        "nombre": "Mock Tienda 23",
+        "nombre": "Alianza",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/23.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/23.jpg",
         "imagenes": [
             {
@@ -1283,11 +1345,11 @@
     },
     {
         "tiendaId": 24,
-        "nombre": "Mock Tienda 24",
+        "nombre": "Zenya Nails y Spa",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/24.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/24.jpg",
         "imagenes": [
             {
@@ -1334,7 +1396,7 @@
     },
     {
         "tiendaId": 25,
-        "nombre": "Mock Tienda 25",
+        "nombre": "Disponible",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/25.jpg",
@@ -1385,7 +1447,7 @@
     },
     {
         "tiendaId": 26,
-        "nombre": "Mock Tienda 26",
+        "nombre": "Ramaya Studio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/26.jpg",
@@ -1436,7 +1498,7 @@
     },
     {
         "tiendaId": 27,
-        "nombre": "Mock Tienda 27",
+        "nombre": "Pretty Hair",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/27.jpg",
@@ -1487,7 +1549,7 @@
     },
     {
         "tiendaId": 28,
-        "nombre": "Mock Tienda 28",
+        "nombre": "Disponible",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/28.jpg",
@@ -1538,7 +1600,7 @@
     },
     {
         "tiendaId": 29,
-        "nombre": "Mock Tienda 29",
+        "nombre": "Openbook",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/29.jpg",
@@ -1589,7 +1651,7 @@
     },
     {
         "tiendaId": 30,
-        "nombre": "Mock Tienda 30",
+        "nombre": "Openbook",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/30.jpg",
@@ -1640,11 +1702,11 @@
     },
     {
         "tiendaId": 31,
-        "nombre": "Mock Tienda 31",
+        "nombre": "Blanco Azúcar",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/31.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/31.jpg",
         "imagenes": [
             {
@@ -1691,11 +1753,11 @@
     },
     {
         "tiendaId": 32,
-        "nombre": "Mock Tienda 32",
+        "nombre": "Blanco Azúcar",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/32.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Servicios",
         "logo": "images/logos-tiendas/32.jpg",
         "imagenes": [
             {
@@ -1742,7 +1804,7 @@
     },
     {
         "tiendaId": 33,
-        "nombre": "Mock Tienda 33",
+        "nombre": "Impuls Lab Gimnasio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/33.jpg",
@@ -1793,7 +1855,7 @@
     },
     {
         "tiendaId": 34,
-        "nombre": "Mock Tienda 34",
+        "nombre": "Impuls Lab Gimnasio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/34.jpg",
@@ -1844,7 +1906,7 @@
     },
     {
         "tiendaId": 35,
-        "nombre": "Mock Tienda 35",
+        "nombre": "Impuls Lab Gimnasio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/35.jpg",
@@ -1895,7 +1957,7 @@
     },
     {
         "tiendaId": 36,
-        "nombre": "Mock Tienda 36",
+        "nombre": "Impuls Lab Gimnasio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/36.jpg",
@@ -1946,7 +2008,7 @@
     },
     {
         "tiendaId": 37,
-        "nombre": "Mock Tienda 37",
+        "nombre": "Impuls Lab Gimnasio",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/37.jpg",
@@ -1997,7 +2059,7 @@
     },
     {
         "tiendaId": 38,
-        "nombre": "Mock Tienda 38",
+        "nombre": "Llantiexpress",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/38.jpg",
@@ -2048,11 +2110,11 @@
     },
     {
         "tiendaId": 39,
-        "nombre": "Mock Tienda 39",
+        "nombre": "Starbucks",
         "tienePromocion": false,
         "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
         "imagen": "images/logos-tiendas/39.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Alimentos y Bebidas",
         "logo": "images/logos-tiendas/39.jpg",
         "imagenes": [
             {
@@ -2096,5 +2158,56 @@
         "email": "mock39@plazaaventura.com",
         "facebook": "https://facebook.com/mocktienda39",
         "instagram": "https://instagram.com/mocktienda39"
+    },
+    {
+        "tiendaId": 40,
+        "nombre": "Gasolinera Mobil",
+        "tienePromocion": false,
+        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "imagen": "images/logos-tiendas/40.jpg",
+        "categoria": "Alimentos y Bebidas",
+        "logo": "images/logos-tiendas/40.jpg",
+        "imagenes": [
+            {
+                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "tiendaId": 40,
+                "alt": "Exhibición de prendas de lino orgánico",
+                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "tiendaId": 40,
+                "alt": "Sección de calzado artesanal y accesorios ecológicos",
+                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+            }
+        ],
+        "promociones": [
+            {
+                "tiendaId": 40,
+                "titulo": "Descuento del 15% en bebidas calientes",
+                "descripcion": "Presenta este cupón y obtén un 15% de descuento en todas las bebidas calientes durante todo el mes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/1.jpg",
+                "thumbSrc": "images/promociones/1_thumb.jpg"
+            },
+            {
+                "tiendaId": 40,
+                "titulo": "Combo de desayuno a mitad de precio",
+                "descripcion": "Disfruta de nuestro combo de desayuno (café + croissant) a mitad de precio todos los martes.",
+                "fechaInicio": "2024-06-01",
+                "fechaFin": "2024-06-30",
+                "src": "images/promociones/2.jpg",
+                "thumbSrc": "images/promociones/2_thumb.jpg"
+            }
+        ],
+        "ubicacion": "Isla Mobil",
+        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario2": "Domingos: 12:00 PM - 05:00 PM",
+        "horario3": "Lunes: Cerrado por mantenimiento",
+        "telefono": "+525500000040",
+        "email": "mock40@plazaaventura.com",
+        "facebook": "https://facebook.com/mocktienda40",
+        "instagram": "https://instagram.com/mocktienda40"
     }
 ]
