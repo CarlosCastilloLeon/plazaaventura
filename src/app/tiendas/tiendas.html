@@ -120,10 +120,12 @@
                   <span>Instagram</span>
                 </a>
                 }
-                <!--a class="contact-item" href="https://twitter.com/{{tienda()?.twitter}}" target="_blank" rel="noopener">
-                  <i class="bi bi-twitter"></i>
-                  <span>Twitter</span>
-                </a-->
+                @if (tienda()?.twitter) {
+                <a class="contact-item" href="{{tienda()?.twitter}}" target="_blank" rel="noopener">
+                  <i class="bi bi-x"></i>
+                  <span>X</span>
+                </a>
+                }
                 @if(tienda()?.tiktok){
                 <a class="contact-item" href="{{tienda()?.tiktok}}" target="_blank" rel="noopener">
                   <i class="bi bi-tiktok"></i>
