@@ -1090,24 +1090,36 @@
     },
     {
         "tiendaId": 19,
-        "nombre": "Avanti",
+        "nombre": "Avanti Cocinas ",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
-        "imagen": "images/logos-tiendas/19.jpg",
+        "descripcion": "Showroom Centro Comercial Angelópolis",
+        "imagen": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/577303686_1464267508822254_5272619968210694591_n.jpg?stp=dst-jpg_tt6&cstp=mx891x960&ctp=s891x960&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHbpT1cJT5BoGXvfAHyerNH57lZkLg-VQHnuVmQuD5VARe-qhFaTzCCPjaZMPHIu93JAWUSsLm_juRjZjZyzoli&_nc_ohc=m7Hq95uJ9mgQ7kNvwHWY9-x&_nc_oc=Adrw5q6cqtLxkUJd8PvUkR7FR1FqmTKiD01roRWA70inxD5V8E2tQYC67opiw3cEsg2W6k-WFAjfHXnHGqA2ExzV&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=PYI9pPFnLn_89kK3wfD74Q&_nc_ss=7b2a8&oh=00_AQI1lb-3K1HxfG8Xq-WYnfxTtrm1uQtWSOw6Ym7_8naxSw&oe=6AA41F66",
         "categoria": "Servicios",
-        "logo": "images/logos-tiendas/19.jpg",
+        "logo": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/577303686_1464267508822254_5272619968210694591_n.jpg?stp=dst-jpg_tt6&cstp=mx891x960&ctp=s891x960&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHbpT1cJT5BoGXvfAHyerNH57lZkLg-VQHnuVmQuD5VARe-qhFaTzCCPjaZMPHIu93JAWUSsLm_juRjZjZyzoli&_nc_ohc=m7Hq95uJ9mgQ7kNvwHWY9-x&_nc_oc=Adrw5q6cqtLxkUJd8PvUkR7FR1FqmTKiD01roRWA70inxD5V8E2tQYC67opiw3cEsg2W6k-WFAjfHXnHGqA2ExzV&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=PYI9pPFnLn_89kK3wfD74Q&_nc_ss=7b2a8&oh=00_AQI1lb-3K1HxfG8Xq-WYnfxTtrm1uQtWSOw6Ym7_8naxSw&oe=6AA41F66",
         "imagenes": [
             {
-                "src": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/599927743_1496676308914707_5969728990210001462_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vfCkqTWNHXEQ7kNvwErcPfL&_nc_oc=AdphHnp8BcTIrMT7jciGWnLTvdGygB75VBOFmSU8G9Kn4RkGIh3oOBPpZ_I9lePjRwJQt96TeFbRrnU92Ek13N0M&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=uLgJYdZKFhWcCrXNwUbLGw&_nc_ss=7b289&oh=00_AQKSjYRlhiURAtZVnN2cLBtdYU6gsN0P8p6NNclaF-THNQ&oe=6AA4207C",
                 "tiendaId": 19,
-                "alt": "Exhibición de prendas de lino orgánico",
-                "thumbSrc": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80\u0026w=150"
+                "alt": "Avanti Cocinas",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/599927743_1496676308914707_5969728990210001462_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vfCkqTWNHXEQ7kNvwErcPfL&_nc_oc=AdphHnp8BcTIrMT7jciGWnLTvdGygB75VBOFmSU8G9Kn4RkGIh3oOBPpZ_I9lePjRwJQt96TeFbRrnU92Ek13N0M&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=uLgJYdZKFhWcCrXNwUbLGw&_nc_ss=7b289&oh=00_AQKSjYRlhiURAtZVnN2cLBtdYU6gsN0P8p6NNclaF-THNQ&oe=6AA4207C"
             },
             {
-                "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=600",
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/590907439_1485668766682128_5731436497321061019_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kd_sd04I5nEQ7kNvwHQaquk&_nc_oc=Adov93z4MVCylhH1ke6IxucRtTPFfp3qaAkbucmNFVLXclmCtpTiboc7o3mMTo5vvyW9jZQnRF23pxsaK2gWm0mU&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=ecqP8OO0ELFBbl6Uliyz4A&_nc_ss=7b289&oh=00_AQKIQR8GG-1VVAAtCiJMmRzPGX8QRCxAZEsD6Pmwldj2fA&oe=6AA43E38",
                 "tiendaId": 19,
-                "alt": "Sección de calzado artesanal y accesorios ecológicos",
-                "thumbSrc": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80\u0026w=150"
+                "alt": "Avanti Cocinas",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/590907439_1485668766682128_5731436497321061019_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kd_sd04I5nEQ7kNvwHQaquk&_nc_oc=Adov93z4MVCylhH1ke6IxucRtTPFfp3qaAkbucmNFVLXclmCtpTiboc7o3mMTo5vvyW9jZQnRF23pxsaK2gWm0mU&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=ecqP8OO0ELFBbl6Uliyz4A&_nc_ss=7b289&oh=00_AQKIQR8GG-1VVAAtCiJMmRzPGX8QRCxAZEsD6Pmwldj2fA&oe=6AA43E38"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/572806939_1461454105770261_594396346777160452_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1440x1080&ctp=s1440x1080&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_8xrWds6Ez8Q7kNvwGBXdoU&_nc_oc=AdpFprGRlRAcmuSa1wYqV3e9iqyfTyShGtHTczdjoRPB7IvW-0Ea6DDdmg_ha0kZyz1VP4tPf8nopyEfmIx20AvH&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=AYVDB5Bh4djfBZAYv3WNIw&_nc_ss=7b289&oh=00_AQKW-IuUDVVcSLJt0SXrf66BpMtrIklz_eI3GJCOVrr2kg&oe=6AA425BE",
+                "tiendaId": 19,
+                "alt": "Avanti Cocinas",
+                "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/572806939_1461454105770261_594396346777160452_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1440x1080&ctp=s1440x1080&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_8xrWds6Ez8Q7kNvwGBXdoU&_nc_oc=AdpFprGRlRAcmuSa1wYqV3e9iqyfTyShGtHTczdjoRPB7IvW-0Ea6DDdmg_ha0kZyz1VP4tPf8nopyEfmIx20AvH&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=AYVDB5Bh4djfBZAYv3WNIw&_nc_ss=7b289&oh=00_AQKW-IuUDVVcSLJt0SXrf66BpMtrIklz_eI3GJCOVrr2kg&oe=6AA425BE"
+            },
+            {
+                "src": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t51.82787-15/550797621_18531534346023966_7016217339165538879_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s1200x1600&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6xea5biMXlkQ7kNvwHt--N-&_nc_oc=AdqancncyQdOxIAtBqWycefS_clICx4axQQQ61SM9YZ3S6nXxzR4aDE7yWTOcbBjC1SKNo_IiuxUjYmrXNWUBXeA&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=Dg_qdib2FB_h2wdfWnaJPw&_nc_ss=7b289&oh=00_AQJOntWCJIs8a4720eyhNQtQRWi-eM9tnmcXjWyc-mpdYg&oe=6AA442C3",
+                "tiendaId": 19,
+                "alt": "Avanti Cocinas",
+                    "thumbSrc": "https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/572806939_1461454105770261_594396346777160452_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1440x1080&ctp=s1440x1080&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_8xrWds6Ez8Q7kNvwGBXdoU&_nc_oc=AdpFprGRlRAcmuSa1wYqV3e9iqyfTyShGtHTczdjoRPB7IvW-0Ea6DDdmg_ha0kZyz1VP4tPf8nopyEfmIx20AvH&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=AYVDB5Bh4djfBZAYv3WNIw&_nc_ss=7b289&oh=00_AQKW-IuUDVVcSLJt0SXrf66BpMtrIklz_eI3GJCOVrr2kg&oe=6AA425BE"
             }
         ],
         "promociones": [
@@ -1130,14 +1142,14 @@
                 "thumbSrc": "images/promociones/2_thumb.jpg"
             }
         ],
-        "ubicacion": "Pasillo Mock, Local 19",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "ubicacion": "Local 19",
+        "horario1": "Lunes a Viernes de 9:00 am  a 7:00pm\n \n  Sábado de 9:00 am a 2:00 pm \n \n Domingo Cerrado",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000019",
-        "email": "mock19@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda19",
-        "instagram": "https://instagram.com/mocktienda19"
+        "telefono": "222 169 5844",
+        "email": "info@avanticocinas.com",
+        "facebook": "https://www.facebook.com/avanticocinasintegrales",
+        "instagram": ""
     },
     {
         "tiendaId": 20,
