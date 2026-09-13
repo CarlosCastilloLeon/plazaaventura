@@ -42,7 +42,7 @@
             </div>
           </section>
 
-          <app-generic-gallery [items]="tienda()?.imagenes!" [titulo]="'Galería'"></app-generic-gallery>
+          <app-generic-gallery [items]="tienda()?.imagenes!" [titulo]="'galeria'"></app-generic-gallery>
 
            <!--app-generic-gallery [items]="tienda()?.promociones!" [titulo]="'Promociones'"></app-generic-gallery-->
 
@@ -81,7 +81,7 @@
           </section>
         }
           <!--section class="tienda-galeria mt-4">
-            <h2>Galería de Productos</h2>
+            <h2>galeria de Productos</h2>
             <div class="galeria-grid">
               @for (item of tienda()?.imagenes ?? []; track $index) {
                 <img [src]="item.src" [alt]="item.alt" />

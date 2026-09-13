@@ -19,7 +19,7 @@
         <div class="gallery-lightbox__content" (click)="$event.stopPropagation()">
           <button type="button" class="gallery-lightbox__close" aria-label="Cerrar" (click)="closeViewer()">×</button>
           <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--prev" aria-label="Anterior" (click)="prevImage(); $event.stopPropagation()">‹</button>
-          <img [src]="currentImage?.src" [alt]="currentImage?.alt || 'Imagen de galería'" />
+          <img [src]="currentImage?.src" [alt]="currentImage?.alt || 'Imagen de galeria'" />
           <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--next" aria-label="Siguiente" (click)="nextImage(); $event.stopPropagation()">›</button>
           <div class="gallery-lightbox__caption">
             {{ currentImage?.description || ('Imagen ' + (selectedIndex + 1) + ' de ' + items.length) }}
