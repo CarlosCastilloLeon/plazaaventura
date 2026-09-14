@@ -7,6 +7,7 @@ export interface Tienda{
     imagen?: string;
     categoria?: string;
     logo?: string;
+    visible?: boolean;
     imagenes?: ImagenesTienda[];
     promociones?: Promociones[];
     ubicacion?: string;

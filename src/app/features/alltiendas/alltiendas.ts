@@ -13,7 +13,7 @@ import { Tienda } from '../../shared/interface/tienda.interface';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Alltiendas {
-  private readonly allStores = tiendasData as Tienda[];
+  private readonly allStores = (tiendasData as Tienda[]).filter((store) => store.visible === true);
   readonly selectedCategory = signal('Todas');
   readonly searchTerm = signal('');
   readonly currentPage = signal(1);
