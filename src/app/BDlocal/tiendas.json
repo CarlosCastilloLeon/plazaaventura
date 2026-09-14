@@ -2135,9 +2135,9 @@
         "tiendaId": 38,
         "nombre": "Llantiexpress",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "descripcion": "Distribuidores de llantas y servicio de mecánica automotriz con más de 25 años de experiencia.",
         "imagen": "images/logos-tiendas/local38/logo/1.jpg",
-        "categoria": "Ropa y Moda",
+        "categoria": "Automotriz",
         "logo": "images/logos-tiendas/local38/logo/1.jpg",
         "imagenes": [
             {
@@ -2180,19 +2180,19 @@
             }
         ],
         "ubicacion": "Local 38",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario1": "Lunes a Viernes de 9:00 am  a 7:30 pm\n \n  Sábado de 9:00 am a 3:00 pm \n \n Domingo Cerrado",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000038",
-        "email": "mock38@plazaaventura.com",
-        "facebook": "https://facebook.com/mocktienda38",
-        "instagram": "https://instagram.com/mocktienda38"
+        "telefono": "222 237 3738",
+        "email": "contacto@llantiexpress.com.mx",
+        "facebook": "https://www.facebook.com/llantiexpress",
+        "instagram": "https://www.instagram.com/llantiexpress"
     },
     {
         "tiendaId": 39,
         "nombre": "Starbucks",
         "tienePromocion": false,
-        "descripcion": "Elemento mock generado automaticamente para pruebas de listado y detalle de tiendas.",
+        "descripcion": "Ser el principal proveedor de café del mundo inspirando y nutriendo el espíritu humano; una persona, una taza y una comunidad a la vez.",
         "imagen": "images/logos-tiendas/local39/logo/1.jpg",
         "categoria": "Alimentos y Bebidas",
         "logo": "images/logos-tiendas/local39/logo/1.jpg",
@@ -2237,11 +2237,11 @@
             }
         ],
         "ubicacion": "Local 39",
-        "horario1": "Martes a Sábado: 11:00 AM - 07:30 PM",
+        "horario1": "Lunes a Domingo de 6:30 am  a 9:55 pm",
         "horario2": "Domingos: 12:00 PM - 05:00 PM",
         "horario3": "Lunes: Cerrado por mantenimiento",
-        "telefono": "+525500000039",
-        "email": "mock39@plazaaventura.com",
+        "telefono": "800 288 0888",
+        "email": "tuopinion@starbucks.com.mx",
         "facebook": "https://facebook.com/mocktienda39",
         "instagram": "https://instagram.com/mocktienda39"
     },
