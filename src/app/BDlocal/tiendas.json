@@ -1416,22 +1416,11 @@
         "imagen": "images/logos-tiendas/local25/logo/1.jfif",
         "categoria": "Disponible",
         "logo": "images/logos-tiendas/local25/logo/1.jfif",
+        "video": "images/logos-tiendas/local25/galeria/1.mp4",
         "imagenes": [
             {
-                "src": "images/logos-tiendas/local25/galeria/1.jpg",
-                "thumbSrc": "images/logos-tiendas/local25/galeria/1.jpg",
-                "tiendaId": 25,
-                "alt": "Disponible"
-            },
-            {
-                "src": "images/logos-tiendas/local25/galeria/2.jpg",
-                "thumbSrc": "images/logos-tiendas/local25/galeria/2.jpg",
-                "tiendaId": 25,
-                "alt": "Disponible"
-            },
-            {
-                "src": "images/logos-tiendas/local25/galeria/3.jpg",
-                "thumbSrc": "images/logos-tiendas/local25/galeria/3.jpg",
+                "src": "images/logos-tiendas/local25/galeria/1.jpeg",
+                "thumbSrc": "images/logos-tiendas/local25/galeria/1.jpeg",
                 "tiendaId": 25,
                 "alt": "Disponible"
             }
@@ -1462,8 +1451,8 @@
         "horario3": "Lunes: Cerrado por mantenimiento",
         "telefono": "222 283 8181",
         "email": "contacto@plazaaventura.mx",
-        "facebook": "https://facebook.com/mocktienda25",
-        "instagram": "https://instagram.com/mocktienda25"
+        "facebook": "",
+        "instagram": ""
     },
     {
         "tiendaId": 26,
@@ -1589,23 +1578,12 @@
         "descripcion": "Disponible.",
         "imagen": "images/logos-tiendas/local28/logo/1.jfif",
         "categoria": "Disponible",
+        "video": "images/logos-tiendas/local28/galeria/1.mp4",
         "logo": "images/logos-tiendas/local28/logo/1.jfif",
         "imagenes": [
             {
                 "src": "images/logos-tiendas/local28/galeria/1.jpg",
                 "thumbSrc": "images/logos-tiendas/local28/galeria/1.jpg",
-                "tiendaId": 28,
-                "alt": "Disponible"
-            },
-            {
-                "src": "images/logos-tiendas/local28/galeria/2.jpg",
-                "thumbSrc": "images/logos-tiendas/local28/galeria/2.jpg",
-                "tiendaId": 28,
-                "alt": "Disponible"
-            },
-            {
-                "src": "images/logos-tiendas/local28/galeria/3.jpg",
-                "thumbSrc": "images/logos-tiendas/local28/galeria/3.jpg",
                 "tiendaId": 28,
                 "alt": "Disponible"
             }

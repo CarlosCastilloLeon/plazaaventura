@@ -16,56 +16,92 @@ export class Gallery implements AfterViewInit, OnDestroy {
 
   items: GalleryItem[] = [
     {
-      src: 'images/gallery/g1.JPG',
-      thumbSrc: 'images/gallery/g1.JPG',
+      src: 'images/gallery/1.png',
+      thumbSrc: 'images/gallery/1.png',
     },
     {
-      src: 'images/gallery/g2.JPG',
-      thumbSrc: 'images/gallery/g2.JPG',
+      src: 'images/gallery/2.png',
+      thumbSrc: 'images/gallery/2.png',
     },
     {
-      src: 'images/gallery/g3.JPG',
-      thumbSrc: 'images/gallery/g3.JPG',
+      src: 'images/gallery/3.png',
+      thumbSrc: 'images/gallery/3.png',
     },
     {
-      src: 'images/gallery/g4.JPG',
-      thumbSrc: 'images/gallery/g4.JPG',
+      src: 'images/gallery/4.png',
+      thumbSrc: 'images/gallery/4.png',
     },
     {
-      src: 'images/gallery/g5.JPG',
-      thumbSrc: 'images/gallery/g5.JPG',
+      src: 'images/gallery/5.png',
+      thumbSrc: 'images/gallery/5.png',
     },
     {
-      src: 'images/gallery/g6.JPG',
-      thumbSrc: 'images/gallery/g6.JPG',
+      src: 'images/gallery/6.png',
+      thumbSrc: 'images/gallery/6.png',
     },
     {
-      src: 'images/gallery/g7.JPG',
-      thumbSrc: 'images/gallery/g7.JPG',
+      src: 'images/gallery/7.png',
+      thumbSrc: 'images/gallery/7.png',
     },
     {
-      src: 'images/gallery/g8.JPG',
-      thumbSrc: 'images/gallery/g8.JPG',
+      src: 'images/gallery/8.png',
+      thumbSrc: 'images/gallery/8.png',
     },
     {
-      src: 'images/gallery/g9.JPG',
-      thumbSrc: 'images/gallery/g9.JPG',
+      src: 'images/gallery/9.png',
+      thumbSrc: 'images/gallery/9.png',
     },
     {
-      src: 'images/gallery/g10.JPG',
-      thumbSrc: 'images/gallery/g10.JPG',
+      src: 'images/gallery/10.png',
+      thumbSrc: 'images/gallery/10.png',
     },
     {
-      src: 'images/gallery/g11.JPG',
-      thumbSrc: 'images/gallery/g11.JPG',
+      src: 'images/gallery/11.png',
+      thumbSrc: 'images/gallery/11.png',
     },
     {
-      src: 'images/gallery/g12.JPG',
-      thumbSrc: 'images/gallery/g12.JPG',
+      src: 'images/gallery/12.png',
+      thumbSrc: 'images/gallery/12.png',
     },
     {
-      src: 'images/gallery/g13.JPG',
-      thumbSrc: 'images/gallery/g13.JPG',
+      src: 'images/gallery/13.png',
+      thumbSrc: 'images/gallery/13.png',
+    },
+    {
+      src: 'images/gallery/14.png',
+      thumbSrc: 'images/gallery/14.png',
+    },
+    {
+      src: 'images/gallery/15.png',
+      thumbSrc: 'images/gallery/15.png',
+    },
+    {
+      src: 'images/gallery/16.png',
+      thumbSrc: 'images/gallery/16.png',
+    },
+    {
+      src: 'images/gallery/17.png',
+      thumbSrc: 'images/gallery/17.png',
+    },
+    {
+      src: 'images/gallery/18.png',
+      thumbSrc: 'images/gallery/18.png',
+    },
+    {
+      src: 'images/gallery/19.png',
+      thumbSrc: 'images/gallery/19.png',
+    },
+    {
+      src: 'images/gallery/20.JPG',
+      thumbSrc: 'images/gallery/20.JPG',
+    },
+    {
+      src: 'images/gallery/21.JPG',
+      thumbSrc: 'images/gallery/21.JPG',
+    },
+    {
+      src: 'images/gallery/22.JPG',
+      thumbSrc: 'images/gallery/22.JPG',
     },
 
 

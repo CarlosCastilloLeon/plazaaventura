@@ -6,12 +6,14 @@
       <article class="tienda-contenedor text-white">
         <div class="tienda-card">
           <div class="button-row tienda-card-action">
-            <button type="button" class="btn-go-back custom-btn custom-border-btn" (click)="goBack()">Regresar al directorio</button>
+            <button type="button" class="btn-go-back custom-btn custom-border-btn" (click)="goBack()">Regresar al
+              directorio</button>
           </div>
 
           <header class="tienda-header">
             <div class="tienda-header-main">
-              <img [src]="tienda()?.logo" [alt]="'Logo de ' + tienda()?.nombre" class="tienda-logo img-fluid" width="180" />
+              <img [src]="tienda()?.logo" [alt]="'Logo de ' + tienda()?.nombre" class="tienda-logo img-fluid"
+                width="180" />
               <div class="tienda-title-wrap">
                 <h1>{{tienda()?.nombre}}</h1>
               </div>
@@ -19,6 +21,7 @@
             <p class="tienda-ubicacion">📍 {{tienda()?.ubicacion}}</p>
           </header>
 
+          @if(tienda()?.descripcion !== 'Disponible.') {
           <section class="tienda-info row gx-5 gy-4">
             <div class="col-12">
               <div class="block-panel">
@@ -26,7 +29,9 @@
               </div>
             </div>
           </section>
+          }
 
+          @if(tienda()?.descripcion !== 'Disponible.') {
           <section class="tienda-horario-panel">
             <div class="block-panel block-panel--horario">
               <div class="horario-header">
@@ -36,50 +41,63 @@
                 <div class="horario-item">
                   <strong>{{tienda()?.horario1}}</strong>
                 </div>
-             
-                
+
+
               </div>
             </div>
           </section>
+          }
+
+
 
           <app-generic-gallery [items]="tienda()?.imagenes!" [titulo]="'galeria'"></app-generic-gallery>
 
-           <!--app-generic-gallery [items]="tienda()?.promociones!" [titulo]="'Promociones'"></app-generic-gallery-->
+          <!--app-generic-gallery [items]="tienda()?.promociones!" [titulo]="'Promociones'"></app-generic-gallery-->
 
-     
+          @if(tienda()?.video) {
+          <section class="tienda-video mt-4" [class.is-expanded]="isVideoExpanded()">
+           
+            <video controls class="tienda-video-player" (click)="toggleVideoSize()">
+              <source [src]="tienda()?.video" type="video/mp4" />
+              Tu navegador no soporta la reproducción de videos.
+            </video>
+          </section>
+          }
+
+
           @if(tienda()?.tienePromocion) {
-            <section class="tienda-promociones mt-4">
-              <h2>Promociones</h2>
-              <div class="promociones-grid">
-                @for (promocion of tienda()?.promociones ?? []; track $index) {
-                  <article class="promocion-card">
-                    <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
-                    <div class="promocion-text">
-                      <h3>{{promocion.titulo}}</h3>
-                      <p>{{promocion.descripcion}}</p>
-                      <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
-                    </div>
-                  </article>
-                }
-              </div>
-            </section>
-         
           <section class="tienda-promociones mt-4">
             <h2>Promociones</h2>
             <div class="promociones-grid">
               @for (promocion of tienda()?.promociones ?? []; track $index) {
-                <article class="promocion-card">
-                  <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
-                  <div class="promocion-text">
-                    <h3>{{promocion.titulo}}</h3>
-                    <p>{{promocion.descripcion}}</p>
-                    <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
-                  </div>
-                </article>
+              <article class="promocion-card">
+                <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
+                <div class="promocion-text">
+                  <h3>{{promocion.titulo}}</h3>
+                  <p>{{promocion.descripcion}}</p>
+                  <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
+                </div>
+              </article>
               }
             </div>
           </section>
-        }
+
+          <section class="tienda-promociones mt-4">
+            <h2>Promociones</h2>
+            <div class="promociones-grid">
+              @for (promocion of tienda()?.promociones ?? []; track $index) {
+              <article class="promocion-card">
+                <img [src]="promocion.src" [alt]="promocion.titulo" class="promocion-img" />
+                <div class="promocion-text">
+                  <h3>{{promocion.titulo}}</h3>
+                  <p>{{promocion.descripcion}}</p>
+                  <p class="promocion-fecha">Válido: {{promocion.fechaInicio}} - {{promocion.fechaFin}}</p>
+                </div>
+              </article>
+              }
+            </div>
+          </section>
+          }
           <!--section class="tienda-galeria mt-4">
             <h2>galeria de Productos</h2>
             <div class="galeria-grid">
@@ -94,7 +112,7 @@
             <div class="contact-bars">
               <div class="contact-bar contact-bar--info">
                 @if (tienda()?.telefono) {
-                <a class="contact-item" href="tel:{{tienda()?.telefono}}" >
+                <a class="contact-item" href="tel:{{tienda()?.telefono}}">
                   <i class="bi bi-telephone-fill"></i>
                   <span>{{ (tienda()?.telefono) | telefono }}</span>
                 </a>
@@ -142,4 +160,3 @@
 
   <app-site-public-footer />
 </main>
-

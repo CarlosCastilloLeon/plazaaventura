@@ -21,6 +21,7 @@ export interface Tienda{
     twitter?: string;
     tiktok?: string;
     link?: string;
+    video?: string;
 }
 
 export interface ImagenesTienda{

@@ -20,12 +20,17 @@ export class Tiendas {
   private readonly router = inject(Router);
   private readonly route = inject(ActivatedRoute);
   tienda = signal<Tienda | undefined>(undefined);
+  isVideoExpanded = signal(false);
 
   constructor() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     if (!Number.isNaN(id)) {
       this.tienda.set((tiendasData as Tienda[]).find((item) => item.tiendaId === id));
     }
+  }
+
+  toggleVideoSize() {
+    this.isVideoExpanded.update((value) => !value);
   }
 
   goBack() {
