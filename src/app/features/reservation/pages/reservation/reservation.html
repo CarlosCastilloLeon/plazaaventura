@@ -1,7 +1,117 @@
 <main class="reservation-page">
-  <app-site-public-header [ctaLabel]="'Promociones'" [ctaRoute]="'/reservation'" />
+  <app-site-public-header [ctaLabel]="'Locales'" [ctaRoute]="'/reservation'" />
 
-  <section class="booking-section section-padding">
+
+  
+
+   <section class="contact-section section-padding" id="section_5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-12">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-12">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-12">
+          <h2 class="text-white mb-4 locales-title">Locales Disponibles</h2>
+
+          <div class="row g-3 locales-list">
+            <div class="col-12 col-lg-6">
+              <article class="locale-card" aria-label="Local 25 disponible">
+                <div class="locale-card__content">
+                  <span class="locale-badge">Disponible</span>
+                  <h5 class="locale-card__title" ><a [routerLink]="['/tiendas', 25]">Local 25</a></h5>
+                  <p class="locale-card__text">Local en planta alta de 30 m.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <article class="locale-card" aria-label="Local 28 disponible">
+                <div class="locale-card__content">
+                  <span class="locale-badge">Disponible</span>
+                  <h5 class="locale-card__title"><a [routerLink]="['/tiendas', 28]">Local 28</a></h5>
+                  <p class="locale-card__text">Local en planta baja de 45 m.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-12">
+          <em class="text-white">Di Hola</em>
+          <h2 class="text-white mb-4 pb-lg-2">Contacto</h2>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <form #contactForm="ngForm" (ngSubmit)="sendMessage(contactForm)" class="custom-form contact-form" role="form" novalidate>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <label for="name" class="form-label">Nombre <sup class="text-danger">*</sup></label>
+
+                <input type="text" name="name" id="name" class="form-control" placeholder="Introduce tu nombre" required [(ngModel)]="contact.name" />
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <label for="email" class="form-label">Correo Electrónico</label>
+
+                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                  placeholder="tuCorreo@gmail.com" required [(ngModel)]="contact.email" />
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label">¿Cómo podemos ayudarte?</label>
+
+                <textarea name="message" rows="4" class="form-control" id="message" placeholder="Mensaje"
+                  required [(ngModel)]="contact.message"></textarea>
+              </div>
+            </div>
+
+            <div *ngIf="statusMessage" class="col-12 mt-3">
+              <div class="alert" [ngClass]="{ 'alert-success': statusClass === 'success', 'alert-danger': statusClass === 'error' }">
+                {{ statusMessage }}
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-12 mx-auto mt-3">
+              <button type="submit" class="form-control" [disabled]="sending">
+                {{ sending ? 'Enviando...' : 'Enviar Mensaje' }}
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
+          <iframe class="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.2814585773303!2d-98.2663731!3d19.0073153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc781b8c138e7%3A0x53d75d2fccf3ed93!2sPlaza%20Aventura!5e0!3m2!1ses-419!2smx!4v1775891341199!5m2!1ses-419!2smx"
+            width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Ubicación"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section class="booking-section section-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 col-12 mx-auto">
@@ -10,7 +120,7 @@
               <div class="col-lg-7 col-12 p-0">
                 <form class="custom-form booking-form" action="#" method="post" role="form">
                   <div class="text-center mb-4 pb-lg-2">
-                    <em class="text-white">Agenda una cita</em>
+                    <em class="text-white">Escribenos</em>
 
                     <h2 class="text-white">Locales Disponibles</h2>
                   </div>
@@ -75,16 +185,14 @@
               </div>
 
               <div class="col-lg-5 col-12 p-0">
-                <!--div class="booking-form-image-wrap">
-                  <img src="images/directorio1.jpg" class="booking-form-image img-fluid" alt="Reservation image" />
-                </div-->
+           
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section-->
 
     <app-site-public-footer />
 </main>

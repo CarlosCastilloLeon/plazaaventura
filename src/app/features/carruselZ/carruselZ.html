@@ -13,22 +13,22 @@
                         <img (click)="openTienda(slide)" [src]="slide.imagen" [alt]="slide.nombre" [title]="slide.nombre" [width]="402"
                             [height]="251">
                     </div>
-                </div>
-                <div class="blog-meta">
-                    <i class="fa fa-list-alt"></i>
-                    <a (click)="openTienda(slide)">{{ slide.tag }}</a>
-                    <i class="fa fa-calendar-alt"></i>
-                    <p style="font-size: 0.85rem;color: #2b1c1c;margin-bottom: 10px;">{{ slide.horario1 }}</p>
-                </div>
-                <div class="blog-text">
-                    <h2 style="font-size: 1.3rem;  font-weight: 700;  color: #333333;  margin: 10px 0;">{{ slide.nombre
-                        }}</h2>
-                    <p class="blog-description">{{ slide.descripcion }}</p>
-                    <a class="btn" (click)="openTienda(slide)">
-                        Más Información <i class="fa fa-angle-right"></i>
-                    </a>
-                </div>
 
+                    <!--div class="blog-meta">
+                        <i class="fa fa-list-alt"></i>
+                        <a (click)="openTienda(slide)">{{ slide.tag }}</a>
+                        <i class="fa fa-calendar-alt"></i>
+                        <p style="font-size: 0.85rem;color: #2b1c1c;margin-bottom: 10px;white-space: pre-line;">{{ slide.horario1 }}</p>
+                    </div-->
+
+                    <div class="blog-text">
+                        <h2 style="font-size: 1.3rem;  font-weight: 700;  color: #333333;  margin: 10px 0; align-items: center;">{{ slide.nombre }}</h2>
+                        <p class="blog-description">{{ slide.descripcion }}</p>
+                        <a class="btn" (click)="openTienda(slide)">
+                            Más Información <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
             </ng-template>
             }
 

@@ -15,7 +15,7 @@ import tiendasData from '../../BDlocal/tiendas.json';
 })
 export class CarruselZ {
   private readonly router = inject(Router);
-  blogPosts = signal<Tienda[]>(tiendasData as Tienda[]);
+  blogPosts = signal<Tienda[]>((tiendasData as Tienda[]).filter((store) => store.visible === true));
 
   blogCarouselOptions: OwlOptions = {
     loop: true,

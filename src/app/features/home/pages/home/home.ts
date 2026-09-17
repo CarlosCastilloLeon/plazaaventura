@@ -10,6 +10,7 @@ import { CarruselZ } from '../../../carruselZ/carruselZ';
 import { FactsComponent } from "../../../facts/facts.component";
 import { TestimonialsComponent } from '../../../testimonials/testimonials.component';
 import { Gallery } from '../../../gallery/gallery';
+import { Whatsapp } from '../../../whatsapp/whatsapp';
 @Component({
   standalone: true,
   selector: 'app-home',
@@ -22,6 +23,7 @@ import { Gallery } from '../../../gallery/gallery';
     FactsComponent,
     TestimonialsComponent,
     Gallery,
+    Whatsapp
 ],
   templateUrl: './home.html',
   styleUrl: './home.scss',

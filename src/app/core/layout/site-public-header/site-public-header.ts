@@ -11,6 +11,6 @@ import { RouterLink } from '@angular/router';
 export class SitePublicHeaderComponent {
   readonly homeMode = input(false);
   readonly directoryMode = input(false);
-  readonly ctaLabel = input('Locales');
+  readonly ctaLabel = input('Locales Disponibles');
   readonly ctaRoute = input('/reservation');
 }
